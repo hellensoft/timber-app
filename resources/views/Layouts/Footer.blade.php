@@ -2,47 +2,44 @@
     <div class="top-footer">
        <div class="container">
           <div class="row">
-             <div class="col-lg-3 col-md-6">
+             <div class="col-lg-4 col-md-6">
                 <aside class="widget widget_text">
-                   <h3 class="widget-title">
+                   {{-- <h3 class="widget-title">
                       About Travel
-                   </h3>
+                   </h3> --}}
                    <div class="textwidget widget-text">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                     <img src="assets/images/twalogo.png" style="max-width:300px">
                    </div>
-                   <div class="award-img">
-                      <a href="#"><img src="assets/images/logo6.png" alt=""></a>
-                      <a href="#"><img src="assets/images/logo2.png" alt=""></a>
-                   </div>
+                   
                 </aside>
              </div>
              <div class="col-lg-3 col-md-6">
                 <aside class="widget widget_text">
                    <h3 class="widget-title">CONTACT INFORMATION</h3>
                    <div class="textwidget widget-text">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                     We are happy to hear from you!.
                       <ul>
                          <li>
                             <a href="#">
                                <i class="fas fa-phone-alt"></i>
-                               +01 (977) 2599 12
+                               +255 787 104 848
                             </a>
                          </li>
                          <li>
                             <a href="#">
                                <i class="fas fa-envelope"></i>
-                               company@domain.com
+                               info@timberwolfadventure.co.tz
                             </a>
                          </li>
                          <li>
                             <i class="fas fa-map-marker-alt"></i>
-                            3146  Koontz, California
+                            Timberwolf Adventure,<br> P.O.BOX 16056, Arusha Tanzania
                          </li>
                       </ul>
                    </div>
                 </aside>
              </div>
-             <div class="col-lg-3 col-md-6">
+             {{-- <div class="col-lg-3 col-md-6">
                 <aside class="widget widget_recent_post">
                    <h3 class="widget-title">Latest Post</h3>
                    <ul>
@@ -74,13 +71,13 @@
                       </li>
                    </ul>
                 </aside>
-             </div>
-             <div class="col-lg-3 col-md-6">
+             </div> --}}
+             <div class="col-lg-5 col-md-6">
                 <aside class="widget widget_newslatter">
-                   <h3 class="widget-title">SUBSCRIBE US</h3>
-                   <div class="widget-text">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                   </div>
+                   <h3 class="widget-title">Get in Touch</h3>
+                   <h3 class="widget-text">
+                      Let's Talk <i class="fas fa-arrow-right"></i>
+                      </h3>
                    <form class="newslatter-form">
                       <input type="email" name="s" placeholder="Your Email..">
                       <input type="submit" name="s" value="SUBSCRIBE NOW">
@@ -89,11 +86,14 @@
              </div>
           </div>
        </div>
-    </div>
+      </div>
+
+    <div class="pb-2 mb-4 border-top"></div>
+
     <div class="buttom-footer">
        <div class="container">
           <div class="row align-items-center">
-             <div class="col-md-5">
+             {{-- <div class="col-md-4">
                 <div class="footer-menu">
                    <ul>
                       <li>
@@ -107,15 +107,16 @@
                       </li>
                    </ul>
                 </div>
-             </div>
-             <div class="col-md-2 text-center">
+             </div> --}}
+             <div class="col-md-8">
+                <div class="copy-right text-right">Copyright © 2019 - {{date ('Y')}} Timberwolf Adventure| Wildlife & Mountain Climbing.</div>
+               </div>
+             <div class="col-md-4 text-left">
                 <div class="footer-logo">
-                   <a href="#"><img src="assets/images/travele-logo.png" alt=""></a>
+                   <a href="#"><img class=""src="assets/images/tent-rem.png" alt="" style="max-width: 257px;position: absolute;top: -290px;buttom: -190px;left: -54px;transform: translate(9px, 98px);"></a>
                 </div>
              </div>
-             <div class="col-md-5">
-                <div class="copy-right text-right">Copyright © 2021 Travele. All rights reserveds</div>
-             </div>
+             
           </div>
        </div>
     </div>

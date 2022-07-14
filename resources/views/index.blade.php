@@ -5,30 +5,32 @@
    <body class="home">
       <div id="siteLoader" class="site-loader">
          <div class="preloader-content">
-            <img src="assets/images/loader1.gif" alt="">
+            <img src="{{asset('assets/images/loader1.gif')}}" alt="">
          </div>
       </div>
       <div id="page" class="full-page">
-         
+        
          <main id="content" class="site-main">
             <!-- Home slider html start -->
             <section class="home-slider-section">
                <div class="home-slider">
+                 
                   <div class="home-banner-items">
-                     <div class="banner-inner-wrap" style="background-image: url(assets/images/slider-banner-1.jpg);"></div>
+                     <div class="banner-inner-wrap" style="background-image: url(assets/images/zebr.jpeg);"></div>
                         <div class="banner-content-wrap">
                            <div class="container">
                               <div class="banner-content text-center">
-                                 <h2 class="banner-title">TRAVELLING AROUND THE WORLD</h2>
-                                 <p>Taciti quasi, sagittis excepteur hymenaeos, id temporibus hic proident ullam, eaque donec delectus tempor consectetur nunc, purus congue? Rem volutpat sodales! Mollit. Minus exercitationem wisi.</p>
-                                 <a href="#" class="button-primary">CONTINUE READING</a>
+                                 <h2 class="banner-title">Timberwolf Adventure Tours</h2>
+                                 <p>Meet experienced travel consultants in Tanzania with assured best travelling options at affordable prices.</p>
+                                 <a href="#" class="button-primary">GET STARTED</a>
                               </div>
                            </div>
                         </div>
                      <div class="overlay"></div>
                   </div>
+                  
                   <div class="home-banner-items">
-                     <div class="banner-inner-wrap" style="background-image: url(assets/images/slider-banner-2.jpg);"></div>
+                     <div class="banner-inner-wrap" style="background-image: url(assets/images/camping.jpeg);"></div>
                         <div class="banner-content-wrap">
                            <div class="container">
                               <div class="banner-content text-center">
@@ -436,6 +438,115 @@
             </section>
             <!-- callback html end -->
             <!-- Home activity section html start -->
+            <section class="activity-section activity-bg-image" style="background-image: url(assets/images/img23.jpg);">
+               <div class="container">
+                  <div class="section-heading section-heading-white text-center">
+                     <div class="row">
+                        <div class="col-lg-8 offset-lg-2">
+                           <h5 class="dash-style">EXPLORE GREAT PLACES</h5>
+                           <h2>ADVENTURE & ACTIVITY</h2>
+                           <p>Mollit voluptatem perspiciatis convallis elementum corporis quo veritatis aliquid blandit, blandit torquent, odit placeat. Adipiscing repudiandae eius cursus? Nostrum magnis maxime curae placeat.</p>
+                           <div class="title-icon-divider"><i class="fas fa-suitcase-rolling"></i></div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="activity-inner row">
+                     <div class="col-lg-2 col-md-4 col-6">
+                        <div class="activity-item">
+                           <div class="activity-icon">
+                              <a href="#">
+                                 <img src="assets/images/img44.png" alt="">
+                              </a>
+                           </div>
+                           <div class="activity-content">
+                              <h4>
+                                 <a href="#">Adventure</a>
+                              </h4>
+                              <p style="color: #ffffff">15 Destination</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-2 col-md-4 col-6">
+                        <div class="activity-item">
+                           <div class="activity-icon">
+                              <a href="#">
+                                 <img src="assets/images/img45.png" alt="">
+                              </a>
+                           </div>
+                           <div class="activity-content">
+                              <h4>
+                                 <a href="#">Trekking</a>
+                              </h4>
+                              <p>12 Destination</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-2 col-md-4 col-6">
+                        <div class="activity-item">
+                           <div class="activity-icon">
+                              <a href="#">
+                                 <img src="assets/images/img46.png" alt="">
+                              </a>
+                           </div>
+                           <div class="activity-content">
+                              <h4>
+                                 <a href="#">Camp Fire</a>
+                              </h4>
+                              <p>7 Destination</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-2 col-md-4 col-6">
+                        <div class="activity-item">
+                           <div class="activity-icon">
+                              <a href="#">
+                                 <img src="assets/images/img47.png" alt="">
+                              </a>
+                           </div>
+                           <div class="activity-content">
+                              <h4>
+                                 <a href="#">Off Road</a>
+                              </h4>
+                              <p>15 Destination</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-2 col-md-4 col-6">
+                        <div class="activity-item">
+                           <div class="activity-icon">
+                              <a href="#">
+                                 <img src="assets/images/img48.png" alt="">
+                              </a>
+                           </div>
+                           <div class="activity-content">
+                              <h4>
+                                 <a href="#">Camping</a>
+                              </h4>
+                              <p>13 Destination</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-2 col-md-4 col-6">
+                        <div class="activity-item">
+                           <div class="activity-icon">
+                              <a href="#">
+                                 <img src="assets/images/img49.png" alt="">
+                              </a>
+                           </div>
+                           <div class="activity-content">
+                              <h4>
+                                 <a href="#">Exploring</a>
+                              </h4>
+                              <p>25 Destination</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+
+
+
             <section class="activity-section">
                <div class="container">
                   <div class="section-heading text-center">
@@ -543,7 +654,7 @@
             </section>
             <!-- activity html end -->
             <!-- Home special section html start -->
-            <section class="special-section">
+            {{-- <section class="special-section" style="background-image: url(assets/images/img23.jpg);">
                <div class="container">
                   <div class="section-heading text-center">
                      <div class="row">
@@ -637,10 +748,10 @@
                      </div>
                   </div>
                </div>
-            </section>
+            </section> --}}
             <!-- special html end -->
             <!-- Home special section html start -->
-            <section class="best-section">
+            {{-- <section class="best-section" style="background-image: url(assets/images/img23.jpg);">
                <div class="container">
                   <div class="row">
                      <div class="col-lg-5">
@@ -676,7 +787,7 @@
                      </div>
                   </div>
                </div>
-            </section>
+            </section> --}}
             <!-- best html end -->
             <!-- Home client section html start -->
             <div class="client-section">
@@ -717,7 +828,7 @@
             </div>
             <!-- client html end -->
             <!-- Home subscribe section html start -->
-            <section class="subscribe-section" style="background-image: url(assets/images/img16.jpg);">
+            {{-- <section class="subscribe-section" style="background-image: url(assets/images/img23.jpg);">
                <div class="container">
                   <div class="row">
                      <div class="col-lg-7">
@@ -736,7 +847,7 @@
                      </div>
                   </div>
                </div>
-            </section>
+            </section> --}}
             <!-- subscribe html end -->
             <!-- Home blog section html start -->
             <section class="blog-section">
@@ -829,98 +940,50 @@
                   </div>
                </div>
             </section>
-             <!-- blog html end -->
-             <!-- Home testimonial section html start -->
-            <div class="testimonial-section" style="background-image: url(assets/images/img23.jpg);">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-lg-10 offset-lg-1">
-                        <div class="testimonial-inner testimonial-slider">
-                           <div class="testimonial-item text-center">
-                              <figure class="testimonial-img">
-                                 <img src="assets/images/img20.jpg" alt="">
-                              </figure>
-                              <div class="testimonial-content">
-                                 <p>" Dolorum aenean dolorem minima! Voluptatum? Corporis condimentum ac primis fusce, atque! Vivamus. Non cupiditate natus excepturi, quod quo, aute facere? Deserunt aliquip, egestas ipsum, eu.Dolorum aenean dolorem minima!? Corporis condi mentum acpri! "</p>
-                                 <cite>
-                                    Johny English
-                                    <span class="company">Travel Agent</span>
-                                 </cite>
-                              </div>
-                           </div>
-                           <div class="testimonial-item text-center">
-                              <figure class="testimonial-img">
-                                 <img src="assets/images/img21.jpg" alt="">
-                              </figure>
-                              <div class="testimonial-content">
-                                 <p>" Dolorum aenean dolorem minima! Voluptatum? Corporis condimentum ac primis fusce, atque! Vivamus. Non cupiditate natus excepturi, quod quo, aute facere? Deserunt aliquip, egestas ipsum, eu.Dolorum aenean dolorem minima!? Corporis condi mentum acpri! "</p>
-                                 <cite>
-                                    William Housten
-                                    <span class="company">Travel Agent</span>
-                                 </cite>
-                              </div>
-                           </div>
-                           <div class="testimonial-item text-center">
-                              <figure class="testimonial-img">
-                                 <img src="assets/images/img22.jpg" alt="">
-                              </figure>
-                              <div class="testimonial-content">
-                                 <p>" Dolorum aenean dolorem minima! Voluptatum? Corporis condimentum ac primis fusce, atque! Vivamus. Non cupiditate natus excepturi, quod quo, aute facere? Deserunt aliquip, egestas ipsum, eu.Dolorum aenean dolorem minima!? Corporis condi mentum acpri! "</p>
-                                 <cite>
-                                    Alison Wright
-                                    <span class="company">Travel Guide</span>
-                                 </cite>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <!-- testimonial html end -->
+            
             <!-- Home contact details section html start -->
             <section class="contact-section">
                <div class="container">
                   <div class="row">
                      <div class="col-lg-4">
-                        <div class="contact-img" style="background-image: url(assets/images/img24.jpg);">
+                        <div class="contact-img" style="background-image: url(assets/images/get.jpeg); border-radius: 5px;">
                         </div>
                      </div>
                      <div class="col-lg-8">
                         <div class="contact-details-wrap">
                            <div class="row">
-                              <div class="col-sm-4">
+                              <div class="col-sm-5">
                                  <div class="contact-details">
                                     <div class="contact-icon">
                                        <img src="assets/images/icon12.png" alt="">
                                     </div>
                                     <ul>
                                        <li>
-                                          <a href="#">support@gmail.com</a>
+                                          <a href="#">info@timberwolfadventure.co.tz</a>
                                        </li>
                                        <li>
-                                          <a href="#">info@domain.com</a>
+                                          <a href="#">info@timberwolfadventure.com</a>
                                        </li>
                                        <li>
-                                          <a href="#">name@company.com</a>
+                                          <a href="#" style="color: #1D293F">/</a>
                                        </li>
                                     </ul>
                                  </div>
                               </div>
-                              <div class="col-sm-4">
+                              <div class="col-sm-3">
                                  <div class="contact-details">
                                     <div class="contact-icon">
                                        <img src="assets/images/icon13.png" alt="">
                                     </div>
                                     <ul>
                                        <li>
-                                          <a href="#">+132 (599) 254 669</a>
+                                          <a href="#">+255 787 104 848</a>
                                        </li>
                                        <li>
-                                          <a href="#">+123 (669) 255 587</a>
+                                          <a href="#">+255 713 697 189</a>
                                        </li>
                                        <li>
-                                          <a href="#">+01 (977) 2599 12</a>
+                                          <a href="#">+255 764 493 234</a>
                                        </li>
                                     </ul>
                                  </div>
@@ -932,13 +995,13 @@
                                     </div>
                                     <ul>
                                        <li>
-                                          3146 Koontz, California
+                                          Timberwolf Adventure
                                        </li>
                                        <li>
-                                          Quze.24 Second floor
+                                          P.O.BOX 16056,
                                        </li>
                                        <li>
-                                          36 Street, Melbourne
+                                          Sekei, Arusha Tanzania.
                                        </li>
                                     </ul>
                                  </div>
@@ -946,8 +1009,8 @@
                            </div>
                         </div>
                         <div class="contact-btn-wrap">
-                           <h3>LET'S JOIN US FOR MORE UPDATE !!</h3>
-                           <a href="#" class="button-primary">LEARN MORE</a>
+                           <h3>ADVENTURE IS CALLING</h3>
+                           
                         </div>
                      </div>
                   </div>
@@ -955,7 +1018,7 @@
             </section>
             <!--  contact details html end -->
          </main>
-         
+        
       </div>
 
 @endsection

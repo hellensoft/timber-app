@@ -11,7 +11,7 @@
                       <a href="mailto:info@Travel.com"><i class="fas fa-envelope"></i> info@timberwolfadventure.co.tz</a>
                    </li>
                    <li>
-                      <i class="fas fa-map-marker-alt"></i>P.O.BOX 16056, Arusha, Tanzania.
+                      <i class="fas fa-map-marker-alt "></i>P.O.BOX 16056, Arusha, Tanzania.
                    </li>
                 </ul>
              </div>
