@@ -250,9 +250,9 @@ template {
 ----------------------------------------------------------------*/
 body {
   font-size: 15px;
-  color: #383838;
+  color: #ffffff;
   background-color: #ffffff;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.6;
@@ -269,6 +269,7 @@ p {
   line-height: 1.6;
   margin: 0 0 15px;
   word-wrap: break-word;
+  color: #1D293F;
 }
 
 dfn, cite, em, i {
@@ -389,8 +390,9 @@ img {
 # Heading
 --------------------------------------------------------------*/
 h1, h2, h3, h4, h5, h6 {
-  color: #101F46;
-  font-family: "Raleway", sans-serif;
+  color: #1D293F;
+  font-family: "CooperHewitt-semibold", sans-serif;
+  /* font-family:"Barlow", sans-serif; */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -488,7 +490,7 @@ dd {
 # Links
 --------------------------------------------------------------*/
 a {
-  color: #0085BA;
+  color: #1D293F;
   text-decoration: none;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
@@ -497,7 +499,7 @@ a {
   transition: color 0.3s;
 }
 a:hover, a:focus, a:active {
-  color: #2C75BA;
+  color: #E95B34;
   text-decoration: none;
   outline: 0;
 }
@@ -526,7 +528,7 @@ a:visited {
   box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
   clip: auto !important;
   clip-path: none;
-  color: #1a1a1a;
+  color: #1D293F;
   display: block;
   font-size: 14px;
   font-weight: bold;
@@ -575,7 +577,7 @@ a:visited {
   text-transform: uppercase;
 }
 .section-heading h5 {
-  color: #F56960;
+  color: #E95B34;
   font-size: 15px;
   font-weight: 700;
   line-height: 1.2;
@@ -605,7 +607,7 @@ a:visited {
   position: relative;
 }
 .section-heading .dash-style:before {
-  background-color: #F56960;
+  background-color: #E95B34;
   content: "";
   height: 2px;
   width: 70px;
@@ -616,7 +618,7 @@ a:visited {
 }
 
 .title-icon-divider {
-  color: #0791BE;
+  color: #1D293F;
   line-height: 1;
   position: relative;
   margin-top: 25px;
@@ -673,7 +675,7 @@ a:visited {
 >>> table
 ----------------------------------------------------------------*/
 table {
-  color: #737373;
+  color: #1D293F;
   margin: 0 0 1.5em;
   border-collapse: separate;
   border-spacing: 0;
@@ -685,7 +687,7 @@ table thead tr {
   background-color: #262626;
 }
 table thead tr th {
-  color: #383838;
+  color: #ffffff;
 }
 table.table {
   color: #737373;
@@ -771,7 +773,7 @@ input[type=datetime]:focus,
 input[type=datetime-local]:focus,
 input[type=color]:focus,
 textarea:focus {
-  border-color: #F56960;
+  border-color: #E95B34;
   outline: 0;
 }
 input[type=text]:-webkit-autofill, input[type=text]:-webkit-autofill:hover, input[type=text]:-webkit-autofill:focus, input[type=text]:-webkit-autofill:active,
@@ -850,7 +852,7 @@ textarea {
 
 select {
   border: 1px solid #d9d9d9;
-  color: #383838;
+  color: #ffffff;
   height: 48px;
   padding: 0 30px 0 10px;
 }
@@ -873,7 +875,7 @@ form label {
   padding: 0 55px 0 10px;
 }
 .search-form button {
-  background-color: #F56960;
+  background-color: #E95B34;
   color: #ffffff;
   font-size: 15px;
   border: none;
@@ -907,7 +909,7 @@ form label {
 }
 .form-group label {
   display: block;
-  color: #383838;
+  color: #ffffff;
   font-size: 15px;
   margin-bottom: 10px;
 }
@@ -919,13 +921,13 @@ form label {
   display: inline-block;
   width: 18px;
   height: 18px;
-  border: 1px solid #e6e6e6;
+  border: 1px solid #1D293F;
   position: absolute;
   left: 0;
   top: 2px;
 }
 .form-group label .custom-checkbox:before {
-  background-color: #F56960;
+  background-color: #E95B34;
   content: "";
   font-family: "Font Awesome 5 Free";
   height: 100%;
@@ -945,7 +947,7 @@ form label {
   z-index: -9;
 }
 .form-group label input:checked ~ .custom-checkbox {
-  border-color: #F56960;
+  border-color: #E95B34;
 }
 .form-group label input:checked ~ .custom-checkbox:before {
   opacity: 1;
@@ -1035,7 +1037,7 @@ input[type=button],
 input[type=reset],
 input[type=submit] {
   border: none;
-  background-color: #F56960;
+  background-color: #E95B34;
   color: #ffffff;
   cursor: pointer;
   padding: 15px 30px;
@@ -1053,16 +1055,16 @@ input[type=reset]:focus,
 input[type=submit]:hover,
 input[type=submit]:active,
 input[type=submit]:focus {
-  background-color: #2C75BA;
+  background-color: #1D293F;
 }
 
 .button-primary,
 .button-round {
-  background-color: #F56960;
+  background-color: #E95B34;
 }
 
 .button-secondary {
-  background-color: #0791BE;
+  background-color: #1D293F;
 }
 
 .button-primary,
@@ -1119,7 +1121,7 @@ input[type=submit]:focus {
 }
 
 .button-text {
-  color: #0791BE;
+  color: #1D293F;
   font-weight: 600;
   position: relative;
   line-height: 1.3;
@@ -1130,7 +1132,7 @@ input[type=submit]:focus {
   transition: all 0.4s;
 }
 .button-text:hover, .button-text:focus, .button-text:active {
-  color: #F56960;
+  color: #E95B34;
 }
 
 /*--------------------------------------------------------------
@@ -1145,11 +1147,11 @@ input[type=submit]:focus {
 }
 
 .primary-bg {
-  background-color: #F56960;
+  background-color: #E95B34;
 }
 
 .secondary-bg {
-  background-color: #0791BE;
+  background-color: #1D293F;
 }
 
 .pl-20 {
@@ -1225,7 +1227,7 @@ input[type=submit]:focus {
   flex-grow: 1;
 }
 .social-icon-wrap .social-icon a {
-  background-color: #F56960;
+  background-color: #E95B34;
   color: #ffffff;
   display: -webkit-box;
   display: -moz-box;
@@ -1281,7 +1283,7 @@ input[type=submit]:focus {
 }
 
 .to-top-icon {
-  background-color: rgba(245, 105, 96, 0.7);
+  background-color: rgba(232, 90, 51);
   color: #ffffff;
   font-size: 20px;
   display: none;
@@ -1304,7 +1306,7 @@ input[type=submit]:focus {
   transition: background-color 0.3s, color 0.3s;
 }
 .to-top-icon:hover {
-  background-color: #2C75BA;
+  background-color: #1D293F;
   color: #ffffff;
 }
 @media screen and (max-width: 575px) {
@@ -1352,13 +1354,13 @@ input[type=submit]:focus {
   transition: all 0.5s;
 }
 .pagination li a:hover {
-  background-color: #F56960;
-  border-color: #F56960;
+  background-color: #E95B34;
+  border-color: #E95B34;
   color: #ffffff;
 }
 .pagination li.active a {
-  background-color: #F56960;
-  border-color: #F56960;
+  background-color: #E95B34;
+  border-color: #E95B34;
   color: #ffffff;
 }
 
@@ -1591,7 +1593,7 @@ input[type=submit]:focus {
   display: block;
 }
 .main-navigation ul > li:hover > a, .main-navigation ul > li:focus > a, .main-navigation ul > li:active > a {
-  color: #F56960;
+  color: #E95B34;
 }
 .main-navigation ul > li:hover > a:after, .main-navigation ul > li:focus > a:after, .main-navigation ul > li:active > a:after {
   -webkit-transform: rotate(180deg);
@@ -1602,7 +1604,7 @@ input[type=submit]:focus {
 }
 .main-navigation ul ul {
   background: #ffffff;
-  border-top: 4px solid #F56960;
+  border-top: 4px solid #E95B34;
   left: 0;
   margin: 0;
   padding: 0;
@@ -1637,7 +1639,7 @@ input[type=submit]:focus {
 }
 .main-navigation ul ul li a:hover, .main-navigation ul ul li a:focus, .main-navigation ul ul li a:active {
   padding-left: 30px;
-  color: #F56960;
+  color: #E95B34;
 }
 .main-navigation ul ul li > ul {
   left: 100%;
@@ -1689,7 +1691,7 @@ input[type=submit]:focus {
   color: #ffffff;
 }
 .main-navigation ul li.current-menu-item > a, .main-navigation ul li.current-menu-parent > a {
-  color: #F56960;
+  color: #E95B34;
 }
 
 @-webkit-keyframes slide-up {
@@ -2253,10 +2255,10 @@ input[type=submit]:focus {
   display: none;
 }
 .slick-dots li button:hover {
-  background-color: #0791BE;
+  background-color: #1D293F;
 }
 .slick-dots li.slick-active button {
-  background-color: #0791BE;
+  background-color: #1D293F;
 }
 
 .home-slider .slick-dots {
@@ -2435,7 +2437,7 @@ input[type=submit]:focus {
   content: "";
   height: 144px;
   width: 100%;
-  margin-top: -70px;
+  margin-top: -126px;
 }
 @media screen and (min-width: 576px) {
   .shape-search-section .trip-search-inner {
@@ -2487,6 +2489,7 @@ input[type=submit]:focus {
   margin-bottom: 10px;
   font-size: 15px;
   font-weight: normal;
+  color:#1D293F;
 }
 .trip-search-section label span {
   margin-right: 8px;
@@ -2510,7 +2513,7 @@ input[type=submit]:focus {
 .trip-search-section select,
 .trip-search-section input {
   background-color: #F8F8F8;
-  color: #383838;
+  color: #1D293F;
   border: none;
   height: 50px;
   padding: 0 15px;
@@ -2523,14 +2526,14 @@ input[type=submit]:focus {
   line-height: 1.6;
 }
 .trip-search-section input[type=submit] {
-  background-color: #F56960;
+  background-color: #E95B34;
   color: #ffffff;
   line-height: 1.3;
   font-weight: 600;
   margin-bottom: auto;
 }
 .trip-search-section input[type=submit]:hover, .trip-search-section input[type=submit]:focus {
-  background-color: #2C75BA;
+  background-color: #1D293F;
   color: #ffffff;
 }
 @media screen and (min-width: 576px) {
@@ -2610,7 +2613,7 @@ input[type=submit]:focus {
   margin-bottom: 4px;
 }
 .overlay-desti-item .desti-content h3 a:hover {
-  color: #F56960;
+  color: #E95B34;
 }
 
 .desti-item {
@@ -2641,7 +2644,7 @@ input[type=submit]:focus {
 }
 .desti-item .meta-cat a {
   display: inline-block;
-  font-family: "Raleway", Sans-serif;
+  font-family: "Oswald", Sans-serif;
   font-weight: 700;
   line-height: 1.2;
   text-transform: uppercase;
@@ -2684,7 +2687,7 @@ input[type=submit]:focus {
   margin-bottom: 4px;
 }
 .desti-content h3 a:hover {
-  color: #F56960;
+  color: #E95B34;
 }
 
 .btn-wrap a {
@@ -2719,7 +2722,7 @@ input[type=submit]:focus {
   top: 0;
 }
 .rating-start span:before {
-  color: #F56960;
+  color: #E95B34;
   content: "";
   display: inline-block;
   font-family: "Font Awesome 5 free";
@@ -2769,7 +2772,7 @@ input[type=submit]:focus {
   margin-top: 27px;
 }
 .package-wrap .package-content .btn-wrap a {
-  color: #383838;
+  color: #1D293F;
   display: block;
   margin-top: 0;
   padding: 16px 0;
@@ -2782,15 +2785,15 @@ input[type=submit]:focus {
   border-left: 1px solid rgba(175, 175, 175, 0.1);
 }
 .package-wrap .package-content .btn-wrap a [class*=fa-] {
-  color: #F56960;
+  color: #E95B34;
   font-size: 13px;
   margin-left: 8px;
 }
 .package-wrap .package-content .btn-wrap a:hover, .package-wrap .package-content .btn-wrap a:focus, .package-wrap .package-content .btn-wrap a:active {
-  color: #0791BE;
+  color: #1D293F;
 }
 .package-wrap .package-content .btn-wrap a:hover [class*=fa-], .package-wrap .package-content .btn-wrap a:focus [class*=fa-], .package-wrap .package-content .btn-wrap a:active [class*=fa-] {
-  color: #0791BE;
+  color: #1D293F;
 }
 .package-wrap .package-content .btn-wrap a:hover [class*=fa-]:before, .package-wrap .package-content .btn-wrap a:focus [class*=fa-]:before, .package-wrap .package-content .btn-wrap a:active [class*=fa-]:before {
   font-weight: 900;
@@ -2808,7 +2811,7 @@ input[type=submit]:focus {
   margin-left: 5px;
 }
 .package-wrap .package-price {
-  background-color: #F56960;
+  background-color: #E95B34;
   position: absolute;
   top: 20px;
   right: 0;
@@ -2846,7 +2849,7 @@ input[type=submit]:focus {
 }
 
 .package-meta {
-  background-color: #0791BE;
+  background-color: #1D293F;
   margin-bottom: 25px;
   margin-left: 30px;
   margin-right: 30px;
@@ -2976,7 +2979,7 @@ input[type=submit]:focus {
   margin-bottom: 140px;
 }
 .callback-section:before {
-  background-color: #0791BE;
+  background-color: #1D293F;
   content: "";
   width: 70%;
   height: 100%;
@@ -3134,7 +3137,7 @@ input[type=submit]:focus {
   margin-right: 26px;
 }
 .support-area h3 {
-  color: #F56960;
+  color: #E95B34;
   font-family: "Open Sans", sans-serif;
   font-size: 30px;
   font-weight: 900;
@@ -3142,7 +3145,7 @@ input[type=submit]:focus {
   margin-bottom: 0;
 }
 .support-area h4 {
-  color: #383838;
+  color: #ffffff;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.3;
@@ -3189,7 +3192,7 @@ input[type=submit]:focus {
   -moz-border-radius: 100%;
   -ms-border-radius: 100%;
   border-radius: 100%;
-  color: #0791BE;
+  color: #1D293F;
   display: block;
   font-size: 24px;
   line-height: 104px;
@@ -3230,7 +3233,7 @@ input[type=submit]:focus {
 }
 
 .bg-color-callback {
-  background-color: #0791BE;
+  background-color: #1D293F;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -3539,7 +3542,7 @@ input[type=submit]:focus {
   -ms-flex-pack: center;
 }
 .special-item .badge-dis {
-  background-color: #F56960;
+  background-color: #E95B34;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
   color: #ffffff;
   -webkit-border-radius: 100%;
@@ -3575,16 +3578,16 @@ input[type=submit]:focus {
   margin-bottom: 10px;
 }
 .special-content .meta-cat a {
-  color: #0791BE;
+  color: #1D293F;
   font-family: "Raleway", Sans-serif;
   font-weight: 700;
   line-height: 1.2;
 }
 .special-content .meta-cat a:hover, .special-content .meta-cat a:focus {
-  color: #F56960;
+  color: #E95B34;
 }
 .special-content .package-price {
-  color: #F56960;
+  color: #E95B34;
   font-size: 18px;
   font-family: "Raleway", Sans-serif;
   font-weight: 700;
@@ -3622,7 +3625,7 @@ input[type=submit]:focus {
   color: #ffffff;
 }
 .special-overlay-item .special-img .badge-dis {
-  background-color: #0791BE;
+  background-color: #1D293F;
   color: #ffffff;
   font-weight: 700;
   padding: 2px 45px;
@@ -3762,7 +3765,7 @@ input[type=submit]:focus {
     margin-bottom: 15px;
   }
   .newsletter-form input[type=submit] {
-    width: 100%;
+    width: 50%;
     position: static;
   }
 }
@@ -3815,7 +3818,7 @@ input[type=submit]:focus {
   border-style: solid;
   position: absolute;
   top: 0;
-  border-color: #0791BE;
+  border-color: #1D293F;
 }
 .progress-circle .circle-left {
   left: 0;
@@ -4056,7 +4059,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   position: relative;
 }
 .blog-section .entry-meta span:before {
-  color: #B6B6B6;
+  color: #E95B34;
   content: "|";
   font-size: 13px;
   position: absolute;
@@ -4120,7 +4123,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 }
 
 .testimonial-item .testimonial-img {
-  border: 2px solid #F56960;
+  border: 2px solid #E95B34;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
   -ms-border-radius: 100%;
@@ -4142,7 +4145,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   font-size: 1.3em;
 }
 .testimonial-item .testimonial-content cite {
-  color: #0791BE;
+  color: #1D293F;
   font-family: "Raleway", sans-serif;
   font-size: 24px;
   font-weight: 700;
@@ -4162,7 +4165,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 >>> Home travel contact section  
 ----------------------------------------------------------------*/
 .contact-section {
-  background-color: #0791BE;
+  background-color: #1D293F;
   padding-bottom: 80px;
   padding-top: 80px;
 }
@@ -4290,7 +4293,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   margin-bottom: 8px;
 }
 .team-item .heading-wrap h5 {
-  color: #0791BE;
+  color: #1D293F;
   font-weight: 700;
   margin-bottom: 0;
 }
@@ -4302,7 +4305,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   margin: 0 5px;
 }
 .team-item .social-links a {
-  background-color: #F56960;
+  background-color: #E95B34;
   width: 30px;
   height: 30px;
   line-height: 30px;
@@ -4383,7 +4386,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 >>> Main Footer  
 ----------------------------------------------------------------*/
 .site-footer {
-  background-color: #383838;
+  background-color: #ffffff;
   padding-top: 80px;
 }
 .site-footer .top-footer {
@@ -4409,17 +4412,17 @@ Due to the split circle of progress-left and progress right, we must use the ani
   margin-right: 10px;
 }
 .site-footer .buttom-footer {
-  background-color: #404040;
+  background-color: #ffffff;
   padding: 30px 0;
 }
 .site-footer .copy-right {
-  color: #ffffff;
+  color: #1D293F;
 }
 .site-footer .copy-right a {
-  color: #ffffff;
+  color: #1D293F;
 }
 .site-footer .copy-right a:hover {
-  color: #2C75BA;
+  color: #E95B34;
 }
 .site-footer .footer-menu ul {
   margin: 0;
@@ -4444,11 +4447,11 @@ Due to the split circle of progress-left and progress right, we must use the ani
   display: none;
 }
 .site-footer .footer-menu ul li a {
-  color: #ffffff;
+  color: #1D293F;
   font-size: 15px;
 }
 .site-footer .footer-menu ul li a:hover, .site-footer .footer-menu ul li a:focus {
-  color: #2C75BA;
+  color: #E95B34;
 }
 @media screen and (max-width: 575px) {
   .site-footer {
@@ -4472,10 +4475,10 @@ Due to the split circle of progress-left and progress right, we must use the ani
 }
 
 .footer-primary .widget {
-  color: #e0e0e0;
+  color: #1D293F;
 }
 .footer-primary .widget .widget-title {
-  color: #ffffff;
+  color: #1D293F;
   font-size: 15px;
   font-weight: 700;
   line-height: 1.2;
@@ -4493,17 +4496,17 @@ Due to the split circle of progress-left and progress right, we must use the ani
   text-transform: uppercase;
 }
 .footer-primary .widget .widget-title:before {
-  background-color: #0791BE;
+  background-color: #1D293F;
   content: "";
   height: 18px;
   width: 3px;
   margin-right: 10px;
 }
 .footer-primary .widget ul li a {
-  color: #ffffff;
+  color: #1D293F;
 }
 .footer-primary .widget ul li a:hover, .footer-primary .widget ul li a:focus, .footer-primary .widget ul li a:active {
-  color: #2C75BA;
+  color: #1D293F;
 }
 @media screen and (max-width: 991px) {
   .footer-primary .widget {
@@ -4530,7 +4533,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   content: "";
   height: 150px;
   width: 100%;
-  margin-top: -100px;
+  margin-top: -90px;
   position: relative;
 }
 @media screen and (max-width: 991px) {
@@ -4642,7 +4645,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   margin-bottom: 30px;
 }
 .about-service .about-service-icon {
-  background-color: #0791BE;
+  background-color: #1D293F;
   color: #ffffff;
   width: 80px;
   height: 80px;
@@ -4778,7 +4781,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   margin-bottom: 20px;
 }
 .home-about-section .about-service-icon {
-  background-color: #F56960;
+  background-color: #E95B34;
 }
 @media screen and (min-width: 576px) {
   .home-about-section .about-img-left {
@@ -4902,7 +4905,7 @@ procduct details css
   padding: 20px 25px;
 }
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus, .nav-tabs .nav-link.active {
-  color: #F56960;
+  color: #E95B34;
 }
 
 .tab-container {
@@ -4976,7 +4979,7 @@ procduct details css
   flex-direction: column;
 }
 .itinerary-timeline-wrap .day-count {
-  background-color: #F56960;
+  background-color: #E95B34;
   color: #ffffff;
   border-radius: 100%;
   height: 40px;
@@ -5018,7 +5021,7 @@ procduct details css
 }
 @media screen and (min-width: 576px) {
   .itinerary-timeline-wrap .day-count {
-    background-color: #F56960;
+    background-color: #E95B34;
     color: #ffffff;
     border-radius: 100%;
     height: 60px;
@@ -5115,7 +5118,7 @@ procduct details css
 }
 
 .sidebar .package-price {
-  background-color: #F56960;
+  background-color: #E95B34;
   padding: 20px;
   text-align: center;
   margin-bottom: 50px;
@@ -5145,7 +5148,7 @@ procduct details css
 }
 .sidebar .information-content h5,
 .sidebar .travel-package-content h5 {
-  color: #F56960;
+  color: #E95B34;
   font-size: 15px;
   font-weight: 700;
   line-height: 1.2;
@@ -5157,7 +5160,7 @@ procduct details css
 }
 .sidebar .information-content h5:before,
 .sidebar .travel-package-content h5:before {
-  background-color: #F56960;
+  background-color: #E95B34;
   content: "";
   height: 2px;
   width: 50px;
@@ -5413,7 +5416,7 @@ procduct details css
   font-size: 17px;
 }
 .single-post-section .author-wrap .author-content .button-text {
-  color: #F56960;
+  color: #E95B34;
 }
 .single-post-section .author-wrap .author-content .button-text:hover {
   color: #2C75BA;
@@ -5590,7 +5593,7 @@ procduct details css
   margin-left: 10px;
 }
 .comment-area .comment-content .reply {
-  background-color: #F56960;
+  background-color: #E95B34;
   font-size: 14px;
   color: #ffffff;
   padding: 5px 12px 6px;
@@ -5774,7 +5777,7 @@ procduct details css
   margin-bottom: 0;
 }
 .contact-detail-wrap .details-list .icon {
-  background-color: #0791BE;
+  background-color: #1D293F;
   color: #ffffff;
   display: block;
   font-size: 25px;
@@ -5799,8 +5802,8 @@ procduct details css
   margin: 0 5px;
 }
 .contact-detail-wrap .contct-social a {
-  color: #F56960;
-  border: 1px solid #F56960;
+  color: #E95B34;
+  border: 1px solid #E95B34;
   display: block;
   font-size: 20px;
   line-height: 40px;
@@ -6009,7 +6012,7 @@ procduct details css
   text-align: center;
 }
 .comming-soon-section .time-counter .counter-time {
-  background-color: #F56960;
+  background-color: #E95B34;
   width: 160px;
   margin: 12px;
   padding: 5px 10px 20px;
@@ -6215,7 +6218,7 @@ procduct details css
   margin-bottom: 80px;
 }
 .search-section .button-container .button-text {
-  color: #F56960;
+  color: #E95B34;
   text-transform: uppercase;
 }
 .search-section .button-container .button-text:hover {
@@ -6253,7 +6256,7 @@ procduct details css
   margin: 0;
 }
 .accordion .card button {
-  color: #383838;
+  color: #ffffff;
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
   display: block;
@@ -6293,7 +6296,7 @@ procduct details css
 }
 
 .qsn-form-container {
-  background-color: #0791BE;
+  background-color: #1D293F;
   padding: 40px 30px 20px;
   color: #ffffff;
   text-align: center;
@@ -6338,7 +6341,7 @@ procduct details css
   width: 100%;
 }
 .faq-testimonial .testimonial-content {
-  background-color: #F56960;
+  background-color: #E95B34;
   color: #ffffff;
   margin-right: 25px;
   margin-top: -100px;
@@ -6382,14 +6385,14 @@ procduct details css
   position: relative;
 }
 .guide-content-wrap .guide-content h5 {
-  color: #0791BE;
+  color: #1D293F;
   font-weight: 700;
 }
 .guide-content-wrap .guide-social li {
   margin: 0 5px;
 }
 .guide-content-wrap .guide-social a {
-  background-color: #F56960;
+  background-color: #E95B34;
   color: #ffffff;
   display: block;
   font-size: 15px;
@@ -6492,7 +6495,7 @@ procduct details css
   padding-bottom: 60px;
 }
 .vacancy-container .vacancy-form {
-  background-color: #0791BE;
+  background-color: #1D293F;
   padding: 30px;
   color: #ffffff;
   text-align: center;
@@ -6525,7 +6528,7 @@ procduct details css
   border: 1px solid #D9D9D9;
 }
 .vacancy-content h5 {
-  color: #0791BE;
+  color: #1D293F;
   font-weight: 700;
 }
 .vacancy-content .button-primary {
@@ -6563,7 +6566,7 @@ procduct details css
   text-transform: capitalize;
 }
 .career-detail-section .job-description {
-  background-color: #F56960;
+  background-color: #E95B34;
 }
 .career-detail-section .job-description ul {
   margin: 0;
@@ -6632,12 +6635,12 @@ procduct details css
 
 .sidebar .widget-bg {
   background-color: #F8F8F8;
-  border-bottom: 3px solid #0791BE;
+  border-bottom: 3px solid #1D293F;
   margin-bottom: 50px;
   padding: 30px;
 }
 .sidebar .widget-bg .bg-title {
-  background-color: #0791BE;
+  background-color: #1D293F;
   color: #ffffff;
   padding: 20px;
   text-align: center;
@@ -6652,7 +6655,7 @@ procduct details css
   margin-bottom: 8px;
 }
 .sidebar .sidebar-list li i {
-  color: #0791BE;
+  color: #1D293F;
   margin-right: 10px;
   font-size: 14px;
 }
@@ -6663,7 +6666,7 @@ procduct details css
   text-transform: capitalize;
 }
 .sidebar .widget-icon {
-  background-color: #0791BE;
+  background-color: #1D293F;
   border-radius: 100%;
   color: #ffffff;
   height: 100px;
@@ -6676,7 +6679,7 @@ procduct details css
   margin-bottom: 20px;
 }
 .sidebar .or-style {
-  color: #0791BE;
+  color: #1D293F;
   display: table;
   font-size: 18px;
   font-weight: 700;
@@ -6858,14 +6861,14 @@ procduct details css
   font-weight: 700;
   font-family: "Raleway", sans-serif;
   padding: 0 20px;
-  color: #0791BE;
+  color: #1D293F;
 }
 .product-item .product-content .product-price del {
   color: #787878;
   opacity: 0.5;
 }
 .product-item .onsale {
-  background: #0791BE;
+  background: #1D293F;
   color: #ffffff;
   font-size: 15px;
   font-weight: 700;
@@ -6963,7 +6966,7 @@ procduct details css
 .single-product-item .image-search-icon a {
   background-color: #ffffff;
   border-radius: 100%;
-  color: #383838;
+  color: #ffffff;
   display: block;
   font-size: 17px;
   width: 36px;
@@ -6999,7 +7002,7 @@ procduct details css
 }
 
 .product-summary .product-price {
-  color: #0791BE;
+  color: #1D293F;
   font-size: 30px;
   font-weight: 900;
   margin-bottom: 25px;
@@ -7046,7 +7049,7 @@ procduct details css
 .product-summary .product-meta a {
   font-family: "Raleway", sans-serif;
   font-size: 14px;
-  color: #383838;
+  color: #ffffff;
 }
 .product-summary .product-meta a:hover {
   color: #2C75BA;
@@ -7196,7 +7199,7 @@ product checkout css
   border-bottom: none;
 }
 .widget-table-summary table td {
-  color: #383838;
+  color: #ffffff;
 }
 
 .widget-paymet-bank .form-group label {
@@ -7243,7 +7246,7 @@ product checkout css
   margin-right: 10px;
 }
 .cart-list-inner .table tr td {
-  color: #383838;
+  color: #ffffff;
   vertical-align: middle;
   border-bottom: 1px solid #dee2e6;
   border-top: none;
@@ -7274,7 +7277,7 @@ product checkout css
   flex-wrap: wrap;
 }
 .cart-list-inner .table tr td.count-input a {
-  color: #383838;
+  color: #ffffff;
   font-size: 10px;
   display: inline-block;
   border: 1px solid #e4e4e4;
@@ -7486,7 +7489,7 @@ product checkout css
   display: none;
 }
 .step-link-wrap .step-item.active a {
-  background-color: #F56960;
+  background-color: #E95B34;
 }
 @media screen and (max-width: 575px) {
   .step-link-wrap {
@@ -7534,7 +7537,7 @@ product checkout css
   display: inline-block;
 }
 .booking-content .form-title span {
-  background-color: #F56960;
+  background-color: #E95B34;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
   -ms-border-radius: 100%;
@@ -7583,7 +7586,7 @@ product checkout css
   line-height: 1;
 }
 .widget-support-wrap .support-content h5 {
-  color: #383838;
+  color: #ffffff;
   font-weight: 400;
 }
 .widget-support-wrap .support-content .phone {
@@ -7600,7 +7603,7 @@ product checkout css
 >>> confirmation Pages
 ----------------------------------------------------------------*/
 .success-notify {
-  background-color: #0791BE;
+  background-color: #1D293F;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -7652,7 +7655,7 @@ product checkout css
   background-color: #F1F1F1;
 }
 .confirmation-details table tr td {
-  color: #383838;
+  color: #ffffff;
   width: 50%;
   border: none;
 }
@@ -7805,7 +7808,7 @@ product checkout css
   color: #ffffff;
 }
 .ui-datepicker .ui-datepicker-calendar tr td a.ui-state-highlight {
-  background-color: #F56960;
+  background-color: #E95B34;
   color: #ffffff;
 }
 .ui-datepicker .ui-datepicker-calendar tr td a.ui-state-active {
@@ -7820,7 +7823,7 @@ product checkout css
   margin-top: 20px;
 }
 #slider-range .ui-widget-header {
-  background-color: #F56960;
+  background-color: #E95B34;
 }
 #slider-range .ui-corner-all, #slider-range.ui-widget-content {
   -webkit-border-radius: 0px;
@@ -7915,7 +7918,7 @@ product checkout css
   list-style: none;
 }
 .breadcrumb-content .breadcrumb li.active a {
-  color: #383838;
+  color: #ffffff;
 }
 .breadcrumb-content .breadcrumb li a {
   color: #767676;
@@ -7943,7 +7946,7 @@ product checkout css
   list-style: none;
 }
 .widget ul li a {
-  color: #383838;
+  color: #ffffff;
 }
 .widget ul li a:hover {
   color: #2C75BA;
@@ -8104,7 +8107,7 @@ product checkout css
 }
 .widget.widget_tag_cloud .tagcloud a {
   background-color: #F6F6F6;
-  color: #383838;
+  color: #ffffff;
   -webkit-flex-grow: 1;
   -moz-flex-grow: 1;
   -ms-flex-grow: 1;
@@ -8165,7 +8168,7 @@ product checkout css
   display: none;
 }
 .widget.widget_recent_post li .entry-meta a {
-  color: #CCC;
+  color: #E95B34;
   display: inline-block;
   font-size: 13px;
   line-height: 1.1;
@@ -8251,7 +8254,7 @@ product checkout css
   padding: 0 55px 0 10px;
 }
 .widget.search_widget button {
-  background-color: #F56960;
+  background-color: #E95B34;
   color: #ffffff;
   font-size: 14px;
   border: none;
@@ -8341,7 +8344,7 @@ product checkout css
   margin-bottom: 0;
 }
 .widget.widget_text ul li i {
-  color: #F56960;
+  color: #E95B34;
   margin-right: 5px;
 }
 .widget.widget_newslatter .newslatter-form {
@@ -8476,7 +8479,7 @@ product checkout css
   display: inline-block;
 }
 .widget.widget_category_product_thumb li .product-content .count {
-  color: #F56960;
+  color: #E95B34;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 14px;
@@ -8489,8 +8492,8 @@ product checkout css
   margin-bottom: 50px;
 }
 .sidebar .widget .widget-title {
-  border: 1px solid #0791BE;
-  color: #0791BE;
+  border: 1px solid #1D293F;
+  color: #1D293F;
   display: table;
   font-size: 15px;
   text-align: center;

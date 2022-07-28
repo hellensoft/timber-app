@@ -1,275 +1,36 @@
-<!doctype html>
-<html lang="en">
-   <head>
-      <!-- Required meta tags -->
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-      <!-- favicon -->
-      <link rel="icon" type="image/png" href="assets/images/favicon.png">
-      <!-- Bootstrap CSS -->
-      <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" media="all">
-      <!-- Fonts Awesome CSS -->
-      <link rel="stylesheet" type="text/css" href="assets/vendors/fontawesome/css/all.min.css">
-      <!-- jquery-ui css -->
-      <link rel="stylesheet" type="text/css" href="assets/vendors/jquery-ui/jquery-ui.min.css">
-      <!-- modal video css -->
-      <link rel="stylesheet" type="text/css" href="assets/vendors/modal-video/modal-video.min.css">
-      <!-- light box css -->
-      <link rel="stylesheet" type="text/css" href="assets/vendors/lightbox/dist/css/lightbox.min.css">
-      <!-- slick slider css -->
-      <link rel="stylesheet" type="text/css" href="assets/vendors/slick/slick.css">
-      <link rel="stylesheet" type="text/css" href="assets/vendors/slick/slick-theme.css">
-      <!-- google fonts -->
-      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
-      <!-- Custom CSS -->
-      <link rel="stylesheet" type="text/css" href="style.css">
-      <title>Travele | Travel & Tour HTML5 template </title>
-   </head>
+@extends('Layouts.MasterPage')
+@section('title', 'Timberwolf Adveture')
+@section('contents')
+ 
    <body class="home">
       <div id="siteLoader" class="site-loader">
          <div class="preloader-content">
-            <img src="assets/images/loader1.gif" alt="">
+            <img src="{{asset('assets/images/loader1.gif')}}" alt="">
          </div>
       </div>
       <div id="page" class="full-page">
-         <header id="masthead" class="site-header header-primary">
-            <!-- header html start -->
-            <div class="top-header">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-lg-8 d-none d-lg-block">
-                        <div class="header-contact-info">
-                           <ul>
-                              <li>
-                                 <a href="#"><i class="fas fa-phone-alt"></i> +01 (977) 2599 12</a>
-                              </li>
-                              <li>
-                                 <a href="mailto:info@Travel.com"><i class="fas fa-envelope"></i> company@domain.com</a>
-                              </li>
-                              <li>
-                                 <i class="fas fa-map-marker-alt"></i> 3146 Koontz Lane, California
-                              </li>
-                           </ul>
-                        </div>
-                     </div>
-                     <div class="col-lg-4 d-flex justify-content-lg-end justify-content-between">
-                        <div class="header-social social-links">
-                           <ul>
-                              <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-                              <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                              <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-                              <li><a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
-                           </ul>
-                        </div>
-                        <div class="header-search-icon">
-                           <button class="search-icon">
-                              <i class="fas fa-search"></i>
-                           </button>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="bottom-header">
-               <div class="container d-flex justify-content-between align-items-center">
-                  <div class="site-identity">
-                     <h1 class="site-title">
-                        <a href="index.html">
-                           <img src="assets/images/travele-logo.png" alt="logo">
-                        </a>
-                     </h1>
-                  </div>
-                  <div class="main-navigation d-none d-lg-block">
-                     <nav id="navigation" class="navigation">
-                        <ul>
-                           <li class="menu-item-has-children">
-                              <a href="index.html">Home</a>
-                              <ul>
-                                 <li>
-                                    <a href="index-v2.html">Home 2</a>
-                                 </li>
-                              </ul>
-                           </li>
-                           <li class="menu-item-has-children">
-                              <a href="#">Tour</a>
-                              <ul>
-                                 <li>
-                                    <a href="destination.html">Destination</a>
-                                 </li>
-                                 <li>
-                                    <a href="tour-packages.html">Tour Packages</a>
-                                 </li>
-                                 <li>
-                                    <a href="package-offer.html">Package Offer</a>
-                                 </li>
-                                 <li>
-                                    <a href="package-detail.html">Package Detail</a>
-                                 </li>
-                                 <li>
-                                    <a href="tour-cart.html">Tour Cart</a>
-                                 </li>
-                                 <li>
-                                    <a href="booking.html">Package Booking</a>
-                                 </li>
-                                 <li>
-                                    <a href="confirmation.html">Confirmation</a>
-                                 </li>
-                              </ul>
-                           </li>
-                           <li class="menu-item-has-children">
-                              <a href="#">Pages</a>
-                              <ul>
-                                 <li>
-                                    <a href="about.html">About</a>
-                                 </li>
-                                 <li>
-                                    <a href="service.html">Service</a>
-                                 </li>
-                                 <li>
-                                    <a href="career.html">Career</a>
-                                 </li>
-                                 <li>
-                                    <a href="career-detail.html">Career Detail</a>
-                                 </li>
-                                 <li>
-                                    <a href="tour-guide.html">Tour Guide</a>
-                                 </li>
-                                 <li>
-                                    <a href="gallery.html">Gallery</a>
-                                 </li>
-                                 <li>
-                                    <a href="single-page.html">Single Page</a>
-                                 </li>
-                                 <li>
-                                    <a href="faq.html">FAQ Page</a>
-                                 </li>
-                                 <li>
-                                    <a href="testimonial-page.html">Testimonial Page</a>
-                                 </li>
-                                 <li>
-                                    <a href="search-page.html">Search Page</a>
-                                 </li>
-                                 <li>
-                                    <a href="404.html">404 Page</a>
-                                 </li>
-                                 <li>
-                                    <a href="comming-soon.html">Comming Soon</a>
-                                 </li>
-                                 <li>
-                                    <a href="contact.html">Contact</a>
-                                 </li>
-                                 <li>
-                                    <a href="wishlist-page.html">Wishlist</a>
-                                 </li>
-                              </ul>
-                           </li>
-                           <li class="menu-item-has-children">
-                              <a href="single-page.html">Shop</a>
-                              <ul>
-                                 <li>
-                                    <a href="product-right.html">Shop Archive</a>
-                                 </li>
-                                 <li>
-                                    <a href="product-detail.html">Shop Single</a>
-                                 </li>
-                                 <li>
-                                    <a href="product-cart.html">Shop Cart</a>
-                                 </li>
-                                 <li>
-                                    <a href="product-checkout.html">Shop Checkout</a>
-                                 </li>
-                              </ul>
-                           </li>
-                           <li class="menu-item-has-children">
-                              <a href="#">Blog</a>
-                              <ul>
-                                 <li><a href="blog-archive.html">Blog List</a></li>
-                                 <li><a href="blog-archive-left.html">Blog Left Sidebar</a></li>
-                                 <li><a href="blog-archive-both.html">Blog Both Sidebar</a></li>
-                                 <li><a href="blog-single.html">Blog Single</a></li>
-                              </ul>
-                           </li>
-                           <li class="menu-item-has-children">
-                              <a href="#">Dashboard</a>
-                              <ul>
-                                 <li>
-                                    <a href="admin/dashboard.html">Dashboard</a>
-                                 </li>
-                                 <li class="menu-item-has-children">
-                                    <a href="#">User</a>
-                                    <ul>
-                                       <li>
-                                          <a href="admin/user.html">User List</a>
-                                       </li>
-                                       <li>
-                                          <a href="admin/user-edit.html">User Edit</a>
-                                       </li>
-                                       <li>
-                                          <a href="admin/new-user.html">New User</a>
-                                       </li>
-                                    </ul>
-                                 </li>
-                                 <li>
-                                    <a href="admin/db-booking.html">Booking</a>
-                                 </li>
-                                 <li class="menu-item-has-children">
-                                    <a href="admin/db-package.html">Package</a>
-                                    <ul>
-                                       <li>
-                                          <a href="admin/db-package-active.html">Package Active</a>
-                                       </li>
-                                       <li>
-                                          <a href="admin/db-package-pending.html">Package Pending</a>
-                                       </li>
-                                       <li>
-                                          <a href="admin/db-package-expired.html">Package Expired</a>
-                                       </li>
-                                    </ul>
-                                 </li>
-                                 <li>
-                                    <a href="admin/db-comment.html">Comments</a>
-                                 </li>
-                                 <li>
-                                    <a href="admin/db-wishlist.html">Wishlist</a>
-                                 </li>
-                                 <li>
-                                    <a href="admin/login.html">Login</a>
-                                 </li>
-                                 <li>
-                                    <a href="admin/forgot.html">Forget Password</a>
-                                 </li>
-                              </ul>
-                           </li>
-                        </ul>
-                     </nav>
-                  </div>
-                  <div class="header-btn">
-                     <a href="#" class="button-primary">BOOK NOW</a>
-                  </div>
-               </div>
-            </div>
-            <div class="mobile-menu-container"></div>
-         </header>
+        
          <main id="content" class="site-main">
             <!-- Home slider html start -->
             <section class="home-slider-section">
                <div class="home-slider">
+                 
                   <div class="home-banner-items">
-                     <div class="banner-inner-wrap" style="background-image: url(assets/images/slider-banner-1.jpg);"></div>
+                     <div class="banner-inner-wrap" style="background-image: url(assets/images/zebr.jpeg);"></div>
                         <div class="banner-content-wrap">
                            <div class="container">
                               <div class="banner-content text-center">
-                                 <h2 class="banner-title">TRAVELLING AROUND THE WORLD</h2>
-                                 <p>Taciti quasi, sagittis excepteur hymenaeos, id temporibus hic proident ullam, eaque donec delectus tempor consectetur nunc, purus congue? Rem volutpat sodales! Mollit. Minus exercitationem wisi.</p>
-                                 <a href="#" class="button-primary">CONTINUE READING</a>
+                                 <h2 class="banner-title">Timberwolf Adventure Tours</h2>
+                                 <p>Meet experienced travel consultants in Tanzania with assured best travelling options at affordable prices.</p>
+                                 <a href="#" class="button-primary">GET STARTED</a>
                               </div>
                            </div>
                         </div>
                      <div class="overlay"></div>
                   </div>
+                  
                   <div class="home-banner-items">
-                     <div class="banner-inner-wrap" style="background-image: url(assets/images/slider-banner-2.jpg);"></div>
+                     <div class="banner-inner-wrap" style="background-image: url(assets/images/camping.jpeg);"></div>
                         <div class="banner-content-wrap">
                            <div class="container">
                               <div class="banner-content text-center">
@@ -677,6 +438,115 @@
             </section>
             <!-- callback html end -->
             <!-- Home activity section html start -->
+            <section class="activity-section activity-bg-image" style="background-image: url(assets/images/img23.jpg);">
+               <div class="container">
+                  <div class="section-heading section-heading-white text-center">
+                     <div class="row">
+                        <div class="col-lg-8 offset-lg-2">
+                           <h5 class="dash-style">EXPLORE GREAT PLACES</h5>
+                           <h2>ADVENTURE & ACTIVITY</h2>
+                           <p>Mollit voluptatem perspiciatis convallis elementum corporis quo veritatis aliquid blandit, blandit torquent, odit placeat. Adipiscing repudiandae eius cursus? Nostrum magnis maxime curae placeat.</p>
+                           <div class="title-icon-divider"><i class="fas fa-suitcase-rolling"></i></div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="activity-inner row">
+                     <div class="col-lg-2 col-md-4 col-6">
+                        <div class="activity-item">
+                           <div class="activity-icon">
+                              <a href="#">
+                                 <img src="assets/images/img44.png" alt="">
+                              </a>
+                           </div>
+                           <div class="activity-content">
+                              <h4>
+                                 <a href="#">Adventure</a>
+                              </h4>
+                              <p style="color: #ffffff">15 Destination</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-2 col-md-4 col-6">
+                        <div class="activity-item">
+                           <div class="activity-icon">
+                              <a href="#">
+                                 <img src="assets/images/img45.png" alt="">
+                              </a>
+                           </div>
+                           <div class="activity-content">
+                              <h4>
+                                 <a href="#">Trekking</a>
+                              </h4>
+                              <p>12 Destination</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-2 col-md-4 col-6">
+                        <div class="activity-item">
+                           <div class="activity-icon">
+                              <a href="#">
+                                 <img src="assets/images/img46.png" alt="">
+                              </a>
+                           </div>
+                           <div class="activity-content">
+                              <h4>
+                                 <a href="#">Camp Fire</a>
+                              </h4>
+                              <p>7 Destination</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-2 col-md-4 col-6">
+                        <div class="activity-item">
+                           <div class="activity-icon">
+                              <a href="#">
+                                 <img src="assets/images/img47.png" alt="">
+                              </a>
+                           </div>
+                           <div class="activity-content">
+                              <h4>
+                                 <a href="#">Off Road</a>
+                              </h4>
+                              <p>15 Destination</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-2 col-md-4 col-6">
+                        <div class="activity-item">
+                           <div class="activity-icon">
+                              <a href="#">
+                                 <img src="assets/images/img48.png" alt="">
+                              </a>
+                           </div>
+                           <div class="activity-content">
+                              <h4>
+                                 <a href="#">Camping</a>
+                              </h4>
+                              <p>13 Destination</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-2 col-md-4 col-6">
+                        <div class="activity-item">
+                           <div class="activity-icon">
+                              <a href="#">
+                                 <img src="assets/images/img49.png" alt="">
+                              </a>
+                           </div>
+                           <div class="activity-content">
+                              <h4>
+                                 <a href="#">Exploring</a>
+                              </h4>
+                              <p>25 Destination</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+
+
+
             <section class="activity-section">
                <div class="container">
                   <div class="section-heading text-center">
@@ -784,7 +654,7 @@
             </section>
             <!-- activity html end -->
             <!-- Home special section html start -->
-            <section class="special-section">
+            {{-- <section class="special-section" style="background-image: url(assets/images/img23.jpg);">
                <div class="container">
                   <div class="section-heading text-center">
                      <div class="row">
@@ -878,10 +748,10 @@
                      </div>
                   </div>
                </div>
-            </section>
+            </section> --}}
             <!-- special html end -->
             <!-- Home special section html start -->
-            <section class="best-section">
+            {{-- <section class="best-section" style="background-image: url(assets/images/img23.jpg);">
                <div class="container">
                   <div class="row">
                      <div class="col-lg-5">
@@ -917,7 +787,7 @@
                      </div>
                   </div>
                </div>
-            </section>
+            </section> --}}
             <!-- best html end -->
             <!-- Home client section html start -->
             <div class="client-section">
@@ -958,7 +828,7 @@
             </div>
             <!-- client html end -->
             <!-- Home subscribe section html start -->
-            <section class="subscribe-section" style="background-image: url(assets/images/img16.jpg);">
+            {{-- <section class="subscribe-section" style="background-image: url(assets/images/img23.jpg);">
                <div class="container">
                   <div class="row">
                      <div class="col-lg-7">
@@ -977,7 +847,7 @@
                      </div>
                   </div>
                </div>
-            </section>
+            </section> --}}
             <!-- subscribe html end -->
             <!-- Home blog section html start -->
             <section class="blog-section">
@@ -1070,98 +940,50 @@
                   </div>
                </div>
             </section>
-             <!-- blog html end -->
-             <!-- Home testimonial section html start -->
-            <div class="testimonial-section" style="background-image: url(assets/images/img23.jpg);">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-lg-10 offset-lg-1">
-                        <div class="testimonial-inner testimonial-slider">
-                           <div class="testimonial-item text-center">
-                              <figure class="testimonial-img">
-                                 <img src="assets/images/img20.jpg" alt="">
-                              </figure>
-                              <div class="testimonial-content">
-                                 <p>" Dolorum aenean dolorem minima! Voluptatum? Corporis condimentum ac primis fusce, atque! Vivamus. Non cupiditate natus excepturi, quod quo, aute facere? Deserunt aliquip, egestas ipsum, eu.Dolorum aenean dolorem minima!? Corporis condi mentum acpri! "</p>
-                                 <cite>
-                                    Johny English
-                                    <span class="company">Travel Agent</span>
-                                 </cite>
-                              </div>
-                           </div>
-                           <div class="testimonial-item text-center">
-                              <figure class="testimonial-img">
-                                 <img src="assets/images/img21.jpg" alt="">
-                              </figure>
-                              <div class="testimonial-content">
-                                 <p>" Dolorum aenean dolorem minima! Voluptatum? Corporis condimentum ac primis fusce, atque! Vivamus. Non cupiditate natus excepturi, quod quo, aute facere? Deserunt aliquip, egestas ipsum, eu.Dolorum aenean dolorem minima!? Corporis condi mentum acpri! "</p>
-                                 <cite>
-                                    William Housten
-                                    <span class="company">Travel Agent</span>
-                                 </cite>
-                              </div>
-                           </div>
-                           <div class="testimonial-item text-center">
-                              <figure class="testimonial-img">
-                                 <img src="assets/images/img22.jpg" alt="">
-                              </figure>
-                              <div class="testimonial-content">
-                                 <p>" Dolorum aenean dolorem minima! Voluptatum? Corporis condimentum ac primis fusce, atque! Vivamus. Non cupiditate natus excepturi, quod quo, aute facere? Deserunt aliquip, egestas ipsum, eu.Dolorum aenean dolorem minima!? Corporis condi mentum acpri! "</p>
-                                 <cite>
-                                    Alison Wright
-                                    <span class="company">Travel Guide</span>
-                                 </cite>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <!-- testimonial html end -->
+            
             <!-- Home contact details section html start -->
             <section class="contact-section">
                <div class="container">
                   <div class="row">
                      <div class="col-lg-4">
-                        <div class="contact-img" style="background-image: url(assets/images/img24.jpg);">
+                        <div class="contact-img" style="background-image: url(assets/images/get.jpeg); border-radius: 5px;">
                         </div>
                      </div>
                      <div class="col-lg-8">
                         <div class="contact-details-wrap">
                            <div class="row">
-                              <div class="col-sm-4">
+                              <div class="col-sm-5">
                                  <div class="contact-details">
                                     <div class="contact-icon">
                                        <img src="assets/images/icon12.png" alt="">
                                     </div>
                                     <ul>
                                        <li>
-                                          <a href="#">support@gmail.com</a>
+                                          <a href="#">info@timberwolfadventure.co.tz</a>
                                        </li>
                                        <li>
-                                          <a href="#">info@domain.com</a>
+                                          <a href="#">info@timberwolfadventure.com</a>
                                        </li>
                                        <li>
-                                          <a href="#">name@company.com</a>
+                                          <a href="#" style="color: #1D293F">/</a>
                                        </li>
                                     </ul>
                                  </div>
                               </div>
-                              <div class="col-sm-4">
+                              <div class="col-sm-3">
                                  <div class="contact-details">
                                     <div class="contact-icon">
                                        <img src="assets/images/icon13.png" alt="">
                                     </div>
                                     <ul>
                                        <li>
-                                          <a href="#">+132 (599) 254 669</a>
+                                          <a href="#">+255 787 104 848</a>
                                        </li>
                                        <li>
-                                          <a href="#">+123 (669) 255 587</a>
+                                          <a href="#">+255 713 697 189</a>
                                        </li>
                                        <li>
-                                          <a href="#">+01 (977) 2599 12</a>
+                                          <a href="#">+255 764 493 234</a>
                                        </li>
                                     </ul>
                                  </div>
@@ -1173,13 +995,13 @@
                                     </div>
                                     <ul>
                                        <li>
-                                          3146 Koontz, California
+                                          Timberwolf Adventure
                                        </li>
                                        <li>
-                                          Quze.24 Second floor
+                                          P.O.BOX 16056,
                                        </li>
                                        <li>
-                                          36 Street, Melbourne
+                                          Sekei, Arusha Tanzania.
                                        </li>
                                     </ul>
                                  </div>
@@ -1187,8 +1009,8 @@
                            </div>
                         </div>
                         <div class="contact-btn-wrap">
-                           <h3>LET'S JOIN US FOR MORE UPDATE !!</h3>
-                           <a href="#" class="button-primary">LEARN MORE</a>
+                           <h3>ADVENTURE IS CALLING</h3>
+                           
                         </div>
                      </div>
                   </div>
@@ -1196,159 +1018,7 @@
             </section>
             <!--  contact details html end -->
          </main>
-         <footer id="colophon" class="site-footer footer-primary">
-            <div class="top-footer">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-lg-3 col-md-6">
-                        <aside class="widget widget_text">
-                           <h3 class="widget-title">
-                              About Travel
-                           </h3>
-                           <div class="textwidget widget-text">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-                           </div>
-                           <div class="award-img">
-                              <a href="#"><img src="assets/images/logo6.png" alt=""></a>
-                              <a href="#"><img src="assets/images/logo2.png" alt=""></a>
-                           </div>
-                        </aside>
-                     </div>
-                     <div class="col-lg-3 col-md-6">
-                        <aside class="widget widget_text">
-                           <h3 class="widget-title">CONTACT INFORMATION</h3>
-                           <div class="textwidget widget-text">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                              <ul>
-                                 <li>
-                                    <a href="#">
-                                       <i class="fas fa-phone-alt"></i>
-                                       +01 (977) 2599 12
-                                    </a>
-                                 </li>
-                                 <li>
-                                    <a href="#">
-                                       <i class="fas fa-envelope"></i>
-                                       company@domain.com
-                                    </a>
-                                 </li>
-                                 <li>
-                                    <i class="fas fa-map-marker-alt"></i>
-                                    3146  Koontz, California
-                                 </li>
-                              </ul>
-                           </div>
-                        </aside>
-                     </div>
-                     <div class="col-lg-3 col-md-6">
-                        <aside class="widget widget_recent_post">
-                           <h3 class="widget-title">Latest Post</h3>
-                           <ul>
-                              <li>
-                                 <h5>
-                                    <a href="#">Life is a beautiful journey not a destination</a>
-                                 </h5>
-                                 <div class="entry-meta">
-                                    <span class="post-on">
-                                       <a href="#">August 17, 2021</a>
-                                    </span>
-                                    <span class="comments-link">
-                                       <a href="#">No Comments</a>
-                                    </span>
-                                 </div>
-                              </li>
-                              <li>
-                                 <h5>
-                                    <a href="#">Take only memories, leave only footprints</a>
-                                 </h5>
-                                 <div class="entry-meta">
-                                    <span class="post-on">
-                                       <a href="#">August 17, 2021</a>
-                                    </span>
-                                    <span class="comments-link">
-                                       <a href="#">No Comments</a>
-                                    </span>
-                                 </div>
-                              </li>
-                           </ul>
-                        </aside>
-                     </div>
-                     <div class="col-lg-3 col-md-6">
-                        <aside class="widget widget_newslatter">
-                           <h3 class="widget-title">SUBSCRIBE US</h3>
-                           <div class="widget-text">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                           </div>
-                           <form class="newslatter-form">
-                              <input type="email" name="s" placeholder="Your Email..">
-                              <input type="submit" name="s" value="SUBSCRIBE NOW">
-                           </form>
-                        </aside>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="buttom-footer">
-               <div class="container">
-                  <div class="row align-items-center">
-                     <div class="col-md-5">
-                        <div class="footer-menu">
-                           <ul>
-                              <li>
-                                 <a href="#">Privacy Policy</a>
-                              </li>
-                              <li>
-                                 <a href="#">Term & Condition</a>
-                              </li>
-                              <li>
-                                 <a href="#">FAQ</a>
-                              </li>
-                           </ul>
-                        </div>
-                     </div>
-                     <div class="col-md-2 text-center">
-                        <div class="footer-logo">
-                           <a href="#"><img src="assets/images/travele-logo.png" alt=""></a>
-                        </div>
-                     </div>
-                     <div class="col-md-5">
-                        <div class="copy-right text-right">Copyright © 2021 Travele. All rights reserveds</div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </footer>
-         <a id="backTotop" href="#" class="to-top-icon">
-            <i class="fas fa-chevron-up"></i>
-         </a>
-         <!-- custom search field html -->
-            <div class="header-search-form">
-               <div class="container">
-                  <div class="header-search-container">
-                     <form class="search-form" role="search" method="get" >
-                        <input type="text" name="s" placeholder="Enter your text...">
-                     </form>
-                     <a href="#" class="search-close">
-                        <i class="fas fa-times"></i>
-                     </a>
-                  </div>
-               </div>
-            </div>
-         <!-- header html end -->
+        
       </div>
 
-      <!-- JavaScript -->
-      <script src="assets/js/jquery.js"></script>
-      <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-      <script src="assets/vendors/bootstrap/js/bootstrap.min.js"></script>
-      <script src="assets/vendors/jquery-ui/jquery-ui.min.js"></script>
-      <script src="assets/vendors/countdown-date-loop-counter/loopcounter.js"></script>
-      <script src="assets/js/jquery.counterup.js"></script>
-      <script src="assets/vendors/modal-video/jquery-modal-video.min.js"></script>
-      <script src="assets/vendors/masonry/masonry.pkgd.min.js"></script>
-      <script src="assets/vendors/lightbox/dist/js/lightbox.min.js"></script>
-      <script src="assets/vendors/slick/slick.min.js"></script>
-      <script src="assets/js/jquery.slicknav.js"></script>
-      <script src="assets/js/custom.min.js"></script>
-   </body>
-</html>
+@endsection
