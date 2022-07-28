@@ -113,7 +113,7 @@
                </div>
              <div class="col-md-4 text-left">
                 <div class="footer-logo">
-                   <a href="#"><img class=""src="assets/images/tent-rem.png" alt="" style="max-width: 257px;position: absolute;top: -290px;buttom: -190px;left: -54px;transform: translate(9px, 98px);"></a>
+                   <a href="#"><img class=""src="assets/images/tent-rem.png" alt="" style="max-width: 257px;position: absolute;top: -290px;buttom: -190px;left: -54px;transform: translate(9px, 98px); animation:up-down 2s ease-in-out infinite alternate-reverse both;"></a>
                 </div>
              </div>
              
