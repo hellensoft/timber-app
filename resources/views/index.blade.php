@@ -3,11 +3,11 @@
 @section('contents')
  
    <body class="home">
-      <div id="siteLoader" class="site-loader">
+      {{-- <div id="siteLoader" class="site-loader">
          <div class="preloader-content">
             <img src="{{asset('assets/images/loader1.gif')}}" alt="">
          </div>
-      </div>
+      </div> --}}
       <div id="page" class="full-page">
         
          <main id="content" class="site-main">
@@ -76,22 +76,27 @@
                </div>
             </div>
             <!-- search search field html end -->
-            <section class="destination-section">
+            <section class="destination-section" style="padding-bottom: 51px">
                <div class="container">
                   <div class="section-heading">
                      <div class="row align-items-end">
-                        <div class="col-lg-7">
-                           <h5 class="dash-style">POPULAR DESTINATION</h5>
-                           <h2>TOP NOTCH DESTINATION</h2>
-                        </div>
-                        <div class="col-lg-5">
-                           <div class="section-disc">
-                               Aperiam sociosqu urna praesent, tristique, corrupti condimentum asperiores platea ipsum ad arcu. Nostrud. Aut nostrum, ornare quas provident laoreet nesciunt.
+                        <div class="col-lg-8">
+                           <h5 class="dash-style">Adventures Calling You</h5>
+                           <h2 style="font-size: 35px ">Kilimanjaro safari & adventures</h2>
+                           <div class="section-disc" style="color: black;">
+                             <br>
+                              <p>Timber Wolf Adventure is a Tanzanian based Tour Operator located in Arusha.
+                              We specialize in both Treks and Safari to all Tanzania destinations 
+                              and we offer you the unique opportunity to climb Mt. Kilimanjaro and 
+                              to explore the African plains with an experienced native team that 
+                              offers top quality large tour operator service and safety at local 
+                              tour operator prices
+                              </p>
                            </div>
                         </div>
                      </div>
                   </div>
-                  <div class="destination-inner destination-three-column">
+                  {{-- <div class="destination-inner destination-three-column">
                      <div class="row">
                         <div class="col-lg-7">
                            <div class="row">
@@ -177,18 +182,23 @@
                      <div class="btn-wrap text-center">
                         <a href="#" class="button-primary">MORE DESTINATION</a>
                      </div>
-                  </div>
+                  </div> --}}
                </div>
             </section>
             <!-- Home packages section html start -->
-            <section class="package-section">
+            <section class="package-section" style='padding-bottom: 50px;'>
                <div class="container">
                   <div class="section-heading text-center">
                      <div class="row">
                         <div class="col-lg-8 offset-lg-2">
                            <h5 class="dash-style">EXPLORE GREAT PLACES</h5>
-                           <h2>POPULAR PACKAGES</h2>
-                           <p>Mollit voluptatem perspiciatis convallis elementum corporis quo veritatis aliquid blandit, blandit torquent, odit placeat. Adipiscing repudiandae eius cursus? Nostrum magnis maxime curae placeat.</p>
+                           <h2>OUR POPULAR TOURS</h2>
+                           <p>Here are our Tanzania safari tours presented by popularity and demand. 
+                              Whether you’re still snooping around for information or your heart’s set out for the 
+                              Great Migration Safari; or feel like conquering Mount Kilimanjaro, 
+                              we’ve narrowed them into categories to help you choose!
+
+                           </p>
                         </div>
                      </div>
                   </div>
@@ -203,10 +213,348 @@
                               </figure>
                               <div class="package-price">
                                  <h6>
-                                    <span>$1,900 </span> / per person
+                                    <span>$2,080 </span> / per person
                                  </h6>
                               </div>
                               <div class="package-content-wrap">
+                                 <div class="package-meta text-center">
+                                    <ul>
+                                       <li>
+                                          <i class="far fa-clock"></i>
+                                          8 Days/7 Nights
+                                       </li>
+                                       
+                                       <li>
+                                          <i class="fas fa-map-marker-alt"></i>
+                                          Tanzania
+                                       </li>
+                                    </ul>
+                                 </div>
+                                 <div class="package-content">
+                                    <h3>
+                                       <a href="#">Tetema Tour</a>
+                                    </h3>
+                                    {{-- <div class="review-area">
+                                       <span class="review-text">(25 reviews)</span>
+                                       <div class="rating-start" title="Rated 5 out of 5">
+                                          <span style="width: 60%"></span>
+                                       </div>
+                                    </div> --}}
+                                    <p>Manyara | Lake Eyasi | Ngorongoro | Serengeti | Visit Village.</p>
+                                    <div class="btn-wrap">
+                                       <a href="#" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
+                                       {{-- <a href="#" class="button-text width-6">Wish List<i class="far fa-heart"></i></a> --}}
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                           <div class="package-wrap">
+                              <figure class="feature-image">
+                                 <a href="#">
+                                    <img src="assets/images/img6.jpg" alt="">
+                                 </a>
+                              </figure>
+                              <div class="package-price">
+                                 <h6>
+                                    <span>$1,820 </span> / per person
+                                 </h6>
+                              </div>
+                              <div class="package-content-wrap">
+                                 <div class="package-meta text-center">
+                                    <ul>
+                                       <li>
+                                          <i class="far fa-clock"></i>
+                                          7 Days/6 Nights
+                                       </li>
+                                       
+                                       <li>
+                                          <i class="fas fa-map-marker-alt"></i>
+                                          Tanzania
+                                       </li>
+                                    </ul>
+                                 </div>
+                                 <div class="package-content">
+                                    <h3>
+                                       <a href="#">Pamoja Tour</a>
+                                    </h3>
+                                    {{-- <div class="review-area">
+                                       <span class="review-text">(25 reviews)</span>
+                                       <div class="rating-start" title="Rated 5 out of 5">
+                                          <span style="width: 60%"></span>
+                                       </div>
+                                    </div> --}}
+                                    <p>Manyara | Lake Eyasi | Ngorongoro | Serengeti.</p>
+                                    <div class="btn-wrap">
+                                       <a href="#" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
+                                       {{-- <a href="#" class="button-text width-6">Wish List<i class="far fa-heart"></i></a> --}}
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                           <div class="package-wrap">
+                              <figure class="feature-image">
+                                 <a href="#">
+                                    <img src="assets/images/img7.jpg" alt="">
+                                 </a>
+                              </figure>
+                              <div class="package-price">
+                                 <h6>
+                                    <span>$1,560 </span> / per person
+                                 </h6>
+                              </div>
+                              <div class="package-content-wrap">
+                                 <div class="package-meta text-center">
+                                    <ul>
+                                       <li>
+                                          <i class="far fa-clock"></i>
+                                          6 Days/5 Nights
+                                       </li>
+                                       
+                                       <li>
+                                          <i class="fas fa-map-marker-alt"></i>
+                                          Tanzania
+                                       </li>
+                                    </ul>
+                                 </div>
+                                 <div class="package-content">
+                                    <h3>
+                                       <a href="#">Rose Tour</a>
+                                    </h3>
+                                    {{-- <div class="review-area">
+                                       <span class="review-text">(25 reviews)</span>
+                                       <div class="rating-start" title="Rated 5 out of 5">
+                                          <span style="width: 60%"></span>
+                                       </div>
+                                    </div> --}}
+                                    <p>Tarangire | Lake Manyara | Serengeti | Ngorongoro Crater.</p>
+                                    <div class="btn-wrap">
+                                       <a href="#" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
+                                       {{-- <a href="#" class="button-text width-6">Wish List<i class="far fa-heart"></i></a> --}}
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                           <div class="package-wrap">
+                              <figure class="feature-image">
+                                 <a href="#">
+                                    <img src="assets/images/img5.jpg" alt="">
+                                 </a>
+                              </figure>
+                              <div class="package-price">
+                                 <h6>
+                                    <span>$1,300 </span> / per person
+                                 </h6>
+                              </div>
+                              <div class="package-content-wrap">
+                                 <div class="package-meta text-center">
+                                    <ul>
+                                       <li>
+                                          <i class="far fa-clock"></i>
+                                          5 Days/4 Nights
+                                       </li>
+                                       
+                                       <li>
+                                          <i class="fas fa-map-marker-alt"></i>
+                                          Tanzania
+                                       </li>
+                                    </ul>
+                                 </div>
+                                 <div class="package-content">
+                                    <h3>
+                                       <a href="#">Ansi Tour</a>
+                                    </h3>
+                                    {{-- <div class="review-area">
+                                       <span class="review-text">(25 reviews)</span>
+                                       <div class="rating-start" title="Rated 5 out of 5">
+                                          <span style="width: 60%"></span>
+                                       </div>
+                                    </div> --}}
+                                    <p>Lake Manyara | Serengeti | Ngorongoro Crater.</p>
+                                    <div class="btn-wrap">
+                                       <a href="#" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
+                                       {{-- <a href="#" class="button-text width-6">Wish List<i class="far fa-heart"></i></a> --}}
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                           <div class="package-wrap">
+                              <figure class="feature-image">
+                                 <a href="#">
+                                    <img src="assets/images/img6.jpg" alt="">
+                                 </a>
+                              </figure>
+                              <div class="package-price">
+                                 <h6>
+                                    <span>$1,040 </span> / per person
+                                 </h6>
+                              </div>
+                              <div class="package-content-wrap">
+                                 <div class="package-meta text-center">
+                                    <ul>
+                                       <li>
+                                          <i class="far fa-clock"></i>
+                                          4 Days/3 Nights
+                                       </li>
+                                       
+                                       <li>
+                                          <i class="fas fa-map-marker-alt"></i>
+                                          Tanzania
+                                       </li>
+                                    </ul>
+                                 </div>
+                                 <div class="package-content">
+                                    <h3>
+                                       <a href="#">Lina Tour</a>
+                                    </h3>
+                                    {{-- <div class="review-area">
+                                       <span class="review-text">(25 reviews)</span>
+                                       <div class="rating-start" title="Rated 5 out of 5">
+                                          <span style="width: 60%"></span>
+                                       </div>
+                                    </div> --}}
+                                    <p>Lake Manyara | Serengeti | Ngorongoro Crater.</p>
+                                    <div class="btn-wrap">
+                                       <a href="#" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
+                                       {{-- <a href="#" class="button-text width-6">Wish List<i class="far fa-heart"></i></a> --}}
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                           <div class="package-wrap">
+                              <figure class="feature-image">
+                                 <a href="#">
+                                    <img src="assets/images/img7.jpg" alt="">
+                                 </a>
+                              </figure>
+                              <div class="package-price">
+                                 <h6>
+                                    <span>$750 </span> / per person
+                                 </h6>
+                              </div>
+                              <div class="package-content-wrap">
+                                 <div class="package-meta text-center">
+                                    <ul>
+                                       <li>
+                                          <i class="far fa-clock"></i>
+                                          3 Days/2 Nights
+                                       </li>
+                                       
+                                       <li>
+                                          <i class="fas fa-map-marker-alt"></i>
+                                          Tanzania
+                                       </li>
+                                    </ul>
+                                 </div>
+                                 <div class="package-content">
+                                    <h3>
+                                       <a href="#">Sharma Tour</a>
+                                    </h3>
+                                    {{-- <div class="review-area">
+                                       <span class="review-text">(25 reviews)</span>
+                                       <div class="rating-start" title="Rated 5 out of 5">
+                                          <span style="width: 60%"></span>
+                                       </div>
+                                    </div> --}}
+                                    <p>Lake Manyara | Serengeti | Ngorongoro Crater.</p>
+                                    <div class="btn-wrap">
+                                       <a href="#" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
+                                       {{-- <a href="#" class="button-text width-6">Wish List<i class="far fa-heart"></i></a> --}}
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     {{-- <div class="btn-wrap text-center">
+                        <a href="#" class="button-primary">VIEW ALL PACKAGES</a>
+                     </div> --}}
+                  </div>
+               </div>
+            </section>
+            <!-- packages html end -->
+              <!-- Home packages section html start -->
+              <section class="package-section bg-light-grey" style='padding-bottom: 150px;'>
+               <div class="container">
+                  <div class="section-heading text-center">
+                     <div class="row">
+                        <div class="col-lg-8 offset-lg-2">
+                           <h5 class="dash-style">EXPLORE GREAT ADVENTURES</h5>
+                           <h2>POPULAR DESTINATIONs</h2>
+                           <div class="title-icon-divider"><i class="fas fa-suitcase-rolling"></i></div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="package-inner package-inner-list">
+                     <div class="row">
+                        <div class="col-lg-6">
+                           <div class="package-wrap package-wrap-list">
+                              <figure class="feature-image">
+                                 <a href="#">
+                                    <img src="assets/images/img9.jpg" alt="">
+                                 </a>
+                                 {{-- <div class="package-price">
+                                    <h6>
+                                       <span style='color: #E95B34'>$1,900</span> <span style='color: #E95B34'>pers</span>
+                                    </h6>
+                                 </div> --}}
+                                 {{-- <div class="package-meta text-center">
+                                    <ul>
+                                       <li style='color: #1D293'>
+                                          <i > </i>
+                                          
+                                       </li>
+                                       <li>
+                                          <i class="fas fa-user-friends"></i>
+                                          People: 5
+                                       </li>
+                                       <li>
+                                          <i class="fas fa-map-marker-alt"></i>
+                                          Malaysia
+                                       </li>
+                                    </ul>
+                                 </div> --}}
+                              </figure>
+                              <div class="package-content">
+                                 <h3>
+                                    <a href="#">Lake Tarangire</a>
+                                 </h3>
+                                 <div class="review-area">
+                                    {{-- <span class="review-text">(25 reviews)</span> --}}
+                                    <div class="rating-start" >
+                                       <span style="width: 60%"></span>
+                                    </div>
+                                 </div>
+                                 <p>It is covered by grasslands, traditional baobab trees, doum palms, acacia woodlands and river crossing.</p>
+                                 <div class="btn-wrap">
+                                    <a href="#" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
+                                    {{-- <a href="#" class="button-text width-6">Wish List<i class="far fa-heart"></i></a> --}}
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-6">
+                           <div class="package-wrap package-wrap-list">
+                              <figure class="feature-image">
+                                 <a href="#">
+                                    <img src="assets/images/img10.jpg" alt="">
+                                 </a>
+                                 <div class="package-price">
+                                    <h6>
+                                       <span>$1,350 </span> / per person
+                                    </h6>
+                                 </div>
                                  <div class="package-meta text-center">
                                     <ul>
                                        <li>
@@ -223,131 +571,128 @@
                                        </li>
                                     </ul>
                                  </div>
-                                 <div class="package-content">
-                                    <h3>
-                                       <a href="#">Sunset view of beautiful lakeside resident</a>
-                                    </h3>
-                                    <div class="review-area">
-                                       <span class="review-text">(25 reviews)</span>
-                                       <div class="rating-start" title="Rated 5 out of 5">
-                                          <span style="width: 60%"></span>
-                                       </div>
+                              </figure>
+                              <div class="package-content">
+                                 <h3>
+                                    <a href="#">Holiday to the Oxolotan River</a>
+                                 </h3>
+                                 <div class="review-area">
+                                    <span class="review-text">(22 reviews)</span>
+                                    <div class="rating-start" title="Rated 5 out of 5">
+                                       <span style="width: 80%"></span>
                                     </div>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit luctus nec ullam. Ut elit tellus, luctus nec ullam elit tellpus.</p>
-                                    <div class="btn-wrap">
-                                       <a href="#" class="button-text width-6">Book Now<i class="fas fa-arrow-right"></i></a>
-                                       <a href="#" class="button-text width-6">Wish List<i class="far fa-heart"></i></a>
-                                    </div>
+                                 </div>
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit luctus nec ullam. Ut elit tellus, luctus nec ullam elit tellpus.</p>
+                                 <div class="btn-wrap">
+                                    <a href="#" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
+                                    {{-- <a href="#" class="button-text width-6">Wish List<i class="far fa-heart"></i></a> --}}
                                  </div>
                               </div>
                            </div>
                         </div>
-                        <div class="col-lg-4 col-md-6">
-                           <div class="package-wrap">
+                        <div class="col-lg-6">
+                           <div class="package-wrap package-wrap-list">
                               <figure class="feature-image">
                                  <a href="#">
-                                    <img src="assets/images/img6.jpg" alt="">
+                                    <img src="assets/images/img11.jpg" alt="">
                                  </a>
-                              </figure>
-                              <div class="package-price">
-                                 <h6>
-                                    <span>$1,230 </span> / per person
-                                 </h6>
-                              </div>
-                              <div class="package-content-wrap">
+                                 <div class="package-price">
+                                    <h6>
+                                       <span>$1,000 </span> / per person
+                                    </h6>
+                                 </div>
                                  <div class="package-meta text-center">
                                     <ul>
                                        <li>
                                           <i class="far fa-clock"></i>
-                                          5D/4N
+                                          7D/6N
                                        </li>
                                        <li>
                                           <i class="fas fa-user-friends"></i>
-                                          People: 8
+                                          People: 5
                                        </li>
                                        <li>
                                           <i class="fas fa-map-marker-alt"></i>
-                                          Canada
+                                          Malaysia
                                        </li>
                                     </ul>
                                  </div>
-                                 <div class="package-content">
-                                    <h3>
-                                       <a href="#">Experience the natural beauty of island</a>
-                                    </h3>
-                                    <div class="review-area">
-                                       <span class="review-text">(17 reviews)</span>
-                                       <div class="rating-start" title="Rated 5 out of 5">
-                                          <span style="width: 100%"></span>
-                                       </div>
+                              </figure>
+                              <div class="package-content">
+                                 <h3>
+                                    <a href="#">Experience the beauty of island</a>
+                                 </h3>
+                                 <div class="review-area">
+                                    <span class="review-text">(22 reviews)</span>
+                                    <div class="rating-start" title="Rated 5 out of 5">
+                                       <span style="width: 80%"></span>
                                     </div>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit luctus nec ullam. Ut elit tellus, luctus nec ullam elit tellpus.</p>
-                                    <div class="btn-wrap">
-                                       <a href="#" class="button-text width-6">Book Now<i class="fas fa-arrow-right"></i></a>
-                                       <a href="#" class="button-text width-6">Wish List<i class="far fa-heart"></i></a>
-                                    </div>
+                                 </div>
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit luctus nec ullam. Ut elit tellus, luctus nec ullam elit tellpus.</p>
+                                 <div class="btn-wrap">
+                                    <a href="#" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
+                                    {{-- <a href="#" class="button-text width-6">Wish List<i class="far fa-heart"></i></a> --}}
                                  </div>
                               </div>
                            </div>
                         </div>
-                        <div class="col-lg-4 col-md-6">
+                        <div class="col-lg-6">
                            <div class="package-wrap">
                               <figure class="feature-image">
                                  <a href="#">
-                                    <img src="assets/images/img7.jpg" alt="">
+                                    <img src="assets/images/img9.jpg" alt="">
                                  </a>
-                              </figure>
-                              <div class="package-price">
-                                 <h6>
-                                    <span>$2,000 </span> / per person
-                                 </h6>
-                              </div>
-                              <div class="package-content-wrap">
+                                 <div class="package-price">
+                                    <h6>
+                                       <span>$1,100 </span> / per person
+                                    </h6>
+                                 </div>
                                  <div class="package-meta text-center">
                                     <ul>
                                        <li>
                                           <i class="far fa-clock"></i>
-                                          6D/5N
+                                          7D/6N
                                        </li>
                                        <li>
                                           <i class="fas fa-user-friends"></i>
-                                          People: 6
+                                          People: 5
                                        </li>
                                        <li>
                                           <i class="fas fa-map-marker-alt"></i>
-                                          Portugal
+                                          Malaysia
                                        </li>
                                     </ul>
                                  </div>
-                                 <div class="package-content">
-                                    <h3>
-                                       <a href="#">Vacation to the water city of Portugal</a>
-                                    </h3>
-                                    <div class="review-area">
-                                       <span class="review-text">(22 reviews)</span>
-                                       <div class="rating-start" title="Rated 5 out of 5">
-                                          <span style="width: 80%"></span>
-                                       </div>
+                              </figure>
+                              <div class="package-content">
+                                 <h3>
+                                    <a href="#">Vacation to water city of Portugal</a>
+                                 </h3>
+                                 <div class="review-area">
+                                    <span class="review-text">(22 reviews)</span>
+                                    <div class="rating-start" title="Rated 5 out of 5">
+                                       <span style="width: 100%"></span>
                                     </div>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit luctus nec ullam. Ut elit tellus, luctus nec ullam elit tellpus.</p>
-                                    <div class="btn-wrap">
-                                       <a href="#" class="button-text width-6">Book Now<i class="fas fa-arrow-right"></i></a>
-                                       <a href="#" class="button-text width-6">Wish List<i class="far fa-heart"></i></a>
-                                    </div>
+                                 </div>
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit luctus nec ullam. Ut elit tellus, luctus nec ullam elit tellpus.</p>
+                                 <div class="btn-wrap">
+                                    <a href="#" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
+                                    {{-- <a href="#" class="button-text width-6">Wish List<i class="far fa-heart"></i></a> --}}
                                  </div>
                               </div>
                            </div>
                         </div>
                      </div>
-                     <div class="btn-wrap text-center">
+                     {{-- <div class="btn-wrap text-center">
                         <a href="#" class="button-primary">VIEW ALL PACKAGES</a>
-                     </div>
+                     </div> --}}
                   </div>
                </div>
             </section>
             <!-- packages html end -->
+
             <!-- Home callback section html start -->
-            <section class="callback-section">
+            {{-- <section class="callback-section">
                <div class="container">
                   <div class="row no-gutters align-items-center">
                      <div class="col-lg-5">
@@ -435,10 +780,76 @@
                      </div>
                   </div>
                </div>
+            </section> --}}
+
+            <section class="home-about-section" style='padding-bottom: 150px;'>
+               <div class="container">
+                  <div class="row">
+                     <div class="col-lg-7">
+                        <div class="about-img-wrap">
+                           <div class="about-img-left">
+                              <div class="about-content secondary-bg d-flex flex-wrap">
+                                 <h3>Something you want to know about us !!</h3>
+                                 <a href="#" class="button-primary">LEARN MORE</a>
+                              </div>
+                              <div class="about-img">
+                                 <img src="assets/images/img9.jpg" alt="">
+                              </div>
+                           </div>
+                           <div class="about-img-right">
+                              <div class="about-img">
+                                 <img src="assets/images/img12.jpg" alt="">
+                              </div>
+                              <div class="about-img">
+                                 <img src="assets/images/img34.jpg" alt="">
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-5">
+                        <div class="banner-content section-heading">
+                           <h5>INTRODUCTION ABOUT US</h5>
+                           <h2 class="banner-title">ULTIMATE GUIDE TO EPIC ADVENTURE</h2>
+                           <div class="title-icon-divider"><i class="fas fa-suitcase-rolling"></i></div>
+                           <p>Aperiam sociosqu urna praesent, tristique, corrupti condimentum asperiores platea ipsum ad arcu. Nostrud. Esse? Aut nostrum, ornare quas provident laoreet nesciunt odio voluptates etiam, omnis.</p>
+                        </div>
+                        <div class="about-service-container">
+                           <div class="about-service">
+                              <div class="about-service-icon">
+                                 <img src="assets/images/icon15.png" alt="">
+                              </div>
+                              <div class="about-service-content">
+                                 <h4>BEST PRICE GUARANTEED</h4>
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec.</p>
+                              </div>
+                           </div>
+                           <div class="about-service">
+                              <div class="about-service-icon">
+                                 <img src="assets/images/icon16.png" alt="">
+                              </div>
+                              <div class="about-service-content">
+                                 <h4>AMAZING DESTINATION</h4>
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec.</p>
+                              </div>
+                           </div>
+                           <div class="about-service">
+                              <div class="about-service-icon">
+                                 <img src="assets/images/icon17.png" alt="">
+                              </div>
+                              <div class="about-service-content">
+                                 <h4>PERSONAL SERVICES</h4>
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec.</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
             </section>
+
             <!-- callback html end -->
             <!-- Home activity section html start -->
-            <section class="activity-section activity-bg-image" style="background-image: url(assets/images/img23.jpg);">
+            <section class="activity-section activity-bg-image" style="background-image: url(assets/images/img23.jpg);padding-bottom: 150px;">
                <div class="container">
                   <div class="section-heading section-heading-white text-center">
                      <div class="row">
@@ -477,7 +888,7 @@
                               <h4>
                                  <a href="#">Trekking</a>
                               </h4>
-                              <p>12 Destination</p>
+                              <p style="color: #ffffff">12 Destination</p>
                            </div>
                         </div>
                      </div>
@@ -492,7 +903,7 @@
                               <h4>
                                  <a href="#">Camp Fire</a>
                               </h4>
-                              <p>7 Destination</p>
+                              <p style="color: #ffffff">7 Destination</p>
                            </div>
                         </div>
                      </div>
@@ -507,7 +918,7 @@
                               <h4>
                                  <a href="#">Off Road</a>
                               </h4>
-                              <p>15 Destination</p>
+                              <p style="color: #ffffff">15 Destination</p>
                            </div>
                         </div>
                      </div>
@@ -522,7 +933,7 @@
                               <h4>
                                  <a href="#">Camping</a>
                               </h4>
-                              <p>13 Destination</p>
+                              <p style="color: #ffffff">13 Destination</p>
                            </div>
                         </div>
                      </div>
@@ -537,7 +948,7 @@
                               <h4>
                                  <a href="#">Exploring</a>
                               </h4>
-                              <p>25 Destination</p>
+                              <p style="color: #ffffff">25 Destination</p>
                            </div>
                         </div>
                      </div>
@@ -545,9 +956,7 @@
                </div>
             </section>
 
-
-
-            <section class="activity-section">
+            {{-- <section class="activity-section">
                <div class="container">
                   <div class="section-heading text-center">
                      <div class="row">
@@ -651,7 +1060,8 @@
                      </div>
                   </div>
                </div>
-            </section>
+            </section> --}}
+
             <!-- activity html end -->
             <!-- Home special section html start -->
             {{-- <section class="special-section" style="background-image: url(assets/images/img23.jpg);">
@@ -789,38 +1199,39 @@
                </div>
             </section> --}}
             <!-- best html end -->
-            <!-- Home client section html start -->
-            <div class="client-section">
+
+            <!-- client html begin -->
+            <div class="client-section" style='padding-bottom: 200px; padding-top: 65px;'>
                <div class="container">
-                  <div class="client-wrap client-slider secondary-bg">
+                  <div class="client-wrap client-slider">
                      <div class="client-item">
                         <figure>
-                           <img src="assets/images/logo1.png" alt="">
+                           <img src="assets/images/logo7.png" alt="">
                         </figure>
                      </div>
                      <div class="client-item">
                         <figure>
-                           <img src="assets/images/logo2.png" alt="">
+                           <img src="assets/images/logo8.png" alt="">
                         </figure>
                      </div>
                      <div class="client-item">
                         <figure>
-                           <img src="assets/images/logo3.png" alt="">
+                           <img src="assets/images/logo9.png" alt="">
                         </figure>
                      </div>
                      <div class="client-item">
                         <figure>
-                           <img src="assets/images/logo4.png" alt="">
+                           <img src="assets/images/logo10.png" alt="">
                         </figure>
                      </div>
                      <div class="client-item">
                         <figure>
-                           <img src="assets/images/logo5.png" alt="">
+                           <img src="assets/images/logo11.png" alt="">
                         </figure>
                      </div>
                      <div class="client-item">
                         <figure>
-                           <img src="assets/images/logo2.png" alt="">
+                           <img src="assets/images/logo8.png" alt="">
                         </figure>
                      </div>
                   </div>
@@ -850,7 +1261,7 @@
             </section> --}}
             <!-- subscribe html end -->
             <!-- Home blog section html start -->
-            <section class="blog-section">
+            {{-- <section class="blog-section">
                <div class="container">
                   <div class="section-heading text-center">
                      <div class="row">
@@ -939,7 +1350,7 @@
                      </div>
                   </div>
                </div>
-            </section>
+            </section> --}}
             
             <!-- Home contact details section html start -->
             <section class="contact-section">

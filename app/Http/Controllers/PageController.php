@@ -12,5 +12,6 @@ class PageController extends Controller
     {
         return view('index');
     }
+    
 
 }

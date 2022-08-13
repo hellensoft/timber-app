@@ -17,4 +17,5 @@ Route::controller(PageController::class)->group(function(){
     Route::get('/', 'index');
     Route::get('index', 'index');
     Route::get('about', 'about');
+    
 });
