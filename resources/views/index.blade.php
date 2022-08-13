@@ -504,39 +504,14 @@
                                  <a href="#">
                                     <img src="assets/images/img9.jpg" alt="">
                                  </a>
-                                 {{-- <div class="package-price">
-                                    <h6>
-                                       <span style='color: #E95B34'>$1,900</span> <span style='color: #E95B34'>pers</span>
-                                    </h6>
-                                 </div> --}}
-                                 {{-- <div class="package-meta text-center">
-                                    <ul>
-                                       <li style='color: #1D293'>
-                                          <i > </i>
-                                          
-                                       </li>
-                                       <li>
-                                          <i class="fas fa-user-friends"></i>
-                                          People: 5
-                                       </li>
-                                       <li>
-                                          <i class="fas fa-map-marker-alt"></i>
-                                          Malaysia
-                                       </li>
-                                    </ul>
-                                 </div> --}}
+                              
                               </figure>
                               <div class="package-content">
                                  <h3>
-                                    <a href="#">Lake Tarangire</a>
+                                    <a href="#">Tarangire National Park</a>
                                  </h3>
-                                 <div class="review-area">
-                                    {{-- <span class="review-text">(25 reviews)</span> --}}
-                                    <div class="rating-start" >
-                                       <span style="width: 60%"></span>
-                                    </div>
-                                 </div>
-                                 <p>It is covered by grasslands, traditional baobab trees, doum palms, acacia woodlands and river crossing.</p>
+                                 <br>
+                                 <p>It is the sixth largest national park in Tanzania, located in Manyara Region. Covering an area of approximately 2,850 sq. km (1,100 sq. miles).</p>
                                  <div class="btn-wrap">
                                     <a href="#" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
                                     {{-- <a href="#" class="button-text width-6">Wish List<i class="far fa-heart"></i></a> --}}
@@ -546,135 +521,18 @@
                         </div>
                         <div class="col-lg-6">
                            <div class="package-wrap package-wrap-list">
-                              <figure class="feature-image">
-                                 <a href="#">
-                                    <img src="assets/images/img10.jpg" alt="">
-                                 </a>
-                                 <div class="package-price">
-                                    <h6>
-                                       <span>$1,350 </span> / per person
-                                    </h6>
-                                 </div>
-                                 <div class="package-meta text-center">
-                                    <ul>
-                                       <li>
-                                          <i class="far fa-clock"></i>
-                                          7D/6N
-                                       </li>
-                                       <li>
-                                          <i class="fas fa-user-friends"></i>
-                                          People: 5
-                                       </li>
-                                       <li>
-                                          <i class="fas fa-map-marker-alt"></i>
-                                          Malaysia
-                                       </li>
-                                    </ul>
-                                 </div>
-                              </figure>
-                              <div class="package-content">
-                                 <h3>
-                                    <a href="#">Holiday to the Oxolotan River</a>
-                                 </h3>
-                                 <div class="review-area">
-                                    <span class="review-text">(22 reviews)</span>
-                                    <div class="rating-start" title="Rated 5 out of 5">
-                                       <span style="width: 80%"></span>
-                                    </div>
-                                 </div>
-                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit luctus nec ullam. Ut elit tellus, luctus nec ullam elit tellpus.</p>
-                                 <div class="btn-wrap">
-                                    <a href="#" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
-                                    {{-- <a href="#" class="button-text width-6">Wish List<i class="far fa-heart"></i></a> --}}
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="col-lg-6">
-                           <div class="package-wrap package-wrap-list">
-                              <figure class="feature-image">
-                                 <a href="#">
-                                    <img src="assets/images/img11.jpg" alt="">
-                                 </a>
-                                 <div class="package-price">
-                                    <h6>
-                                       <span>$1,000 </span> / per person
-                                    </h6>
-                                 </div>
-                                 <div class="package-meta text-center">
-                                    <ul>
-                                       <li>
-                                          <i class="far fa-clock"></i>
-                                          7D/6N
-                                       </li>
-                                       <li>
-                                          <i class="fas fa-user-friends"></i>
-                                          People: 5
-                                       </li>
-                                       <li>
-                                          <i class="fas fa-map-marker-alt"></i>
-                                          Malaysia
-                                       </li>
-                                    </ul>
-                                 </div>
-                              </figure>
-                              <div class="package-content">
-                                 <h3>
-                                    <a href="#">Experience the beauty of island</a>
-                                 </h3>
-                                 <div class="review-area">
-                                    <span class="review-text">(22 reviews)</span>
-                                    <div class="rating-start" title="Rated 5 out of 5">
-                                       <span style="width: 80%"></span>
-                                    </div>
-                                 </div>
-                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit luctus nec ullam. Ut elit tellus, luctus nec ullam elit tellpus.</p>
-                                 <div class="btn-wrap">
-                                    <a href="#" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
-                                    {{-- <a href="#" class="button-text width-6">Wish List<i class="far fa-heart"></i></a> --}}
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="col-lg-6">
-                           <div class="package-wrap">
                               <figure class="feature-image">
                                  <a href="#">
                                     <img src="assets/images/img9.jpg" alt="">
                                  </a>
-                                 <div class="package-price">
-                                    <h6>
-                                       <span>$1,100 </span> / per person
-                                    </h6>
-                                 </div>
-                                 <div class="package-meta text-center">
-                                    <ul>
-                                       <li>
-                                          <i class="far fa-clock"></i>
-                                          7D/6N
-                                       </li>
-                                       <li>
-                                          <i class="fas fa-user-friends"></i>
-                                          People: 5
-                                       </li>
-                                       <li>
-                                          <i class="fas fa-map-marker-alt"></i>
-                                          Malaysia
-                                       </li>
-                                    </ul>
-                                 </div>
+                              
                               </figure>
                               <div class="package-content">
                                  <h3>
-                                    <a href="#">Vacation to water city of Portugal</a>
+                                    <a href="#">Manyara National Park</a>
                                  </h3>
-                                 <div class="review-area">
-                                    <span class="review-text">(22 reviews)</span>
-                                    <div class="rating-start" title="Rated 5 out of 5">
-                                       <span style="width: 100%"></span>
-                                    </div>
-                                 </div>
-                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit luctus nec ullam. Ut elit tellus, luctus nec ullam elit tellpus.</p>
+                                 <br>
+                                 <p>Located in both Arusha Region and Manyara Region, Tanzania. The park consists of 330 sq. km (127 sq. miles) of arid land, forest, and a soda-lake land.</p>
                                  <div class="btn-wrap">
                                     <a href="#" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
                                     {{-- <a href="#" class="button-text width-6">Wish List<i class="far fa-heart"></i></a> --}}
@@ -682,10 +540,49 @@
                               </div>
                            </div>
                         </div>
-                     </div>
-                     {{-- <div class="btn-wrap text-center">
-                        <a href="#" class="button-primary">VIEW ALL PACKAGES</a>
-                     </div> --}}
+                        <div class="col-lg-6">
+                           <div class="package-wrap package-wrap-list">
+                              <figure class="feature-image">
+                                 <a href="#">
+                                    <img src="assets/images/img9.jpg" alt="">
+                                 </a>
+                              
+                              </figure>
+                              <div class="package-content">
+                                 <h3>
+                                    <a href="#">Arusha National Park</a>
+                                 </h3>
+                                 <br>
+                                 <p>The only place on the northern safari circuit where the acrobatic black-and-white colobus monkeys are easily seen, Arusha national park is a multi faceted jewel.</p>
+                                 <div class="btn-wrap">
+                                    <a href="#" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
+                                    {{-- <a href="#" class="button-text width-6">Wish List<i class="far fa-heart"></i></a> --}}
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-6">
+                           <div class="package-wrap package-wrap-list">
+                              <figure class="feature-image">
+                                 <a href="#">
+                                    <img src="assets/images/img9.jpg" alt="">
+                                 </a>
+                              
+                              </figure>
+                              <div class="package-content">
+                                 <h3>
+                                    <a href="#">Ngorongoro National Park</a>
+                                 </h3>
+                                 <br>
+                                 <p>The area is named after Ngorongoro Crater, a large volcanic caldera within the area. It is located 180 km (110 mi) west of Arusha in the Crater Highlands area of Tanzania.</p>
+                                 <div class="btn-wrap">
+                                    <a href="#" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
+                                    {{-- <a href="#" class="button-text width-6">Wish List<i class="far fa-heart"></i></a> --}}
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>  
                   </div>
                </div>
             </section>
@@ -789,8 +686,8 @@
                         <div class="about-img-wrap">
                            <div class="about-img-left">
                               <div class="about-content secondary-bg d-flex flex-wrap">
-                                 <h3>Something you want to know about us !!</h3>
-                                 <a href="#" class="button-primary">LEARN MORE</a>
+                                 <h3>Timber Wolf Adventures</h3>
+                                 <a class="button-primary" style='color: #E95B34'>LEARN MORE</a>
                               </div>
                               <div class="about-img">
                                  <img src="assets/images/img9.jpg" alt="">
@@ -809,9 +706,9 @@
                      <div class="col-lg-5">
                         <div class="banner-content section-heading">
                            <h5>INTRODUCTION ABOUT US</h5>
-                           <h2 class="banner-title">ULTIMATE GUIDE TO EPIC ADVENTURE</h2>
+                           <h2 class="banner-title">MAKE THE BEST OF YOUR HOLIDAY</h2>
                            <div class="title-icon-divider"><i class="fas fa-suitcase-rolling"></i></div>
-                           <p>Aperiam sociosqu urna praesent, tristique, corrupti condimentum asperiores platea ipsum ad arcu. Nostrud. Esse? Aut nostrum, ornare quas provident laoreet nesciunt odio voluptates etiam, omnis.</p>
+                           <p>Timber Wolf Adventure is a Tanzanian based Tour Operator located in Arusha. Specializing in both Treks and Safari to all Tanzania destinations.</p>
                         </div>
                         <div class="about-service-container">
                            <div class="about-service">
@@ -819,8 +716,8 @@
                                  <img src="assets/images/icon15.png" alt="">
                               </div>
                               <div class="about-service-content">
-                                 <h4>BEST PRICE GUARANTEED</h4>
-                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec.</p>
+                                 <h4>EXPERTS ON TOURS</h4>
+                                 <p>Experienced Guides and Drivers with expert knowledge about Africa, nature, and wildlife.</p>
                               </div>
                            </div>
                            <div class="about-service">
@@ -828,8 +725,8 @@
                                  <img src="assets/images/icon16.png" alt="">
                               </div>
                               <div class="about-service-content">
-                                 <h4>AMAZING DESTINATION</h4>
-                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec.</p>
+                                 <h4>QUALITY ACCOMODATIONS</h4>
+                                 <p>Luxury Hotels/Camps/Lodges will be arranged for you.You will be provided with quality services.</p>
                               </div>
                            </div>
                            <div class="about-service">
@@ -837,8 +734,8 @@
                                  <img src="assets/images/icon17.png" alt="">
                               </div>
                               <div class="about-service-content">
-                                 <h4>PERSONAL SERVICES</h4>
-                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec.</p>
+                                 <h4>COMFORTABLE TRANSPORT</h4>
+                                 <p>Good condition Luxury Landcruiser 4x4 will be provided for your safari and Game drive.</p>
                               </div>
                            </div>
                         </div>
@@ -854,8 +751,8 @@
                   <div class="section-heading section-heading-white text-center">
                      <div class="row">
                         <div class="col-lg-8 offset-lg-2">
-                           <h5 class="dash-style">EXPLORE GREAT PLACES</h5>
-                           <h2>ADVENTURE & ACTIVITY</h2>
+                           <h5 class="dash-style">YOUR ADVENTURES AWAITS</h5>
+                           <h2>ADVENTURES & ACTIVITIES</h2>
                            <p>Mollit voluptatem perspiciatis convallis elementum corporis quo veritatis aliquid blandit, blandit torquent, odit placeat. Adipiscing repudiandae eius cursus? Nostrum magnis maxime curae placeat.</p>
                            <div class="title-icon-divider"><i class="fas fa-suitcase-rolling"></i></div>
                         </div>
@@ -871,9 +768,9 @@
                            </div>
                            <div class="activity-content">
                               <h4>
-                                 <a href="#">Adventure</a>
+                                 <a href="#">Adventures</a>
                               </h4>
-                              <p style="color: #ffffff">15 Destination</p>
+                              {{-- <p style="color: #ffffff">15 Destination</p> --}}
                            </div>
                         </div>
                      </div>
@@ -888,7 +785,7 @@
                               <h4>
                                  <a href="#">Trekking</a>
                               </h4>
-                              <p style="color: #ffffff">12 Destination</p>
+                              {{-- <p style="color: #ffffff">12 Destination</p> --}}
                            </div>
                         </div>
                      </div>
@@ -903,7 +800,7 @@
                               <h4>
                                  <a href="#">Camp Fire</a>
                               </h4>
-                              <p style="color: #ffffff">7 Destination</p>
+                              {{-- <p style="color: #ffffff">7 Destination</p> --}}
                            </div>
                         </div>
                      </div>
@@ -918,7 +815,7 @@
                               <h4>
                                  <a href="#">Off Road</a>
                               </h4>
-                              <p style="color: #ffffff">15 Destination</p>
+                              {{-- <p style="color: #ffffff">15 Destination</p> --}}
                            </div>
                         </div>
                      </div>
@@ -933,7 +830,7 @@
                               <h4>
                                  <a href="#">Camping</a>
                               </h4>
-                              <p style="color: #ffffff">13 Destination</p>
+                              {{-- <p style="color: #ffffff">13 Destination</p> --}}
                            </div>
                         </div>
                      </div>
@@ -948,7 +845,7 @@
                               <h4>
                                  <a href="#">Exploring</a>
                               </h4>
-                              <p style="color: #ffffff">25 Destination</p>
+                              {{-- <p style="color: #ffffff">25 Destination</p> --}}
                            </div>
                         </div>
                      </div>
