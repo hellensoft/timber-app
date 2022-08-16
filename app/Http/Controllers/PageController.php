@@ -12,6 +12,11 @@ class PageController extends Controller
     {
         return view('index');
     }
+
+    public function tetema()
+    {
+        return view('tours.tetema');
+    }
     
 
 }

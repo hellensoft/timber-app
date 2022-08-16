@@ -15,60 +15,64 @@
              <nav id="navigation" class="navigation">
                 <ul>
                    <li class="menu">
-                      <a href="">Home</a>
+                      <a href="{{ route('index') }}">Home</a>
                    </li>
                    <li class="menu">
                      <a href="about.html">About</a>
                   </li>
                    <li class="menu-item-has-children">
-                      <a href="#">Tour</a>
+                      <a href="">Tour</a>
                       <ul>
                          <li>
-                            <a href="destination.html">Destination</a>
+                            <a href="{{ route('tetema') }}">Tetema Tour</a>
                          </li>
                          <li>
-                            <a href="tour-packages.html">Tour Packages</a>
+                            <a href="tour-packages.html">Pamoja Tour</a>
                          </li>
                          <li>
-                            <a href="package-offer.html">Package Offer</a>
+                            <a href="package-offer.html">Rose Tour</a>
                          </li>
                          <li>
-                            <a href="package-detail.html">Package Detail</a>
+                            <a href="package-detail.html">Ansi Tour</a>
                          </li>
                          <li>
-                            <a href="tour-cart.html">Tour Cart</a>
+                            <a href="tour-cart.html">Lina Tour</a>
                          </li>
                          <li>
-                            <a href="booking.html">Package Booking</a>
-                         </li>
-                         <li>
-                            <a href="confirmation.html">Confirmation</a>
+                            <a href="booking.html">Sharma Tour</a>
                          </li>
                       </ul>
                    </li>
                    <li class="menu-item-has-children">
-                      <a href="#">Pages</a>
+                     <a href="#">Destination</a>
+                     <ul>
+                        <li>
+                           <a href="destination.html">Tarangire National Park</a>
+                        </li>
+                        <li>
+                           <a href="tour-packages.html">Manyara National Park</a>
+                        </li>
+                        <li>
+                           <a href="package-offer.html">Arusha National Park</a>
+                        </li>
+                        <li>
+                           <a href="package-detail.html">Ngorongoro National Park</a>
+                        </li>
+                     </ul>
+                  </li>
+                   <li class="menu-item-has-children">
+                      <a href="#">Adventures</a>
                       <ul>
                        
                          <li>
-                            <a href="service.html">Service</a>
+                            <a href="service.html">Trekking</a>
                          </li>
                          <li>
-                            <a href="career.html">Career</a>
+                            <a href="career.html">Camping</a>
                          </li>
                          <li>
-                            <a href="career-detail.html">Career Detail</a>
+                            <a href="career-detail.html">Cultural Activities</a>
                          </li>
-                         <li>
-                            <a href="tour-guide.html">Tour Guide</a>
-                         </li>
-                         <li>
-                            <a href="gallery.html">Gallery</a>
-                         </li>
-                         <li>
-                            <a href="single-page.html">Single Page</a>
-                         </li>
-                       
                       </ul>
                    </li>
                    
