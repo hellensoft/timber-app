@@ -53,7 +53,7 @@
                             <a class="nav-link" id="review-tab" data-toggle="tab" href="#review" role="tab" aria-controls="review" aria-selected="false">REVIEW</a>
                          </li> --}}
                          <li class="nav-item">
-                            <a class="nav-link" id="map1-tab" data-toggle="tab" href="#map" role="tab" aria-controls="map1" aria-selected="false">Map1</a>
+                            <a class="nav-link" id="map-tab" data-toggle="tab" href="#map" role="tab" aria-controls="map1" aria-selected="false">Map1</a>
                          </li>
                          <li class="nav-item">
                            <a class="nav-link" id="map-tab" data-toggle="tab" href="#map" role="tab" aria-controls="map" aria-selected="false">Map</a>
