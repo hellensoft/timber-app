@@ -15,7 +15,7 @@
              <nav id="navigation" class="navigation">
                 <ul>
                    <li class="menu">
-                      <a href="{{ URL ::to('index') }}">Home</a>
+                      <a href="{{URL::to('index')}}">Home</a>
                    </li>
                    <li class="menu">
                      <a href="about.html">About</a>
@@ -24,7 +24,7 @@
                       <a href="">Tour</a>
                       <ul>
                          <li>
-                            <a href="{{ URL ::to('tetema') }}">Tetema Tour</a>
+                            <a href="{{ URL::to('tetema') }}">Tetema Tour</a>
                          </li>
                          <li>
                             <a href="tour-packages.html">Pamoja Tour</a>

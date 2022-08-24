@@ -1103,20 +1103,20 @@
                   <div class="client-wrap client-slider">
                      <div class="client-item">
                         <figure>
-                           <img src="assets/images/logo7.png" alt="">
+                           <img src="assets/images/safari_booking_logo.png" alt="">
                         </figure>
                      </div>
                      <div class="client-item">
                         <figure>
-                           <img src="assets/images/logo8.png" alt="">
+                           <img src="assets/images/safarigo_logo.png" alt="">
                         </figure>
                      </div>
                      <div class="client-item">
                         <figure>
-                           <img src="assets/images/logo9.png" alt="">
+                           <img src="assets/images/Tripadvisor-Logo.jpeg" alt="">
                         </figure>
                      </div>
-                     <div class="client-item">
+                     {{-- <div class="client-item">
                         <figure>
                            <img src="assets/images/logo10.png" alt="">
                         </figure>
@@ -1130,7 +1130,7 @@
                         <figure>
                            <img src="assets/images/logo8.png" alt="">
                         </figure>
-                     </div>
+                     </div> --}}
                   </div>
                </div>
             </div>

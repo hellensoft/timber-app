@@ -9,7 +9,7 @@
        <div class="inner-baner-container" style="background-image: url(assets/images/inner-banner.jpg);">
           <div class="container">
              <div class="inner-banner-content">
-                <h1 class="inner-title">Package Detail</h1>
+                <h1 class="inner-title">Tetema Tour</h1>
              </div>
           </div>
        </div>
@@ -21,22 +21,22 @@
           <div class="row">
              <div class="col-lg-8">
                 <div class="single-tour-inner">
-                   <h2>EXPERIENCE THE NATURAL BEAUTY OF ISLAND</h2>
+                   <h2>Experience Adventure</h2>
                    <figure class="feature-image">
                       <img src="assets/images/img27.jpg" alt="">
                       <div class="package-meta text-center">
                          <ul>
                             <li>
                                <i class="far fa-clock"></i>
-                               6 days / 5 night
+                               8 days / 7 night
                             </li>
-                            <li>
+                            {{-- <li>
                                <i class="fas fa-user-friends"></i>
                                People: 4
-                            </li>
+                            </li> --}}
                             <li>
                                <i class="fas fa-map-marked-alt"></i>
-                               Norway
+                               Tanzania
                             </li>
                          </ul>
                       </div>
@@ -49,19 +49,22 @@
                          <li class="nav-item">
                             <a class="nav-link" id="program-tab" data-toggle="tab" href="#program" role="tab" aria-controls="program" aria-selected="false">PROGRAM</a>
                          </li>
-                         <li class="nav-item">
+                         {{-- <li class="nav-item">
                             <a class="nav-link" id="review-tab" data-toggle="tab" href="#review" role="tab" aria-controls="review" aria-selected="false">REVIEW</a>
+                         </li> --}}
+                         <li class="nav-item">
+                            <a class="nav-link" id="map1-tab" data-toggle="tab" href="#map" role="tab" aria-controls="map1" aria-selected="false">Map1</a>
                          </li>
                          <li class="nav-item">
-                            <a class="nav-link" id="map-tab" data-toggle="tab" href="#map" role="tab" aria-controls="map" aria-selected="false">Map</a>
-                         </li>
+                           <a class="nav-link" id="map-tab" data-toggle="tab" href="#map" role="tab" aria-controls="map" aria-selected="false">Map</a>
+                        </li>
                       </ul>
                       <div class="tab-content" id="myTabContent">
                          <div class="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview-tab">
                             <div class="overview-content">
                                <p>Occaecat pariatur! Quaerat ligula, ab, consequuntur orci mus ultricies praesent aute blandit beatae nisl aut, totam mauris rhoncus? Tellus netus fringilla class auctor dui. Dolores excepteur, doloribus, blanditiis aliquip nisl. Occaecat iusto? Provident sociis rerum. Amet, asperiores molestie varius eos! Libero, fermentum fermentum totam! Sunt praesentium, totam. Excepteur platea nisl. Convallis aliquam? Iaculis erat ipsa molestie, quod, vestibulum reiciendis, maxime nostra, integer unde officiis quo integer unde officiis quo.</p>
                                <p>Occaecat pariatur! Quaerat ligula, ab, consequuntur orci mus ultricies praesent aute blandit beatae nisl aut, totam mauris rhoncus? Tellus netus fringilla class auctor dui. Dolores excepteur, doloribus, blanditiis aliquip nisl..</p>
-                               <ul>
+                               <ul style='color:#1D293F'>
                                  <li>- Travel cancellation insurance</li> 
                                  <li>- Breakfast and dinner included</li>
                                  <li>- Health care included</li>
@@ -108,120 +111,30 @@
                                </ul>
                             </div>
                          </div>
-                         <div class="tab-pane" id="review" role="tabpanel" aria-labelledby="review-tab">
-                            <div class="summary-review">
-                               <div class="review-score">
-                                  <span>4.9</span>
-                               </div>
-                               <div class="review-score-content">
-                                  <h3>
-                                     Excellent
-                                     <span>( Based on 24 reviews )</span>
-                                  </h3>
-                                  <p>Tincidunt iaculis pede mus lobortis hendrerit eveniet impedit aenean mauris qui, pharetra rem doloremque laboris euismod deserunt non, cupiditate, vestibulum.</p>
-                               </div>
-                            </div>
-                            <!-- review comment html -->
-                            <div class="comment-area">
-                               <h3 class="comment-title">3 Reviews</h3>
-                               <div class="comment-area-inner">
-                                  <ol>
-                                     <li>
-                                        <figure class="comment-thumb">
-                                           <img src="assets/images/img20.jpg" alt="">
-                                        </figure>
-                                        <div class="comment-content">
-                                           <div class="comment-header">
-                                              <h5 class="author-name">Tom Sawyer</h5>
-                                              <span class="post-on">Jana 10 2020</span>
-                                              <div class="rating-wrap">
-                                                 <div class="rating-start" title="Rated 5 out of 5">
-                                                    <span style="width: 90%;"></span>
-                                                 </div>
-                                              </div>
-                                           </div>
-                                           <p>Officia amet posuere voluptates, mollit montes eaque accusamus laboriosam quisque cupidatat dolor pariatur, pariatur auctor.</p>
-                                           <a href="#" class="reply"><i class="fas fa-reply"></i>Reply</a>
-                                        </div>
-                                     </li>
-                                     <li>
-                                        <ol>
-                                           <li>
-                                              <figure class="comment-thumb">
-                                                 <img src="assets/images/img21.jpg" alt="">
-                                              </figure>
-                                              <div class="comment-content">
-                                                 <div class="comment-header">
-                                                    <h5 class="author-name">John Doe</h5>
-                                                    <span class="post-on">Jana 10 2020</span>
-                                                    <div class="rating-wrap">
-                                                       <div class="rating-start" title="Rated 5 out of 5">
-                                                          <span style="width: 90%"></span>
-                                                       </div>
-                                                    </div>
-                                                 </div>
-                                                 <p>Officia amet posuere voluptates, mollit montes eaque accusamus laboriosam quisque cupidatat dolor pariatur, pariatur auctor.</p>
-                                                 <a href="#" class="reply"><i class="fas fa-reply"></i>Reply</a>
-                                              </div>
-                                           </li>
-                                        </ol>
-                                     </li>
-                                  </ol>
-                                  <ol>
-                                     <li>
-                                        <figure class="comment-thumb">
-                                           <img src="assets/images/img22.jpg" alt="">
-                                        </figure>
-                                        <div class="comment-content">
-                                           <div class="comment-header">
-                                              <h5 class="author-name">Jaan Smith</h5>
-                                              <span class="post-on">Jana 10 2020</span>
-                                              <div class="rating-wrap">
-                                                 <div class="rating-start" title="Rated 5 out of 5">
-                                                    <span></span>
-                                                 </div>
-                                              </div>
-                                           </div>
-                                           <p>Officia amet posuere voluptates, mollit montes eaque accusamus laboriosam quisque cupidatat dolor pariatur, pariatur auctor.</p>
-                                           <a href="#" class="reply"><i class="fas fa-reply"></i>Reply</a>
-                                        </div>
-                                     </li>
-                                  </ol>
-                               </div>
-                               <div class="comment-form-wrap">
-                                  <h3 class="comment-title">Leave a Review</h3>
-                                  <form class="comment-form">
-                                     <div class="full-width rate-wrap">
-                                        <label>Your rating</label>
-                                        <div class="procduct-rate">
-                                           <span></span>
-                                        </div>
-                                     </div>
-                                     <p>
-                                        <input type="text" name="name" placeholder="Name">
-                                     </p>
-                                     <p>
-                                        <input type="text" name="name" placeholder="Last name">
-                                     </p>
-                                     <p>
-                                        <input type="email" name="email" placeholder="Email">
-                                     </p>
-                                     <p>
-                                        <input type="text" name="subject" placeholder="Subject">
-                                     </p>
-                                     <p>
-                                        <textarea rows="6" placeholder="Your review"></textarea>
-                                     </p>
-                                     <p>
-                                        <input type="submit" name="submit" value="Submit">
-                                     </p>
-                                  </form>
-                               </div>
-                            </div>
-                         </div>
+                         <div class="tab-pane" id="map1" role="tabpanel" aria-labelledby="map1-tab">
+                           <div class="overview-content">
+                             <p>Tincidunt iaculis pede mus lobortis hendrerit eveniet impedit aenean mauris qui, pharetra rem doloremque laboris euismod deserunt non, cupiditate, vestibulum.</p>
+                             <ul style='color:#1D293F'>
+                                <li> - Travel cancellation insurance</li> 
+                                <li> - Breakfast and dinner included</li>
+                                <li> - Health care included</li>
+                                <li> - Transfer to the airport and return to the agency</li>
+                                <li> - Lorem ipsum dolor sit amet, consectetur adipiscing</li>
+                              </ul>
+                              {{-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60998820.06503915!2d95.3386452160086!3d-21.069765827214972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2b2bfd076787c5df%3A0x538267a1955b1352!2sAustralia!5e0!3m2!1sen!2snp!4v1579777829477!5m2!1sen!2snp" height="450" allowfullscreen=""></iframe> --}}
+                           </div>
+                        </div>
                          <div class="tab-pane" id="map" role="tabpanel" aria-labelledby="map-tab">
-                            <div class="map-area">
-                               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60998820.06503915!2d95.3386452160086!3d-21.069765827214972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2b2bfd076787c5df%3A0x538267a1955b1352!2sAustralia!5e0!3m2!1sen!2snp!4v1579777829477!5m2!1sen!2snp" height="450" allowfullscreen=""></iframe>
+                            <div class="overview-content">
+                              <p>Tincidunt iaculis pede mus lobortis hendrerit eveniet impedit aenean mauris qui, pharetra rem doloremque laboris euismod deserunt non, cupiditate, vestibulum.</p>
+                              <ul style='color:#1D293F'>
+                                 <li> - Travel cancellation insurance</li> 
+                                 <li> - Breakfast and dinner included</li>
+                                 <li> - Health care included</li>
+                                 <li> - Transfer to the airport and return to the agency</li>
+                                 <li> - Lorem ipsum dolor sit amet, consectetur adipiscing</li>
+                               </ul>
+                               {{-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60998820.06503915!2d95.3386452160086!3d-21.069765827214972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2b2bfd076787c5df%3A0x538267a1955b1352!2sAustralia!5e0!3m2!1sen!2snp!4v1579777829477!5m2!1sen!2snp" height="450" allowfullscreen=""></iframe> --}}
                             </div>
                          </div>
                       </div>
@@ -257,13 +170,13 @@
                 <div class="sidebar">
                    <div class="package-price">
                       <h5 class="price">
-                         <span>$649</span> / per person
+                         <span>$2,080</span> / per person
                       </h5>
-                      <div class="start-wrap">
+                      {{-- <div class="start-wrap">
                          <div class="rating-start" title="Rated 5 out of 5">
                             <span style="width: 60%"></span>
                          </div>
-                      </div>
+                      </div> --}}
                    </div>
                    <div class="widget-bg booking-form-wrap">
                       <h4 class="bg-title">Booking</h4>
@@ -294,8 +207,8 @@
                             </div>
                             <div class="col-sm-6">
                                <div class="form-group">
-                                  <label class="checkbox-list">
-                                     <input type="checkbox" name="s">
+                                  <label class="checkbox-list" style='color:#1D293F'>
+                                     <input type="checkbox" name="s" >
                                      <span class="custom-checkbox"></span>
                                      Tour guide
                                   </label>
@@ -303,7 +216,7 @@
                             </div>
                             <div class="col-sm-6">
                                <div class="form-group">
-                                  <label class="checkbox-list">
+                                  <label class="checkbox-list" style='color:#1D293F'>
                                      <input type="checkbox" name="s">
                                      <span class="custom-checkbox"></span>
                                      Insurance 
@@ -312,7 +225,7 @@
                             </div>
                             <div class="col-sm-6">
                                <div class="form-group">
-                                  <label class="checkbox-list">
+                                  <label class="checkbox-list" style='color:#1D293F'>
                                      <input type="checkbox" name="s">
                                      <span class="custom-checkbox"></span>
                                      Dinner
@@ -321,7 +234,7 @@
                             </div>
                             <div class="col-sm-6">
                                <div class="form-group">
-                                  <label class="checkbox-list">
+                                  <label class="checkbox-list" style='color:#1D293F'>
                                      <input type="checkbox" name="s">
                                      <span class="custom-checkbox"></span>
                                      Bike rent
@@ -337,12 +250,12 @@
                       </form>
                    </div>
                    <div class="widget-bg information-content text-center">
-                      <h5>TRAVEL TIPS</h5>
+                      <h5>Guide Information</h5>
                       <h3>NEED TRAVEL RELATED TIPS & INFORMATION</h3>
                       <p>Mollit voluptatem perspiciatis convallis elementum corporis quo veritatis aliquid blandit, blandit torquent, odit placeat. </p>
                       <a href="#" class="button-primary">GET A QUOTE</a>
                    </div>
-                   <div class="travel-package-content text-center" style="background-image: url(assets/images/img11.jpg);">
+                   {{-- <div class="travel-package-content text-center" style="background-image: url(assets/images/img11.jpg);">
                       <h5>MORE PACKAGES</h5>
                       <h3>OTHER TRAVEL PACKAGES</h3>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus.</p>
@@ -360,7 +273,7 @@
                             <a href="#"><i class="far fa-arrow-alt-circle-right"></i>Weekend packages</a>
                          </li>
                       </ul>
-                   </div>
+                   </div> --}}
                 </div>
              </div>
           </div>

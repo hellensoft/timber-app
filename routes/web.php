@@ -20,3 +20,6 @@ Route::controller(PageController::class)->group(function(){
     Route::get('tetema', 'tetema');
     
 });
+
+// Route::get('/',['as' => 'index', function (){ return view('index');}]);
+// Route::get('index',['as' => 'index', function (){ return view('index');}]);
