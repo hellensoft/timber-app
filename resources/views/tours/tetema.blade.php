@@ -148,6 +148,34 @@
                                         <p>Nostra semper ultricies eu leo eros orci porta provident, fugit? Pariatur interdum assumenda, qui aliquip ipsa! Dictum natus potenti pretium.</p>
                                      </div>
                                   </li>
+                                  <li>
+                                    <div class="timeline-content">
+                                       <div class="day-count">Day <span>5</span></div>
+                                       <h4>Italian Food Tour</h4>
+                                       <p>Nostra semper ultricies eu leo eros orci porta provident, fugit? Pariatur interdum assumenda, qui aliquip ipsa! Dictum natus potenti pretium.</p>
+                                    </div>
+                                 </li>
+                                 <li>
+                                    <div class="timeline-content">
+                                       <div class="day-count">Day <span>6</span></div>
+                                       <h4>Italian Food Tour</h4>
+                                       <p>Nostra semper ultricies eu leo eros orci porta provident, fugit? Pariatur interdum assumenda, qui aliquip ipsa! Dictum natus potenti pretium.</p>
+                                    </div>
+                                 </li>
+                                 <li>
+                                    <div class="timeline-content">
+                                       <div class="day-count">Day <span>7</span></div>
+                                       <h4>Italian Food Tour</h4>
+                                       <p>Nostra semper ultricies eu leo eros orci porta provident, fugit? Pariatur interdum assumenda, qui aliquip ipsa! Dictum natus potenti pretium.</p>
+                                    </div>
+                                 </li>
+                                 <li>
+                                    <div class="timeline-content">
+                                       <div class="day-count">Day <span>8</span></div>
+                                       <h4>Italian Food Tour</h4>
+                                       <p>Nostra semper ultricies eu leo eros orci porta provident, fugit? Pariatur interdum assumenda, qui aliquip ipsa! Dictum natus potenti pretium.</p>
+                                    </div>
+                                 </li>
                                </ul>
                             </div>
                          </div>
