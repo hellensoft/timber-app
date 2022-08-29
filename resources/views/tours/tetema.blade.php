@@ -62,36 +62,76 @@
                       <div class="tab-content" id="myTabContent">
                          <div class="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview-tab">
                             <div class="overview-content">
-                               <p>Occaecat pariatur! Quaerat ligula, ab, consequuntur orci mus ultricies praesent aute blandit beatae nisl aut, totam mauris rhoncus? Tellus netus fringilla class auctor dui. Dolores excepteur, doloribus, blanditiis aliquip nisl. Occaecat iusto? Provident sociis rerum. Amet, asperiores molestie varius eos! Libero, fermentum fermentum totam! Sunt praesentium, totam. Excepteur platea nisl. Convallis aliquam? Iaculis erat ipsa molestie, quod, vestibulum reiciendis, maxime nostra, integer unde officiis quo integer unde officiis quo.</p>
-                               <p>Occaecat pariatur! Quaerat ligula, ab, consequuntur orci mus ultricies praesent aute blandit beatae nisl aut, totam mauris rhoncus? Tellus netus fringilla class auctor dui. Dolores excepteur, doloribus, blanditiis aliquip nisl..</p>
-                               <ul style='color:#1D293F'>
+                              
+                               <p>The tour has been designed to include:</p>
+                                 <ul style='color:#1D293F'>
+                                 <li><b>- The Serengeti:</b>                                   
+                                 <p>It is one of the most famous parks in the world and the ultimate destination for game drives or witnessing the astounding, annual Great Migration. 
+                                 </p><p>Boundless plains punctuated with spiky acacia trees, Serengeti kopjes, hippos, and crocodile-laden rivers, 
+                                 a landscape home to the Big Five (lions, leopards, rhinos, buffalo, and elephants) 
+                                 and more than 475 bird species–it’s no wonder the Serengeti precedes its reputation as a wildlife haven.
+                               </p>
+                               </li> 
+                               <li><b>- The Ngorongoro crater: </b>
+                              <p>Located 180KM from Arusha of Tanzania</p>
+                              <p>The crater formed when a large volcano exploded and collapsed two to three million years ago, and now a home for more than 25,000 species of large animals.</p> 
+                              </li>
+                              <li><b>- Lake Manyara National Park: </b> 
+                              <p>One of Tanzania’s most dramatically located wildlife areas, consisting of a massive but shallow soda lake (covering two-thirds of the park), 
+                                 located at the foot of the Great Rift Valley’s western escarpment. 
+                              </p><p>The Park’s varied habitat attracts a wide variety of animals, including one of Africa’s largest concentrations of Elephants; 
+                                 Lake Manyara is unique for a Tree-climbing Lions, as well as large flocks of Flamingos attracted by the algae in the lake. 
+                              </p>
+                              </li>
+                              <li><b>- Lake Eyasi: </b> 
+                                 <p> A very scenic soda Lake found on the Southern border of the Ngorongoro Conservation Area. 
+                                 This less visited lake lies at the base of the Eyasi escarpment on the Western Rift Valley Wall. 
+                                 Some wildlife and a wide range of bird species can be viewed during walks around the lake, which can be arranged. 
+                                 </p><p>you will be introduced to an indigenous tribe known as the ‘Hadzabee’ (hunter-gatherer Bushmen) and the Nilotic-speaking Datoga tribe.
+                                 </p>
+                                 </li>
+                              </ul>
+                              {{-- <ul style='color:#1D293F'>
                                  <li>- Travel cancellation insurance</li> 
                                  <li>- Breakfast and dinner included</li>
                                  <li>- Health care included</li>
                                  <li>- Transfer to the airport and return to the agency</li>
                                  <li>- Lorem ipsum dolor sit amet, consectetur adipiscing</li>
-                               </ul>
+                               </ul> --}}
                             </div>
                          </div>
                          <div class="tab-pane" id="program" role="tabpanel" aria-labelledby="program-tab">
                             <div class="itinerary-content">
-                               <h3>Program <span>( 4 days )</span></h3>
-                               <p>Dolores maiores dicta dolore. Natoque placeat libero sunt sagittis debitis? Egestas non non qui quos, semper aperiam lacinia eum nam! Pede beatae. Soluta, convallis irure accusamus voluptatum ornare saepe cupidatat.</p>
+                               <h3>Program <span>( 8 days )</span></h3>
+                               <p>
+                                 Our Safari includes Lake Manyara National Park, Lake Eyasi, Ngorongoro Crater, Serengeti National Park and visits Masai market and local village. 
+                                 </p>
+                               {{-- <p>Dolores maiores dicta dolore. Natoque placeat libero sunt sagittis debitis? Egestas non non qui quos, semper aperiam lacinia eum nam! Pede beatae. Soluta, convallis irure accusamus voluptatum ornare saepe cupidatat.</p> --}}
                             </div>
                             <div class="itinerary-timeline-wrap">
                                <ul>
                                   <li>
                                      <div class="timeline-content">
                                         <div class="day-count">Day <span>1</span></div>
-                                        <h4>Ancient Rome Visit</h4>
-                                        <p>Nostra semper ultricies eu leo eros orci porta provident, fugit? Pariatur interdum assumenda, qui aliquip ipsa! Dictum natus potenti pretium.</p>
+                                        <h4>Arusha – Lake Manyara National Park</h4>
+                                        <p>You will meet our professional driver tour guide at your hotel, who will deliver a short safari info briefing. 
+                                          After breakfast, you will be transferred to the Park.
+                                          We arrive in time for lunch at the lodge/Tented Camp/Campsite ,
+                                          after lunch we head to the Lake Park for an afternoon game drive. 
+                                          Dinner and overnight will be at the Hotel/Tented Camp/Lodge/Basic Campsite.
+                                          </p>
                                      </div>
                                   </li>
                                   <li>
                                      <div class="timeline-content">
                                         <div class="day-count">Day <span>2</span></div>
-                                        <h4>Classic Rome Sightseeing</h4>
-                                        <p>Nostra semper ultricies eu leo eros orci porta provident, fugit? Pariatur interdum assumenda, qui aliquip ipsa! Dictum natus potenti pretium.</p>
+                                        <h4>Lake Eyasi – Bushmen/Hazeembe</h4>
+                                        <p>After breakfast, we will drive to the shores of Lake Eyasi. 
+                                          We arrive in time for lunch at the Lodge/Campsite. 
+                                          In the afternoon you will visit the indigenous tribes of the Hadzabee and Datoga.
+                                          it will include a visit to their homesteads, learn about their way of life, animal tracking, medicinal plants, and much more. 
+                                          then Return for dinner and overnight at Tented Camp/ Lodge/Luxury/Basic Campsite.
+                                          </p>
                                      </div>
                                   </li>
                                   <li>
