@@ -207,7 +207,7 @@
                         <div class="col-lg-4 col-md-6">
                            <div class="package-wrap">
                               <figure class="feature-image">
-                                 <a href="#">
+                                 <a href="{{ URL::to('tetema') }}">
                                     <img src="assets/images/IMG/AdobeStock_408988775.jpeg" alt="">
                                  </a>
                               </figure>
@@ -232,11 +232,11 @@
                                  </div>
                                  <div class="package-content">
                                     <h3>
-                                       <a href="#">Tetema Tour</a>
+                                       <a href="{{ URL::to('tetema') }}">Tetema Tour</a>
                                     </h3>
                                     <p>Manyara | Lake Eyasi | Ngorongoro | Serengeti | Visit Village.</p>
                                     <div class="btn-wrap">
-                                       <a href="#" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
+                                       <a href="{{ URL::to('tetema') }}" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
                                     </div>
                                  </div>
                               </div>
@@ -245,7 +245,7 @@
                         <div class="col-lg-4 col-md-6">
                            <div class="package-wrap">
                               <figure class="feature-image">
-                                 <a href="#">
+                                 <a href="{{ URL::to('pamoja') }}">
                                     <img src="assets/images/IMG/AdobeStock_378623266.jpeg" alt="">
                                  </a>
                               </figure>
@@ -270,11 +270,11 @@
                                  </div>
                                  <div class="package-content">
                                     <h3>
-                                       <a href="#">Pamoja Tour</a>
+                                       <a href="{{ URL::to('pamoja') }}">Pamoja Tour</a>
                                     </h3>
                                     <p>Manyara | Lake Eyasi | Ngorongoro | Serengeti.</p>
                                     <div class="btn-wrap">
-                                       <a href="#" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
+                                       <a href="{{ URL::to('pamoja') }}" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
                                     </div>
                                  </div>
                               </div>
@@ -283,7 +283,7 @@
                         <div class="col-lg-4 col-md-6">
                            <div class="package-wrap">
                               <figure class="feature-image">
-                                 <a href="#">
+                                 <a href="{{ URL::to('rose') }}">
                                     <img src="assets/images/IMG/AdobeStock_199768813.jpeg" alt="">
                                  </a>
                               </figure>
@@ -308,11 +308,11 @@
                                  </div>
                                  <div class="package-content">
                                     <h3>
-                                       <a href="#">Rose Tour</a>
+                                       <a href="{{ URL::to('rose') }}">Rose Tour</a>
                                     </h3>
                                     <p>Tarangire | Lake Manyara | Serengeti | Ngorongoro Crater.</p>
                                     <div class="btn-wrap">
-                                       <a href="#" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
+                                       <a href="{{ URL::to('rose') }}" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
                                     </div>
                                  </div>
                               </div>
@@ -323,7 +323,7 @@
                         <div class="col-lg-4 col-md-6">
                            <div class="package-wrap">
                               <figure class="feature-image">
-                                 <a href="#">
+                                 <a href="{{ URL::to('ansi') }}">
                                     <img src="assets/images/IMG/AdobeStock_464915831.jpeg" alt="">
                                  </a>
                               </figure>
@@ -348,11 +348,11 @@
                                  </div>
                                  <div class="package-content">
                                     <h3>
-                                       <a href="#">Ansi Tour</a>
+                                       <a href="{{ URL::to('ansi') }}">Ansi Tour</a>
                                     </h3>
                                     <p>Lake Manyara | Serengeti | Ngorongoro Crater.</p>
                                     <div class="btn-wrap">
-                                       <a href="#" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
+                                       <a href="{{ URL::to('ansi') }}" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
                                     </div>
                                  </div>
                               </div>
@@ -361,7 +361,7 @@
                         <div class="col-lg-4 col-md-6">
                            <div class="package-wrap">
                               <figure class="feature-image">
-                                 <a href="#">
+                                 <a href="{{ URL::to('lina') }}">
                                     <img src="assets/images/IMG/africa-g89468b3c2_1920.jpg" alt="">
                                  </a>
                               </figure>
@@ -386,11 +386,11 @@
                                  </div>
                                  <div class="package-content">
                                     <h3>
-                                       <a href="#">Lina Tour</a>
+                                       <a href="{{ URL::to('lina') }}">Lina Tour</a>
                                     </h3>
                                     <p>Lake Manyara | Serengeti | Ngorongoro Crater.</p>
                                     <div class="btn-wrap">
-                                       <a href="#" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
+                                       <a href="{{ URL::to('lina') }}" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
                                     </div>
                                  </div>
                               </div>
@@ -399,7 +399,7 @@
                         <div class="col-lg-4 col-md-6">
                            <div class="package-wrap">
                               <figure class="feature-image">
-                                 <a href="#">
+                                 <a href="{{ URL::to('sharma') }}">
                                     <img src="assets/images/IMG/AdobeStock_308185098.jpeg" alt="">
                                  </a>
                               </figure>
@@ -424,11 +424,11 @@
                                  </div>
                                  <div class="package-content">
                                     <h3>
-                                       <a href="#">Sharma Tour</a>
+                                       <a href="{{ URL::to('sharma') }}">Sharma Tour</a>
                                     </h3>
                                     <p>Lake Manyara | Serengeti | Ngorongoro Crater.</p>
                                     <div class="btn-wrap">
-                                       <a href="#" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
+                                       <a href="{{ URL::to('sharma') }}" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
                                     </div>
                                  </div>
                               </div>
@@ -658,7 +658,7 @@
                                  <img src="assets/images/IMG/AdobeStock_212527850.jpeg" alt="" style='height:260px; width:358px;'>
                               </div>
                               <div class="about-img">
-                                 <img src="assets/images/IMG/AdobeStock_408647120.jpeg" style='height:300px; width:358px;' alt="">
+                                 <img src="assets/images/IMG/AdobeStock_181402245_new.gif" style='height:300px; width:358px;' alt="">
                               </div>
                            </div>
                         </div>

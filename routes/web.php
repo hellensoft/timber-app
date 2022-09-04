@@ -18,7 +18,11 @@ Route::controller(PageController::class)->group(function(){
     Route::get('index', 'index');
     Route::get('about', 'about');
     Route::get('tetema', 'tetema');
-    
+    Route::get('pamoja', 'pamoja');
+    Route::get('rose', 'rose');
+    Route::get('ansi', 'ansi');
+    Route::get('lina', 'lina');
+    Route::get('sharma', 'sharma');
 });
 
 // Route::get('/',['as' => 'index', function (){ return view('index');}]);

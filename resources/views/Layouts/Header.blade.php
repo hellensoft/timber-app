@@ -27,19 +27,19 @@
                             <a href="{{ URL::to('tetema') }}">Tetema Tour</a>
                          </li>
                          <li>
-                            <a href="tour-packages.html">Pamoja Tour</a>
+                            <a href="{{ URL::to('pamoja') }}">Pamoja Tour</a>
                          </li>
                          <li>
-                            <a href="package-offer.html">Rose Tour</a>
+                            <a href="{{ URL::to('rose') }}">Rose Tour</a>
                          </li>
                          <li>
-                            <a href="package-detail.html">Ansi Tour</a>
+                            <a href="{{ URL::to('ansi') }}">Ansi Tour</a>
                          </li>
                          <li>
-                            <a href="tour-cart.html">Lina Tour</a>
+                            <a href="{{ URL::to('lina') }}">Lina Tour</a>
                          </li>
                          <li>
-                            <a href="booking.html">Sharma Tour</a>
+                            <a href="{{ URL::to('sharma') }}">Sharma Tour</a>
                          </li>
                       </ul>
                    </li>

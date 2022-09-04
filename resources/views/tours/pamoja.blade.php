@@ -9,7 +9,7 @@
        <div class="inner-baner-container" style="background-image: url(assets/images/inner-banner.jpg);">
           <div class="container">
              <div class="inner-banner-content">
-                <h1 class="inner-title">Tetema Tour</h1>
+                <h1 class="inner-title">Pamoja Tour</h1>
              </div>
           </div>
        </div>
@@ -23,12 +23,12 @@
                 <div class="single-tour-inner">
                    <h2>Experience Adventure</h2>
                    <figure class="feature-image">
-                      <img src="assets/images/IMG/AdobeStock_408988775.jpeg" alt="">
+                      <img src="assets/images/IMG/AdobeStock_378623266.jpeg" alt="">
                       <div class="package-meta text-center">
                          <ul>
                             <li>
                                <i class="far fa-clock"></i>
-                               8 days / 7 night
+                               7 days / 6 night
                             </li>
                             <li>
                                <i class="fas fa-map-marked-alt"></i>
@@ -58,6 +58,13 @@
                               
                                <p>The tour has been designed to include:</p>
                                  <ul style='color:#1D293F'>
+                                 <li><b>- Lake Manyara National Park: </b> 
+                                    <p>One of Tanzania’s most dramatically located wildlife areas, consisting of a massive but shallow soda lake (covering two-thirds of the park), 
+                                       located at the foot of the Great Rift Valley’s western escarpment. 
+                                    </p><p>The Park’s varied habitat attracts a wide variety of animals, including one of Africa’s largest concentrations of Elephants; 
+                                       Lake Manyara is unique for a Tree-climbing Lions, as well as large flocks of Flamingos attracted by the algae in the lake. 
+                                    </p>
+                                 </li>
                                  <li><b>- The Serengeti:</b>                                   
                                  <p>the meaning of the word “Serengeti,” which derives from the Masai “Siringet” and has been artistically translated as “the land that flows on forever”.
                                  </p><p>It is one of the most famous parks in the world covering 6,000 square miles of pristine land and the ultimate destination for game drives or witnessing the astounding, annual Great Migration. 
@@ -75,14 +82,7 @@
                               and the ever-elusive leopard.
                               </p>
                               </li>
-                              <li><b>- Lake Manyara National Park: </b> 
-                              <p>One of Tanzania’s most dramatically located wildlife areas, consisting of a massive but shallow soda lake (covering two-thirds of the park), 
-                                 located at the foot of the Great Rift Valley’s western escarpment. 
-                              </p><p>The Park’s varied habitat attracts a wide variety of animals, including one of Africa’s largest concentrations of Elephants; 
-                                 Lake Manyara is unique for a Tree-climbing Lions, as well as large flocks of Flamingos attracted by the algae in the lake. 
-                              </p>
-                              </li>
-                              <li><b>- Lake Eyasi: </b> 
+                              <li><b>- Tarangire National Park: </b> 
                                  <p> A very scenic soda Lake found on the Southern border of the Ngorongoro Conservation Area. 
                                  This less visited lake lies at the base of the Eyasi escarpment on the Western Rift Valley Wall. 
                                  Some wildlife and a wide range of bird species can be viewed during walks around the lake, which can be arranged. 
@@ -94,9 +94,9 @@
                          </div>
                          <div class="tab-pane" id="program" role="tabpanel" aria-labelledby="program-tab">
                             <div class="itinerary-content">
-                               <h3>Program <span>( 8 days )</span></h3>
+                               <h3>Program <span>( 7 days )</span></h3>
                                <p>
-                                 Our Safari includes Lake Manyara National Park, Lake Eyasi, Ngorongoro Crater, Serengeti National Park and visits Masai market and local village. 
+                                 Our Safari is designed to include Lake Manyara National Park, Serengeti National Park, and Ngorongoro Crater and Tarangire National Park. 
                                  </p>
                                {{-- <p>Dolores maiores dicta dolore. Natoque placeat libero sunt sagittis debitis? Egestas non non qui quos, semper aperiam lacinia eum nam! Pede beatae. Soluta, convallis irure accusamus voluptatum ornare saepe cupidatat.</p> --}}
                             </div>
@@ -106,6 +106,7 @@
                                      <div class="timeline-content">
                                         <div class="day-count">Day <span>1</span></div>
                                         <h4>Arusha – Lake Manyara National Park</h4>
+                                        <h5 style="font-size:16px; font-weight:555;">Non-game-viewing travel time: 2 ½ hours; Distance (130km)</h5>
                                         <p>You will meet our professional driver tour guide at your hotel, who will deliver a short safari info briefing. 
                                           After breakfast, you will be transferred to the Park.
                                           We arrive in time for lunch at the lodge/Tented Camp/Campsite ,
@@ -184,17 +185,6 @@
                                           then we return back to the Camp/Lodge for Brunch. On our way back we will stop at Olduvai Gorge (Option). 
                                           It’s a fascinating archaeological site we will visit if you are interested in history and the Masai tribes. 
                                           Dinner and overnight at the Lodge/Luxury/Tented Camp/Basic Campsite all at Lake Manyara.
-                                       </p>
-                                    </div>
-                                 </li>
-                                 <li>
-                                    <div class="timeline-content">
-                                       <div class="day-count">Day <span>8</span></div>
-                                       <h4>Mto wa Mbu Market & Visit Village</h4>
-                                       <p>After the breakfast we will visit the local Market at Mto wa Mbu and villages around 
-                                          the Lake Manyara experience the life at the local village setting, meeting local people, learning about their culture, agriculture, 
-                                          and history of the area. We return back to the Lodge/Camp for lunch and then transfer back to Arusha town 
-                                          where we will end our African safari adventure.
                                        </p>
                                     </div>
                                  </li>
@@ -364,8 +354,8 @@
             <div class="card swiper-slide">
                <div class="package-wrap">
                   <figure class="feature-image" >
-                     <a href="{{ URL::to('pamoja') }}">
-                        <img src="assets/images/IMG/AdobeStock_378623266.jpeg" alt="" style='border-radius: 25px 25px 0 0;'>
+                     <a href="{{ URL::to('tetema') }}">
+                        <img src="assets/images/IMG/AdobeStock_408988775.jpeg" alt="" style='border-radius: 25px 25px 0 0;'>
                      </a>
                   </figure>
                   <div class="package-price">
@@ -374,29 +364,29 @@
                      </h6>
                   </div>
                   <div class="package-content-wrap">
-                     <div class="package-meta text-center">
-                        <ul>
-                           <li>
-                              <i class="far fa-clock"></i>
-                              7 Days/6 Nights
-                           </li>
-                           
-                           <li>
-                              <i class="fas fa-map-marker-alt"></i>
-                              Tanzania
-                           </li>
-                        </ul>
-                     </div>
-                     <div class="package-content">
-                        <h3>
-                           <a href="{{ URL::to('pamoja') }}">Pamoja Tour</a>
-                        </h3>
-                        <p>Manyara | Lake Eyasi | Ngorongoro | Serengeti.</p>
-                        <div class="btn-wrap">
-                           <a href="{{ URL::to('pamoja') }}" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
-                        </div>
-                     </div>
-                  </div>
+                    <div class="package-meta text-center">
+                       <ul>
+                          <li>
+                             <i class="far fa-clock"></i>
+                             8 Days/7 Nights
+                          </li>
+                          
+                          <li>
+                             <i class="fas fa-map-marker-alt"></i>
+                             Tanzania
+                          </li>
+                       </ul>
+                    </div>
+                    <div class="package-content">
+                       <h3>
+                          <a href="{{ URL::to('tetema') }}">Tetema Tour</a>
+                       </h3>
+                       <p>Manyara | Lake Eyasi | Ngorongoro | Serengeti | Visit Village.</p>
+                       <div class="btn-wrap">
+                          <a href="{{ URL::to('tetema') }}" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
+                       </div>
+                    </div>
+                 </div>
                </div>
             </div>
               <div class="card swiper-slide">

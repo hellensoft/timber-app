@@ -9,7 +9,7 @@
        <div class="inner-baner-container" style="background-image: url(assets/images/inner-banner.jpg);">
           <div class="container">
              <div class="inner-banner-content">
-                <h1 class="inner-title">Tetema Tour</h1>
+                <h1 class="inner-title">Sharma Tour</h1>
              </div>
           </div>
        </div>
@@ -28,7 +28,7 @@
                          <ul>
                             <li>
                                <i class="far fa-clock"></i>
-                               8 days / 7 night
+                               3 days / 2 night
                             </li>
                             <li>
                                <i class="fas fa-map-marked-alt"></i>
@@ -138,66 +138,6 @@
                                           </p>
                                      </div>
                                   </li>
-                                  <li>
-                                     <div class="timeline-content">
-                                        <div class="day-count">Day <span>4</span></div>
-                                        <h4>Ngorongoro Crater Tour</h4>
-                                        <p>After breakfast, we depart to Ngorongoro Crater for a wholeday wildlife tour. 
-                                          we will also visit Lake Magadi, a large but shallow alkaline lake in the South- Western corner, 
-                                          the lake has a large number of flamingos, hippos and other water birds. 
-                                          Late evening we drive to the Lodge/Luxury/Basic Campsite and stays for dinner and overnight. 
-                                          The Campsite and the Lodge offers stunning views of Ngorongoro and the surrounding highland.
-                                          </p>
-                                     </div>
-                                  </li>
-                                  <li>
-                                    <div class="timeline-content">
-                                       <div class="day-count">Day <span>5</span></div>
-                                       <h4>Serengeti National Park</h4>
-                                       <p>After the breakfast, we depart and driver to Serengeti via Ngorongoro Conservation Area 
-                                       and later arrive on the great Serengeti plains for a different but spectacular wildlife viewing experience. 
-                                       Passing one of the world’s greatest prehistoric archaeological sites, called Olduvai Gorge (Option), 
-                                       and then continue your way over the scrub lands, the wooded knolls around Naabi Hill Gate mark's the Serengeti’s official entrance. 
-                                       And then drops into the Park’s signature wide-open plains.
-                                       Dinner and overnight will be at Lodge/Luxury/Tented Camp/Basic Campsite central of Serengeti.
-                                       </p> 
-                                    </div>
-                                 </li>
-                                 <li>
-                                    <div class="timeline-content">
-                                       <div class="day-count">Day <span>6</span></div>
-                                       <h4>Serengeti National Park</h4>
-                                       <p>After breakfast, you will have a full day game viewing at Serengeti National Park. 
-                                          The greater Serengeti ecosystem actually covers the Ngorongoro Conservation Area, the Masai Mara in Kenya, 
-                                          and numerous surrounding wildlife-protected lands that combine for a total of almost 17,000 square miles, 
-                                          which is larger than the states of Massachusetts, Connecticut, and Rhode Island all together. 
-                                          Dinner and overnight at the Lodge/Luxury/Tented Camp/Basic Campsite central of Serengeti.
-                                          </p>
-                                    </div>
-                                 </li>
-                                 <li>
-                                    <div class="timeline-content">
-                                       <div class="day-count">Day <span>7</span></div>
-                                       <h4>Serengeti N. Park – Lake Manyara</h4>
-                                       <p>Our day starts with a morning game drive central of the Serengeti. 
-                                          For animals, that’s an active time of the day – not hot yet, so there is a lot to see out there until by 11:30 am 
-                                          then we return back to the Camp/Lodge for Brunch. On our way back we will stop at Olduvai Gorge (Option). 
-                                          It’s a fascinating archaeological site we will visit if you are interested in history and the Masai tribes. 
-                                          Dinner and overnight at the Lodge/Luxury/Tented Camp/Basic Campsite all at Lake Manyara.
-                                       </p>
-                                    </div>
-                                 </li>
-                                 <li>
-                                    <div class="timeline-content">
-                                       <div class="day-count">Day <span>8</span></div>
-                                       <h4>Mto wa Mbu Market & Visit Village</h4>
-                                       <p>After the breakfast we will visit the local Market at Mto wa Mbu and villages around 
-                                          the Lake Manyara experience the life at the local village setting, meeting local people, learning about their culture, agriculture, 
-                                          and history of the area. We return back to the Lodge/Camp for lunch and then transfer back to Arusha town 
-                                          where we will end our African safari adventure.
-                                       </p>
-                                    </div>
-                                 </li>
                                </ul>
                             </div>
                          </div>                         
@@ -364,8 +304,8 @@
             <div class="card swiper-slide">
                <div class="package-wrap">
                   <figure class="feature-image" >
-                     <a href="{{ URL::to('pamoja') }}">
-                        <img src="assets/images/IMG/AdobeStock_378623266.jpeg" alt="" style='border-radius: 25px 25px 0 0;'>
+                     <a href="{{ URL::to('tetema') }}">
+                        <img src="assets/images/IMG/AdobeStock_408988775.jpeg" alt="" style='border-radius: 25px 25px 0 0;'>
                      </a>
                   </figure>
                   <div class="package-price">
@@ -374,187 +314,188 @@
                      </h6>
                   </div>
                   <div class="package-content-wrap">
-                     <div class="package-meta text-center">
-                        <ul>
-                           <li>
-                              <i class="far fa-clock"></i>
-                              7 Days/6 Nights
-                           </li>
-                           
-                           <li>
-                              <i class="fas fa-map-marker-alt"></i>
-                              Tanzania
-                           </li>
-                        </ul>
-                     </div>
-                     <div class="package-content">
-                        <h3>
-                           <a href="{{ URL::to('pamoja') }}">Pamoja Tour</a>
-                        </h3>
-                        <p>Manyara | Lake Eyasi | Ngorongoro | Serengeti.</p>
-                        <div class="btn-wrap">
-                           <a href="{{ URL::to('pamoja') }}" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
-                        </div>
-                     </div>
-                  </div>
+                    <div class="package-meta text-center">
+                       <ul>
+                          <li>
+                             <i class="far fa-clock"></i>
+                             8 Days/7 Nights
+                          </li>
+                          
+                          <li>
+                             <i class="fas fa-map-marker-alt"></i>
+                             Tanzania
+                          </li>
+                       </ul>
+                    </div>
+                    <div class="package-content">
+                       <h3>
+                          <a href="{{ URL::to('tetema') }}">Tetema Tour</a>
+                       </h3>
+                       <p>Manyara | Lake Eyasi | Ngorongoro | Serengeti | Visit Village.</p>
+                       <div class="btn-wrap">
+                          <a href="{{ URL::to('tetema') }}" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
+                       </div>
+                    </div>
+                 </div>
                </div>
             </div>
-              <div class="card swiper-slide">
-               <div class="package-wrap">
-                  <figure class="feature-image" >
-                     <a href="{{ URL::to('rose') }}">
-                        <img src="assets/images/IMG/AdobeStock_199768813.jpeg" alt="" style='border-radius: 25px 25px 0 0;'>
-                     </a>
-                  </figure>
-                  <div class="package-price">
-                     <h6 style="font-size: 12px;">
-                        <span style="font-size: 14px;">$1,560 </span> / per person
-                     </h6>
-                  </div>
-                  <div class="package-content-wrap">
-                     <div class="package-meta text-center">
-                        <ul>
-                           <li>
-                              <i class="far fa-clock"></i>
-                              6 Days/5 Nights
-                           </li>
-                           
-                           <li>
-                              <i class="fas fa-map-marker-alt"></i>
-                              Tanzania
-                           </li>
-                        </ul>
-                     </div>
-                     <div class="package-content">
-                        <h3>
-                           <a href="{{ URL::to('rose') }}">Rose Tour</a>
-                        </h3>
-                        <p>Tarangire | Lake Manyara | Serengeti | Ngorongoro Crater.</p>
-                        <div class="btn-wrap">
-                           <a href="{{ URL::to('rose') }}" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
+            <div class="card swiper-slide">
+                <div class="package-wrap">
+                   <figure class="feature-image" >
+                      <a href="{{ URL::to('pamoja') }}">
+                         <img src="assets/images/IMG/AdobeStock_378623266.jpeg" alt="" style='border-radius: 25px 25px 0 0;'>
+                      </a>
+                   </figure>
+                   <div class="package-price">
+                      <h6 style="font-size: 12px;">
+                         <span style="font-size: 14px;">$1,820 </span> / per person
+                      </h6>
+                   </div>
+                   <div class="package-content-wrap">
+                      <div class="package-meta text-center">
+                         <ul>
+                            <li>
+                               <i class="far fa-clock"></i>
+                               7 Days/6 Nights
+                            </li>
+                            
+                            <li>
+                               <i class="fas fa-map-marker-alt"></i>
+                               Tanzania
+                            </li>
+                         </ul>
+                      </div>
+                      <div class="package-content">
+                         <h3>
+                            <a href="{{ URL::to('pamoja') }}">Pamoja Tour</a>
+                         </h3>
+                         <p>Manyara | Lake Eyasi | Ngorongoro | Serengeti.</p>
+                         <div class="btn-wrap">
+                            <a href="{{ URL::to('pamoja') }}" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+             </div>
               {{-- kadi tamu balaa --}}
-              <div class="card swiper-slide">
-                  <div class="package-wrap">
-                     <figure class="feature-image" >
-                        <a href="{{ URL::to('ansi') }}">
-                           <img src="assets/images/IMG/AdobeStock_464915831.jpeg" alt="" style='border-radius: 25px 25px 0 0;'>
-                        </a>
-                     </figure>
-                     <div class="package-price">
-                        <h6 style="font-size: 12px;">
-                           <span style="font-size: 14px;">$1,300 </span> / per person
-                        </h6>
-                     </div>
-                     <div class="package-content-wrap">
-                        <div class="package-meta text-center">
-                           <ul>
-                              <li>
-                                 <i class="far fa-clock"></i>
-                                 5 Days/4 Nights
-                              </li>
-                              
-                              <li>
-                                 <i class="fas fa-map-marker-alt"></i>
-                                 Tanzania
-                              </li>
-                           </ul>
-                        </div>
-                        <div class="package-content">
-                           <h3>
-                              <a href="{{ URL::to('ansi') }}">Ansi Tour</a>
-                           </h3>
-                           <p>Lake Manyara | Serengeti | Ngorongoro Crater.</p>
-                           <div class="btn-wrap">
-                              <a href="{{ URL::to('ansi') }}" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
+            <div class="card swiper-slide">
+                <div class="package-wrap">
+                   <figure class="feature-image" >
+                      <a href="{{ URL::to('rose') }}">
+                         <img src="assets/images/IMG/AdobeStock_199768813.jpeg" alt="" style='border-radius: 25px 25px 0 0;'>
+                      </a>
+                   </figure>
+                   <div class="package-price">
+                      <h6 style="font-size: 12px;">
+                         <span style="font-size: 14px;">$1,560 </span> / per person
+                      </h6>
+                   </div>
+                   <div class="package-content-wrap">
+                      <div class="package-meta text-center">
+                         <ul>
+                            <li>
+                               <i class="far fa-clock"></i>
+                               6 Days/5 Nights
+                            </li>
+                            
+                            <li>
+                               <i class="fas fa-map-marker-alt"></i>
+                               Tanzania
+                            </li>
+                         </ul>
+                      </div>
+                      <div class="package-content">
+                         <h3>
+                            <a href="{{ URL::to('rose') }}">Rose Tour</a>
+                         </h3>
+                         <p>Tarangire | Lake Manyara | Serengeti | Ngorongoro Crater.</p>
+                         <div class="btn-wrap">
+                            <a href="{{ URL::to('rose') }}" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+             </div>
                {{-- kadi tamu balaa inaishia --}}
                <div class="card swiper-slide">
-                  <div class="package-wrap">
-                     <figure class="feature-image" >
-                        <a href="{{ URL::to('lina') }}">
-                           <img src="assets/images/IMG/africa-g89468b3c2_1920.jpg" alt="" style='border-radius: 25px 25px 0 0;'>
-                        </a>
-                     </figure>
-                     <div class="package-price">
-                        <h6 style="font-size: 12px;">
-                           <span style="font-size: 14px;">$1,040 </span> / per person
-                        </h6>
-                     </div>
-                     <div class="package-content-wrap">
-                        <div class="package-meta text-center">
-                           <ul>
-                              <li>
-                                 <i class="far fa-clock"></i>
-                                 4 Days/3 Nights
-                              </li>
-                              
-                              <li>
-                                 <i class="fas fa-map-marker-alt"></i>
-                                 Tanzania
-                              </li>
-                           </ul>
-                        </div>
-                        <div class="package-content">
-                           <h3>
-                              <a href="{{ URL::to('lina') }}">Lina Tour</a>
-                           </h3>
-                           <p>Lake Manyara | Serengeti | Ngorongoro Crater.</p>
-                           <div class="btn-wrap">
-                              <a href="{{ URL::to('lina') }}" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="card swiper-slide">
-                  <div class="package-wrap">
-                     <figure class="feature-image" >
-                        <a href="{{ URL::to('sharma') }}">
-                           <img src="assets/images/IMG/AdobeStock_308185098.jpeg" alt="" style='border-radius: 25px 25px 0 0;'>
-                        </a>
-                     </figure>
-                     <div class="package-price">
-                        <h6 style="font-size: 12px;">
-                           <span style="font-size: 14px;">$750 </span> / per person
-                        </h6>
-                     </div>
-                     <div class="package-content-wrap">
-                        <div class="package-meta text-center">
-                           <ul>
-                              <li>
-                                 <i class="far fa-clock"></i>
-                                 3 Days/2 Nights
-                              </li>
-                              
-                              <li>
-                                 <i class="fas fa-map-marker-alt"></i>
-                                 Tanzania
-                              </li>
-                           </ul>
-                        </div>
-                        <div class="package-content">
-                           <h3>
-                              <a href="{{ URL::to('sharma') }}">Sharma Tour</a>
-                           </h3>
-                           <p>Lake Manyara | Serengeti | Ngorongoro Crater.</p>
-                           <div class="btn-wrap">
-                              <a href="{{ URL::to('sharma') }}" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-          </div>
+                <div class="package-wrap">
+                   <figure class="feature-image" >
+                      <a href="{{ URL::to('ansi') }}">
+                         <img src="assets/images/IMG/AdobeStock_464915831.jpeg" alt="" style='border-radius: 25px 25px 0 0;'>
+                      </a>
+                   </figure>
+                   <div class="package-price">
+                      <h6 style="font-size: 12px;">
+                         <span style="font-size: 14px;">$1,300 </span> / per person
+                      </h6>
+                   </div>
+                   <div class="package-content-wrap">
+                      <div class="package-meta text-center">
+                         <ul>
+                            <li>
+                               <i class="far fa-clock"></i>
+                               5 Days/4 Nights
+                            </li>
+                            
+                            <li>
+                               <i class="fas fa-map-marker-alt"></i>
+                               Tanzania
+                            </li>
+                         </ul>
+                      </div>
+                      <div class="package-content">
+                         <h3>
+                            <a href="{{ URL::to('ansi') }}">Ansi Tour</a>
+                         </h3>
+                         <p>Lake Manyara | Serengeti | Ngorongoro Crater.</p>
+                         <div class="btn-wrap">
+                            <a href="{{ URL::to('ansi') }}" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+             </div>
+             <div class="card swiper-slide">
+                <div class="package-wrap">
+                   <figure class="feature-image" >
+                      <a href="{{ URL::to('lina') }}">
+                         <img src="assets/images/IMG/africa-g89468b3c2_1920.jpg" alt="" style='border-radius: 25px 25px 0 0;'>
+                      </a>
+                   </figure>
+                   <div class="package-price">
+                      <h6 style="font-size: 12px;">
+                         <span style="font-size: 14px;">$1,040 </span> / per person
+                      </h6>
+                   </div>
+                   <div class="package-content-wrap">
+                      <div class="package-meta text-center">
+                         <ul>
+                            <li>
+                               <i class="far fa-clock"></i>
+                               4 Days/3 Nights
+                            </li>
+                            
+                            <li>
+                               <i class="fas fa-map-marker-alt"></i>
+                               Tanzania
+                            </li>
+                         </ul>
+                      </div>
+                      <div class="package-content">
+                         <h3>
+                            <a href="{{ URL::to('lina') }}">Lina Tour</a>
+                         </h3>
+                         <p>Lake Manyara | Serengeti | Ngorongoro Crater.</p>
+                         <div class="btn-wrap">
+                            <a href="{{ URL::to('lina') }}" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
+                         </div>
+                      </div>
+                   </div>
+                </div>
       </div>
+       
+    </div>
+</div>
 
       <div class="swiper-button-next swiper-navBtn"></div>
       <div class="swiper-button-prev swiper-navBtn"></div>
