@@ -23,7 +23,7 @@
                 <div class="single-tour-inner">
                    <h2>Experience Adventure</h2>
                    <figure class="feature-image">
-                      <img src="assets/images/img27.jpg" alt="">
+                      <img src="assets/images/IMG/AdobeStock_408988775.jpeg" alt="">
                       <div class="package-meta text-center">
                          <ul>
                             <li>
@@ -49,14 +49,11 @@
                          <li class="nav-item">
                             <a class="nav-link" id="program-tab" data-toggle="tab" href="#program" role="tab" aria-controls="program" aria-selected="false">PROGRAM</a>
                          </li>
-                         {{-- <li class="nav-item">
-                            <a class="nav-link" id="review-tab" data-toggle="tab" href="#review" role="tab" aria-controls="review" aria-selected="false">REVIEW</a>
-                         </li> --}}
                          <li class="nav-item">
-                            <a class="nav-link" id="map-tab" data-toggle="tab" href="#map" role="tab" aria-controls="map1" aria-selected="false">Map1</a>
-                         </li>
-                         <li class="nav-item">
-                           <a class="nav-link" id="map-tab" data-toggle="tab" href="#map" role="tab" aria-controls="map" aria-selected="false">Map</a>
+                           <a class="nav-link" id="experience-tab" data-toggle="tab" href="#experience" role="tab" aria-controls="experience" aria-selected="false">PRICE INCLUDES</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" id="requirement-tab" data-toggle="tab" href="#requirement" role="tab" aria-controls="requirement" aria-selected="false">PRICE EXCLUDES</a>
                         </li>
                       </ul>
                       <div class="tab-content" id="myTabContent">
@@ -66,15 +63,21 @@
                                <p>The tour has been designed to include:</p>
                                  <ul style='color:#1D293F'>
                                  <li><b>- The Serengeti:</b>                                   
-                                 <p>It is one of the most famous parks in the world and the ultimate destination for game drives or witnessing the astounding, annual Great Migration. 
+                                 <p>the meaning of the word “Serengeti,” which derives from the Masai “Siringet” and has been artistically translated as “the land that flows on forever”.
+                                 </p><p>It is one of the most famous parks in the world covering 6,000 square miles of pristine land and the ultimate destination for game drives or witnessing the astounding, annual Great Migration. 
                                  </p><p>Boundless plains punctuated with spiky acacia trees, Serengeti kopjes, hippos, and crocodile-laden rivers, 
                                  a landscape home to the Big Five (lions, leopards, rhinos, buffalo, and elephants) 
                                  and more than 475 bird species–it’s no wonder the Serengeti precedes its reputation as a wildlife haven.
                                </p>
                                </li> 
-                               <li><b>- The Ngorongoro crater: </b>
+                              <li><b>- The Ngorongoro crater: </b>
                               <p>Located 180KM from Arusha of Tanzania</p>
                               <p>The crater formed when a large volcano exploded and collapsed two to three million years ago, and now a home for more than 25,000 species of large animals.</p> 
+                              <p>Ngorongoro Crater supports a vast variety of animals, which includes herds of Wildebeests, Zebras, Buffalos
+                              , Elands, Warthogs, Hippos, and giant African Elephants. 
+                              </p><p>The Crater also consists of a dense population of predators, which include lions, hyenas, jackals, cheetahs 
+                              and the ever-elusive leopard.
+                              </p>
                               </li>
                               <li><b>- Lake Manyara National Park: </b> 
                               <p>One of Tanzania’s most dramatically located wildlife areas, consisting of a massive but shallow soda lake (covering two-thirds of the park), 
@@ -137,74 +140,105 @@
                                   <li>
                                      <div class="timeline-content">
                                         <div class="day-count">Day <span>3</span></div>
-                                        <h4>Vatican City Visit</h4>
-                                        <p>Nostra semper ultricies eu leo eros orci porta provident, fugit? Pariatur interdum assumenda, qui aliquip ipsa! Dictum natus potenti pretium.</p>
+                                        <h4>Lake Eyasi – Ngorongoro</h4>
+                                        <p>Early morning we depart to the tribes of Hadzabee and Datoga village to  experience local hunting. 
+                                          The experience is not a mere performance. You’ll need to be very attentive and at times quiet during the demonstration.
+                                          Later return to the Lodge/Camp for Brunch and then we drive to Karatu near Ngorongoro. 
+                                          Late afternoon we would drive to a Maasai Village and meet the village elders, visit Bomas and a local school, learn about their way of life and their prized cattle.
+                                          and  then drive to the Lodge/Luxury/Tented Camp/Basic Campsite.
+                                          </p>
                                      </div>
                                   </li>
                                   <li>
                                      <div class="timeline-content">
                                         <div class="day-count">Day <span>4</span></div>
-                                        <h4>Italian Food Tour</h4>
-                                        <p>Nostra semper ultricies eu leo eros orci porta provident, fugit? Pariatur interdum assumenda, qui aliquip ipsa! Dictum natus potenti pretium.</p>
+                                        <h4>Ngorongoro Crater Tour</h4>
+                                        <p>After breakfast, we depart to Ngorongoro Crater for a wholeday wildlife tour. 
+                                          we will also visit Lake Magadi, a large but shallow alkaline lake in the South- Western corner, 
+                                          the lake has a large number of flamingos, hippos and other water birds. 
+                                          Late evening we drive to the Lodge/Luxury/Basic Campsite and stays for dinner and overnight. 
+                                          The Campsite and the Lodge offers stunning views of Ngorongoro and the surrounding highland.
+                                          </p>
                                      </div>
                                   </li>
                                   <li>
                                     <div class="timeline-content">
                                        <div class="day-count">Day <span>5</span></div>
-                                       <h4>Italian Food Tour</h4>
-                                       <p>Nostra semper ultricies eu leo eros orci porta provident, fugit? Pariatur interdum assumenda, qui aliquip ipsa! Dictum natus potenti pretium.</p>
+                                       <h4>Serengeti National Park</h4>
+                                       <p>After the breakfast, we depart and driver to Serengeti via Ngorongoro Conservation Area 
+                                       and later arrive on the great Serengeti plains for a different but spectacular wildlife viewing experience. 
+                                       Passing one of the world’s greatest prehistoric archaeological sites, called Olduvai Gorge (Option), 
+                                       and then continue your way over the scrub lands, the wooded knolls around Naabi Hill Gate mark's the Serengeti’s official entrance. 
+                                       And then drops into the Park’s signature wide-open plains.
+                                       Dinner and overnight will be at Lodge/Luxury/Tented Camp/Basic Campsite central of Serengeti.
+                                       </p> 
                                     </div>
                                  </li>
                                  <li>
                                     <div class="timeline-content">
                                        <div class="day-count">Day <span>6</span></div>
-                                       <h4>Italian Food Tour</h4>
-                                       <p>Nostra semper ultricies eu leo eros orci porta provident, fugit? Pariatur interdum assumenda, qui aliquip ipsa! Dictum natus potenti pretium.</p>
+                                       <h4>Serengeti National Park</h4>
+                                       <p>After breakfast, you will have a full day game viewing at Serengeti National Park. 
+                                          The greater Serengeti ecosystem actually covers the Ngorongoro Conservation Area, the Masai Mara in Kenya, 
+                                          and numerous surrounding wildlife-protected lands that combine for a total of almost 17,000 square miles, 
+                                          which is larger than the states of Massachusetts, Connecticut, and Rhode Island all together. 
+                                          Dinner and overnight at the Lodge/Luxury/Tented Camp/Basic Campsite central of Serengeti.
+                                          </p>
                                     </div>
                                  </li>
                                  <li>
                                     <div class="timeline-content">
                                        <div class="day-count">Day <span>7</span></div>
-                                       <h4>Italian Food Tour</h4>
-                                       <p>Nostra semper ultricies eu leo eros orci porta provident, fugit? Pariatur interdum assumenda, qui aliquip ipsa! Dictum natus potenti pretium.</p>
+                                       <h4>Serengeti N. Park – Lake Manyara</h4>
+                                       <p>Our day starts with a morning game drive central of the Serengeti. 
+                                          For animals, that’s an active time of the day – not hot yet, so there is a lot to see out there until by 11:30 am 
+                                          then we return back to the Camp/Lodge for Brunch. On our way back we will stop at Olduvai Gorge (Option). 
+                                          It’s a fascinating archaeological site we will visit if you are interested in history and the Masai tribes. 
+                                          Dinner and overnight at the Lodge/Luxury/Tented Camp/Basic Campsite all at Lake Manyara.
+                                       </p>
                                     </div>
                                  </li>
                                  <li>
                                     <div class="timeline-content">
                                        <div class="day-count">Day <span>8</span></div>
-                                       <h4>Italian Food Tour</h4>
-                                       <p>Nostra semper ultricies eu leo eros orci porta provident, fugit? Pariatur interdum assumenda, qui aliquip ipsa! Dictum natus potenti pretium.</p>
+                                       <h4>Mto wa Mbu Market & Visit Village</h4>
+                                       <p>After the breakfast we will visit the local Market at Mto wa Mbu and villages around 
+                                          the Lake Manyara experience the life at the local village setting, meeting local people, learning about their culture, agriculture, 
+                                          and history of the area. We return back to the Lodge/Camp for lunch and then transfer back to Arusha town 
+                                          where we will end our African safari adventure.
+                                       </p>
                                     </div>
                                  </li>
                                </ul>
                             </div>
-                         </div>
-                         <div class="tab-pane" id="map1" role="tabpanel" aria-labelledby="map1-tab">
-                           <div class="overview-content">
-                             <p>Tincidunt iaculis pede mus lobortis hendrerit eveniet impedit aenean mauris qui, pharetra rem doloremque laboris euismod deserunt non, cupiditate, vestibulum.</p>
-                             <ul style='color:#1D293F'>
-                                <li> - Travel cancellation insurance</li> 
-                                <li> - Breakfast and dinner included</li>
-                                <li> - Health care included</li>
-                                <li> - Transfer to the airport and return to the agency</li>
-                                <li> - Lorem ipsum dolor sit amet, consectetur adipiscing</li>
-                              </ul>
-                              {{-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60998820.06503915!2d95.3386452160086!3d-21.069765827214972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2b2bfd076787c5df%3A0x538267a1955b1352!2sAustralia!5e0!3m2!1sen!2snp!4v1579777829477!5m2!1sen!2snp" height="450" allowfullscreen=""></iframe> --}}
-                           </div>
-                        </div>
-                         <div class="tab-pane" id="map" role="tabpanel" aria-labelledby="map-tab">
-                            <div class="overview-content">
-                              <p>Tincidunt iaculis pede mus lobortis hendrerit eveniet impedit aenean mauris qui, pharetra rem doloremque laboris euismod deserunt non, cupiditate, vestibulum.</p>
+                         </div>                         
+                         <div class="tab-pane" id="experience" role="tabpanel" aria-labelledby="experience-tab">
+                           <div class="experience-content">
+                              <h5>TOUR PRICES INCLUDE:</h5>
                               <ul style='color:#1D293F'>
-                                 <li> - Travel cancellation insurance</li> 
-                                 <li> - Breakfast and dinner included</li>
-                                 <li> - Health care included</li>
-                                 <li> - Transfer to the airport and return to the agency</li>
-                                 <li> - Lorem ipsum dolor sit amet, consectetur adipiscing</li>
-                               </ul>
-                               {{-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60998820.06503915!2d95.3386452160086!3d-21.069765827214972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2b2bfd076787c5df%3A0x538267a1955b1352!2sAustralia!5e0!3m2!1sen!2snp!4v1579777829477!5m2!1sen!2snp" height="450" allowfullscreen=""></iframe> --}}
-                            </div>
+                                 <li>- All Park entry fees – All Park Camping fees. </li>
+                                 <li>- Pick up from the Airport. </li>
+                                 <li>- Transport 4×4 Toyota Land Cruiser with pop up roof with driver cum guide. </li>
+                                 <li>- Overnight at the Hotels/Lodge/Tented Camps/Campsites according to the program. </li>
+                                 <li>- Chef/Meals as per the above itinerary. </li>
+                                 <li>- Complimentary bottled of drinking water 1.5 litter per person per day during on safari. </li>
+                                 <li>- 1-night free Hotel accommodation on your arrival in Arusha with bed & breakfast. </li>
+                                 <li>- Tents/Sleeping mats/Sleeping bags/Chairs/Table/Pillow. </li>
+                              </ul>
+                           </div>
                          </div>
+                         <div class="tab-pane" id="requirement" role="tabpanel" aria-labelledby="requirement-tab">
+                           <div class="requirement-content">
+                              <h5 style='font-weight: 900'>TOUR PRICES DOES NOT INCLUDE:</h5>
+                              <ul style='color:#1D293F'>
+                                 <li>- International flights & Domestic flight. </li>
+                                 <li>- Fees for passport, visas, immunizations, and insurance. </li>
+                                 <li>- Tips for staff such as driver cum guides/chef/porter. </li>
+                                 <li>- Expenses of personal nature (like souvenirs). </li>
+                              </ul>
+                           </div>
+                         </div>
+                     
                       </div>
                    </div>
                    <div class="single-tour-gallery">
@@ -270,7 +304,7 @@
                                   <input class="input-date-picker" type="text" name="s" autocomplete="off" readonly="readonly" placeholder="Date">
                                </div>
                             </div>
-                            <div class="col-sm-12">
+                            {{-- <div class="col-sm-12">
                                <h4 class="">Add Options</h4>
                             </div>
                             <div class="col-sm-6">
@@ -308,10 +342,10 @@
                                      Bike rent
                                   </label>
                                </div>
-                            </div>
+                            </div> --}}
                             <div class="col-sm-12">
                                <div class="form-group submit-btn">
-                                  <input type="submit" name="submit" value="Boook Now">
+                                  <input type="submit" name="submit" value="Book Now">
                                </div>
                             </div>
                          </div>
@@ -320,54 +354,229 @@
                    <div class="widget-bg information-content text-center">
                       <h5>Guide Information</h5>
                       <h3>NEED TRAVEL RELATED TIPS & INFORMATION</h3>
-                      <p>Mollit voluptatem perspiciatis convallis elementum corporis quo veritatis aliquid blandit, blandit torquent, odit placeat. </p>
-                      <a href="#" class="button-primary">GET A QUOTE</a>
+                     <ul  style='color:#1D293F;' class='text-left'>
+                        <li><h6 style='font-size:14px; font-weight:bold;'>Budget Accommodation:</h6>
+                        <p style='font-size:12px;'>Accommodation usually located outside the National Park, using affordable a 1-2 star Hotel, Lodges or Camps.</p></li>
+                        <li><h6 style='font-size:14px; font-weight:bold;'>Mid-range Accommodation:</h6>
+                        <p style='font-size:12px;'>Safari using the medium to large – scale Lodges, tented camps or Cottage Camps, comparable to a 3-star Hotel.</p></li>
+                        <li><h6 style='font-size:14px; font-weight:bold;'>Luxury – Accommodation:</h6>
+                        <p style='font-size:12px;'>Safari using deluxe tented camps or Lodge usually located inside the National Park and comparable to a 4-star hotel.
+                        Accommodation is usually located inside the Park.</p>
+                        </li>
+                        <li ><h6 style='font-size:14px; font-weight:bold;'>Luxury+ – Accommodation:</h6>
+                        <p style='font-size:12px;'>Safari using affordable Hotel, Lodges or Camps, comparable a 1-2 star Hotel. Accommodation is usually located outside the National Park.</p></li>
+                     </ul>
                    </div>
-                   {{-- <div class="travel-package-content text-center" style="background-image: url(assets/images/img11.jpg);">
-                      <h5>MORE PACKAGES</h5>
-                      <h3>OTHER TRAVEL PACKAGES</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus.</p>
-                      <ul>
-                         <li>
-                            <a href="#"><i class="far fa-arrow-alt-circle-right"></i>Vacation packages</a>
-                         </li>
-                         <li>
-                            <a href="#"><i class="far fa-arrow-alt-circle-right"></i>Honeymoon packages</a>
-                         </li>
-                         <li>
-                            <a href="#"><i class="far fa-arrow-alt-circle-right"></i>New year packages</a>
-                         </li>
-                         <li>
-                            <a href="#"><i class="far fa-arrow-alt-circle-right"></i>Weekend packages</a>
-                         </li>
-                      </ul>
-                   </div> --}}
+                   
                 </div>
              </div>
           </div>
        </div>
     </div>
-    <!-- subscribe section html start -->
-    <section class="subscribe-section" style="background-image: url(assets/images/img16.jpg);">
-       <div class="container">
-          <div class="row">
-             <div class="col-lg-7">
-                <div class="section-heading section-heading-white">
-                   <h5 class="dash-style">HOLIDAY PACKAGE OFFER</h5>
-                   <h2>HOLIDAY SPECIAL 25% OFF !</h2>
-                   <h4>Sign up now to recieve hot special offers and information about the best tour packages, updates and discounts !!</h4>
-                   <div class="newsletter-form">
-                      <form>
-                         <input type="email" name="s" placeholder="Your Email Address">
-                         <input type="submit" name="signup" value="SIGN UP NOW!">
-                      </form>
-                   </div>
-                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Eaque adipiscing, luctus eleifend temporibus occaecat luctus eleifend tempo ribus.</p>
-                </div>
-             </div>
+   <section class="subscribe-section" style="background-image: url(assets/images/img16.jpg);">
+    <div class="slide-container swiper">
+      <div class="slide-content">
+          <div class="card-wrapper swiper-wrapper">
+            <div class="card swiper-slide">
+               <div class="package-wrap">
+                  <figure class="feature-image" >
+                     <a href="#">
+                        <img src="assets/images/img7.jpg" alt="" style='border-radius: 25px 25px 0 0;'>
+                     </a>
+                  </figure>
+                  <div class="package-price">
+                     <h6>
+                        <span>$1,820 </span> / per person
+                     </h6>
+                  </div>
+                  <div class="package-content-wrap">
+                     <div class="package-meta text-center">
+                        <ul>
+                           <li>
+                              <i class="far fa-clock"></i>
+                              7 Days/6 Nights
+                           </li>
+                           
+                           <li>
+                              <i class="fas fa-map-marker-alt"></i>
+                              Tanzania
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="package-content">
+                        <h3>
+                           <a href="#">Pamoja Tour</a>
+                        </h3>
+                        <p>Manyara | Lake Eyasi | Ngorongoro | Serengeti.</p>
+                        <div class="btn-wrap">
+                           <a href="#" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+              <div class="card swiper-slide">
+               <div class="package-wrap">
+                  <figure class="feature-image" >
+                     <a href="#">
+                        <img src="assets/images/img7.jpg" alt="" style='border-radius: 25px 25px 0 0;'>
+                     </a>
+                  </figure>
+                  <div class="package-price">
+                     <h6>
+                        <span>$1,560 </span> / per person
+                     </h6>
+                  </div>
+                  <div class="package-content-wrap">
+                     <div class="package-meta text-center">
+                        <ul>
+                           <li>
+                              <i class="far fa-clock"></i>
+                              6 Days/5 Nights
+                           </li>
+                           
+                           <li>
+                              <i class="fas fa-map-marker-alt"></i>
+                              Tanzania
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="package-content">
+                        <h3>
+                           <a href="#">Rose Tour</a>
+                        </h3>
+                        <p>Tarangire | Lake Manyara | Serengeti | Ngorongoro Crater.</p>
+                        <div class="btn-wrap">
+                           <a href="#" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+              {{-- kadi tamu balaa --}}
+              <div class="card swiper-slide">
+                  <div class="package-wrap">
+                     <figure class="feature-image" >
+                        <a href="#">
+                           <img src="assets/images/img7.jpg" alt="" style='border-radius: 25px 25px 0 0;'>
+                        </a>
+                     </figure>
+                     <div class="package-price">
+                        <h6>
+                           <span>$1,300 </span> / per person
+                        </h6>
+                     </div>
+                     <div class="package-content-wrap">
+                        <div class="package-meta text-center">
+                           <ul>
+                              <li>
+                                 <i class="far fa-clock"></i>
+                                 5 Days/4 Nights
+                              </li>
+                              
+                              <li>
+                                 <i class="fas fa-map-marker-alt"></i>
+                                 Tanzania
+                              </li>
+                           </ul>
+                        </div>
+                        <div class="package-content">
+                           <h3>
+                              <a href="#">Ansi Tour</a>
+                           </h3>
+                           <p>Lake Manyara | Serengeti | Ngorongoro Crater.</p>
+                           <div class="btn-wrap">
+                              <a href="#" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               {{-- kadi tamu balaa inaishia --}}
+               <div class="card swiper-slide">
+                  <div class="package-wrap">
+                     <figure class="feature-image" >
+                        <a href="#">
+                           <img src="assets/images/img7.jpg" alt="" style='border-radius: 25px 25px 0 0;'>
+                        </a>
+                     </figure>
+                     <div class="package-price">
+                        <h6>
+                           <span>$1,040 </span> / per person
+                        </h6>
+                     </div>
+                     <div class="package-content-wrap">
+                        <div class="package-meta text-center">
+                           <ul>
+                              <li>
+                                 <i class="far fa-clock"></i>
+                                 4 Days/3 Nights
+                              </li>
+                              
+                              <li>
+                                 <i class="fas fa-map-marker-alt"></i>
+                                 Tanzania
+                              </li>
+                           </ul>
+                        </div>
+                        <div class="package-content">
+                           <h3>
+                              <a href="#">Lina Tour</a>
+                           </h3>
+                           <p>Lake Manyara | Serengeti | Ngorongoro Crater.</p>
+                           <div class="btn-wrap">
+                              <a href="#" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="card swiper-slide">
+                  <div class="package-wrap">
+                     <figure class="feature-image" >
+                        <a href="#">
+                           <img src="assets/images/img7.jpg" alt="" style='border-radius: 25px 25px 0 0;'>
+                        </a>
+                     </figure>
+                     <div class="package-price">
+                        <h6>
+                           <span>$750 </span> / per person
+                        </h6>
+                     </div>
+                     <div class="package-content-wrap">
+                        <div class="package-meta text-center">
+                           <ul>
+                              <li>
+                                 <i class="far fa-clock"></i>
+                                 3 Days/2 Nights
+                              </li>
+                              
+                              <li>
+                                 <i class="fas fa-map-marker-alt"></i>
+                                 Tanzania
+                              </li>
+                           </ul>
+                        </div>
+                        <div class="package-content">
+                           <h3>
+                              <a href="#">Sharma Tour</a>
+                           </h3>
+                           <p>Lake Manyara | Serengeti | Ngorongoro Crater.</p>
+                           <div class="btn-wrap">
+                              <a href="#" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
           </div>
-       </div>
-    </section>
+      </div>
+
+      <div class="swiper-button-next swiper-navBtn"></div>
+      <div class="swiper-button-prev swiper-navBtn"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+   </section> 
     <!-- subscribe html end -->
  </main>
 

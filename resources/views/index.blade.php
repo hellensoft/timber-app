@@ -49,7 +49,7 @@
             <div class="trip-search-section shape-search-section">
                <div class="slider-shape"></div>
                <div class="container">
-                  <div class="trip-search-inner white-bg d-flex">
+                  {{-- <div class="trip-search-inner white-bg d-flex">
                      <div class="input-group">
                         <label> Search Destination* </label>
                         <input type="text" name="s" placeholder="Enter Destination">
@@ -72,7 +72,7 @@
                         <label class="screen-reader-text"> Search </label>
                         <input type="submit" name="travel-search" value="INQUIRE NOW">
                      </div>
-                  </div>
+                  </div> --}}
                </div>
             </div>
             <!-- search search field html end -->
@@ -185,7 +185,7 @@
                   </div> --}}
                </div>
             </section>
-            <!-- Home packages section html start -->
+            <!-- tour packages section html start -->
             <section class="package-section" style='padding-bottom: 50px;'>
                <div class="container">
                   <div class="section-heading text-center">
@@ -208,7 +208,7 @@
                            <div class="package-wrap">
                               <figure class="feature-image">
                                  <a href="#">
-                                    <img src="assets/images/img5.jpg" alt="">
+                                    <img src="assets/images/IMG/AdobeStock_408988775.jpeg" alt="">
                                  </a>
                               </figure>
                               <div class="package-price">
@@ -234,16 +234,9 @@
                                     <h3>
                                        <a href="#">Tetema Tour</a>
                                     </h3>
-                                    {{-- <div class="review-area">
-                                       <span class="review-text">(25 reviews)</span>
-                                       <div class="rating-start" title="Rated 5 out of 5">
-                                          <span style="width: 60%"></span>
-                                       </div>
-                                    </div> --}}
                                     <p>Manyara | Lake Eyasi | Ngorongoro | Serengeti | Visit Village.</p>
                                     <div class="btn-wrap">
                                        <a href="#" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
-                                       {{-- <a href="#" class="button-text width-6">Wish List<i class="far fa-heart"></i></a> --}}
                                     </div>
                                  </div>
                               </div>
@@ -253,7 +246,7 @@
                            <div class="package-wrap">
                               <figure class="feature-image">
                                  <a href="#">
-                                    <img src="assets/images/img6.jpg" alt="">
+                                    <img src="assets/images/IMG/AdobeStock_378623266.jpeg" alt="">
                                  </a>
                               </figure>
                               <div class="package-price">
@@ -279,16 +272,9 @@
                                     <h3>
                                        <a href="#">Pamoja Tour</a>
                                     </h3>
-                                    {{-- <div class="review-area">
-                                       <span class="review-text">(25 reviews)</span>
-                                       <div class="rating-start" title="Rated 5 out of 5">
-                                          <span style="width: 60%"></span>
-                                       </div>
-                                    </div> --}}
                                     <p>Manyara | Lake Eyasi | Ngorongoro | Serengeti.</p>
                                     <div class="btn-wrap">
                                        <a href="#" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
-                                       {{-- <a href="#" class="button-text width-6">Wish List<i class="far fa-heart"></i></a> --}}
                                     </div>
                                  </div>
                               </div>
@@ -298,7 +284,7 @@
                            <div class="package-wrap">
                               <figure class="feature-image">
                                  <a href="#">
-                                    <img src="assets/images/img7.jpg" alt="">
+                                    <img src="assets/images/IMG/AdobeStock_199768813.jpeg" alt="">
                                  </a>
                               </figure>
                               <div class="package-price">
@@ -324,16 +310,9 @@
                                     <h3>
                                        <a href="#">Rose Tour</a>
                                     </h3>
-                                    {{-- <div class="review-area">
-                                       <span class="review-text">(25 reviews)</span>
-                                       <div class="rating-start" title="Rated 5 out of 5">
-                                          <span style="width: 60%"></span>
-                                       </div>
-                                    </div> --}}
                                     <p>Tarangire | Lake Manyara | Serengeti | Ngorongoro Crater.</p>
                                     <div class="btn-wrap">
                                        <a href="#" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
-                                       {{-- <a href="#" class="button-text width-6">Wish List<i class="far fa-heart"></i></a> --}}
                                     </div>
                                  </div>
                               </div>
@@ -345,7 +324,7 @@
                            <div class="package-wrap">
                               <figure class="feature-image">
                                  <a href="#">
-                                    <img src="assets/images/img5.jpg" alt="">
+                                    <img src="assets/images/IMG/AdobeStock_464915831.jpeg" alt="">
                                  </a>
                               </figure>
                               <div class="package-price">
@@ -371,16 +350,9 @@
                                     <h3>
                                        <a href="#">Ansi Tour</a>
                                     </h3>
-                                    {{-- <div class="review-area">
-                                       <span class="review-text">(25 reviews)</span>
-                                       <div class="rating-start" title="Rated 5 out of 5">
-                                          <span style="width: 60%"></span>
-                                       </div>
-                                    </div> --}}
                                     <p>Lake Manyara | Serengeti | Ngorongoro Crater.</p>
                                     <div class="btn-wrap">
                                        <a href="#" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
-                                       {{-- <a href="#" class="button-text width-6">Wish List<i class="far fa-heart"></i></a> --}}
                                     </div>
                                  </div>
                               </div>
@@ -390,7 +362,7 @@
                            <div class="package-wrap">
                               <figure class="feature-image">
                                  <a href="#">
-                                    <img src="assets/images/img6.jpg" alt="">
+                                    <img src="assets/images/IMG/africa-g89468b3c2_1920.jpg" alt="">
                                  </a>
                               </figure>
                               <div class="package-price">
@@ -416,16 +388,9 @@
                                     <h3>
                                        <a href="#">Lina Tour</a>
                                     </h3>
-                                    {{-- <div class="review-area">
-                                       <span class="review-text">(25 reviews)</span>
-                                       <div class="rating-start" title="Rated 5 out of 5">
-                                          <span style="width: 60%"></span>
-                                       </div>
-                                    </div> --}}
                                     <p>Lake Manyara | Serengeti | Ngorongoro Crater.</p>
                                     <div class="btn-wrap">
                                        <a href="#" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
-                                       {{-- <a href="#" class="button-text width-6">Wish List<i class="far fa-heart"></i></a> --}}
                                     </div>
                                  </div>
                               </div>
@@ -435,7 +400,7 @@
                            <div class="package-wrap">
                               <figure class="feature-image">
                                  <a href="#">
-                                    <img src="assets/images/img7.jpg" alt="">
+                                    <img src="assets/images/IMG/AdobeStock_308185098.jpeg" alt="">
                                  </a>
                               </figure>
                               <div class="package-price">
@@ -461,16 +426,9 @@
                                     <h3>
                                        <a href="#">Sharma Tour</a>
                                     </h3>
-                                    {{-- <div class="review-area">
-                                       <span class="review-text">(25 reviews)</span>
-                                       <div class="rating-start" title="Rated 5 out of 5">
-                                          <span style="width: 60%"></span>
-                                       </div>
-                                    </div> --}}
                                     <p>Lake Manyara | Serengeti | Ngorongoro Crater.</p>
                                     <div class="btn-wrap">
                                        <a href="#" class="button-text width-6">Read More<i class="fas fa-arrow-right"></i></a>
-                                       {{-- <a href="#" class="button-text width-6">Wish List<i class="far fa-heart"></i></a> --}}
                                     </div>
                                  </div>
                               </div>
@@ -483,8 +441,9 @@
                   </div>
                </div>
             </section>
-            <!-- packages html end -->
-              <!-- Home packages section html start -->
+            <!-- tour packages html end -->
+            
+            <!-- trips packages section html start -->
               <section class="package-section bg-light-grey" style='padding-bottom: 150px;'>
                <div class="container">
                   <div class="section-heading text-center">
@@ -502,7 +461,7 @@
                            <div class="package-wrap package-wrap-list">
                               <figure class="feature-image">
                                  <a href="#">
-                                    <img src="assets/images/img9.jpg" alt="">
+                                    <img src="assets/images/IMG/AdobeStock_472172349.jpeg" alt="">
                                  </a>
                               
                               </figure>
@@ -523,7 +482,7 @@
                            <div class="package-wrap package-wrap-list">
                               <figure class="feature-image">
                                  <a href="#">
-                                    <img src="assets/images/img9.jpg" alt="">
+                                    <img src="assets/images/IMG/AdobeStock_169944206.jpeg" alt="">
                                  </a>
                               
                               </figure>
@@ -544,7 +503,7 @@
                            <div class="package-wrap package-wrap-list">
                               <figure class="feature-image">
                                  <a href="#">
-                                    <img src="assets/images/img9.jpg" alt="">
+                                    <img src="assets/images/IMG/AdobeStock_383011165.jpeg" alt="">
                                  </a>
                               
                               </figure>
@@ -565,7 +524,7 @@
                            <div class="package-wrap package-wrap-list">
                               <figure class="feature-image">
                                  <a href="#">
-                                    <img src="assets/images/img9.jpg" alt="">
+                                    <img src="assets/images/IMG/AdobeStock_413497289.jpeg" alt="" style='height:416px;'>
                                  </a>
                               
                               </figure>
@@ -586,7 +545,7 @@
                   </div>
                </div>
             </section>
-            <!-- packages html end -->
+            <!-- trips packages html end -->
 
             <!-- Home callback section html start -->
             {{-- <section class="callback-section">
@@ -679,6 +638,7 @@
                </div>
             </section> --}}
 
+             <!-- about us section html start -->
             <section class="home-about-section" style='padding-bottom: 150px;'>
                <div class="container">
                   <div class="row">
@@ -690,15 +650,15 @@
                                  <a class="button-primary" style='color: #E95B34'>LEARN MORE</a>
                               </div>
                               <div class="about-img">
-                                 <img src="assets/images/img9.jpg" alt="">
+                                 <img src="assets/images/IMG/AdobeStock_335475536.jpeg" alt="" style='height:343px; width:274px;'>
                               </div>
                            </div>
                            <div class="about-img-right">
                               <div class="about-img">
-                                 <img src="assets/images/img12.jpg" alt="">
+                                 <img src="assets/images/IMG/AdobeStock_212527850.jpeg" alt="" style='height:260px; width:358px;'>
                               </div>
                               <div class="about-img">
-                                 <img src="assets/images/img34.jpg" alt="">
+                                 <img src="assets/images/IMG/AdobeStock_408647120.jpeg" style='height:300px; width:358px;' alt="">
                               </div>
                            </div>
                         </div>
@@ -853,112 +813,6 @@
                </div>
             </section>
 
-            {{-- <section class="activity-section">
-               <div class="container">
-                  <div class="section-heading text-center">
-                     <div class="row">
-                        <div class="col-lg-8 offset-lg-2">
-                           <h5 class="dash-style">TRAVEL BY ACTIVITY</h5>
-                           <h2>ADVENTURE & ACTIVITY</h2>
-                           <p>Mollit voluptatem perspiciatis convallis elementum corporis quo veritatis aliquid blandit, blandit torquent, odit placeat. Adipiscing repudiandae eius cursus? Nostrum magnis maxime curae placeat.</p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="activity-inner row">
-                     <div class="col-lg-2 col-md-4 col-sm-6">
-                        <div class="activity-item">
-                           <div class="activity-icon">
-                              <a href="#">
-                                 <img src="assets/images/icon6.png" alt="">
-                              </a>
-                           </div>
-                           <div class="activity-content">
-                              <h4>
-                                 <a href="#">Adventure</a>
-                              </h4>
-                              <p>15 Destination</p>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-lg-2 col-md-4 col-sm-6">
-                        <div class="activity-item">
-                           <div class="activity-icon">
-                              <a href="#">
-                                 <img src="assets/images/icon10.png" alt="">
-                              </a>
-                           </div>
-                           <div class="activity-content">
-                              <h4>
-                                 <a href="#">Trekking</a>
-                              </h4>
-                              <p>12 Destination</p>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-lg-2 col-md-4 col-sm-6">
-                        <div class="activity-item">
-                           <div class="activity-icon">
-                              <a href="#">
-                                 <img src="assets/images/icon9.png" alt="">
-                              </a>
-                           </div>
-                           <div class="activity-content">
-                              <h4>
-                                 <a href="#">Camp Fire</a>
-                              </h4>
-                              <p>7 Destination</p>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-lg-2 col-md-4 col-sm-6">
-                        <div class="activity-item">
-                           <div class="activity-icon">
-                              <a href="#">
-                                 <img src="assets/images/icon8.png" alt="">
-                              </a>
-                           </div>
-                           <div class="activity-content">
-                              <h4>
-                                 <a href="#">Off Road</a>
-                              </h4>
-                              <p>15 Destination</p>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-lg-2 col-md-4 col-sm-6">
-                        <div class="activity-item">
-                           <div class="activity-icon">
-                              <a href="#">
-                                 <img src="assets/images/icon7.png" alt="">
-                              </a>
-                           </div>
-                           <div class="activity-content">
-                              <h4>
-                                 <a href="#">Camping</a>
-                              </h4>
-                              <p>13 Destination</p>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-lg-2 col-md-4 col-sm-6">
-                        <div class="activity-item">
-                           <div class="activity-icon">
-                              <a href="#">
-                                 <img src="assets/images/icon11.png" alt="">
-                              </a>
-                           </div>
-                           <div class="activity-content">
-                              <h4>
-                                 <a href="#">Exploring</a>
-                              </h4>
-                              <p>25 Destination</p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </section> --}}
-
             <!-- activity html end -->
             <!-- Home special section html start -->
             {{-- <section class="special-section" style="background-image: url(assets/images/img23.jpg);">
@@ -1056,6 +910,7 @@
                   </div>
                </div>
             </section> --}}
+
             <!-- special html end -->
             <!-- Home special section html start -->
             {{-- <section class="best-section" style="background-image: url(assets/images/img23.jpg);">
@@ -1135,6 +990,8 @@
                </div>
             </div>
             <!-- client html end -->
+
+
             <!-- Home subscribe section html start -->
             {{-- <section class="subscribe-section" style="background-image: url(assets/images/img23.jpg);">
                <div class="container">
@@ -1157,6 +1014,8 @@
                </div>
             </section> --}}
             <!-- subscribe html end -->
+
+
             <!-- Home blog section html start -->
             {{-- <section class="blog-section">
                <div class="container">

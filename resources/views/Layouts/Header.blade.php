@@ -7,7 +7,7 @@
           <div class="site-identity">
              <h1 class="site-title">
                 <a href="index.html">
-                   <img src="{{asset('assets/images/twalogo.png')}}" alt="logo">
+                   <img src="{{asset('assets/images/twalog.png')}}" alt="logo">
                 </a>
              </h1>
           </div>
