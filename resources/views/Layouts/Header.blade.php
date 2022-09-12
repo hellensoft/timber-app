@@ -47,16 +47,16 @@
                             <a href="#">Destination</a>
                             <ul>
                                 <li>
-                                    <a href="destination.html">Tarangire National Park</a>
+                                    <a href="{{ URL::to('tarangire') }}">Tarangire National Park</a>
                                 </li>
                                 <li>
-                                    <a href="tour-packages.html">Manyara National Park</a>
+                                    <a href="{{ URL::to('manyara') }}">Manyara National Park</a>
                                 </li>
                                 <li>
-                                    <a href="package-offer.html">Arusha National Park</a>
+                                    <a href="{{ URL::to('arusha') }}">Arusha National Park</a>
                                 </li>
                                 <li>
-                                    <a href="package-detail.html">Ngorongoro National Park</a>
+                                    <a href="{{ URL::to('ngorongoro') }}">Ngorongoro National Park</a>
                                 </li>
                             </ul>
                         </li>

@@ -2,7 +2,7 @@
     <!-- Card Slider JS -->
     <script src="assets/cardslider/js/swiper-bundle.min.js"></script>
     <script src="assets/cardslider/js/script.js"></script>
-    
+
     <script src="assets/js/jquery.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
     <script src="assets/vendors/bootstrap/js/bootstrap.min.js"></script>

@@ -37,5 +37,21 @@ class PageController extends Controller
     {
         return view('tours.sharma');
     }
+    public function tarangire()
+    {
+        return view('trips.tarangire');
+    }
+    public function manyara()
+    {
+        return view('trips.manyara');
+    }
+    public function arusha()
+    {
+        return view('trips.arusha');
+    }
+    public function ngorongoro()
+    {
+        return view('trips.ngorongoro');
+    }
 
 }

@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="assets/cardslider/css/swiper-bundle.min.css">
     <!-- CSS -->
     <link rel="stylesheet" href="assets/cardslider/css/styles.css"> 
+
     <title>@yield('title')</title>
     
  </head>
