@@ -118,20 +118,20 @@
             </div>
         </div>
         <section class="subscribe-section" style="background-image: url(assets/images/img16.jpg); margin-top:52px;">
-            <div class="slide-container swiper" stye='width: 100%;' >
+            <div class="slide-container swiper">
                 <div class="slide-content" style='border-radius: 0 0 0 0;'>
                     <div class="swiper-wrapper" >
-                        <div class="col-sm-6 col-lg-4 swiper-slide">
+                        <div class="col-6  swiper-slide">
                                 <div>
                                    <div >
                                       <figure class="special-img">
-                                         <img src="assets/images/IMG/AdobeStock_243452507.jpeg" alt="" style="width: width:364.67px;height:240px;">
+                                         <img src="assets/images/IMG/AdobeStock_243452507.jpeg" alt="">
                                       </figure>
                                    </div>
                                 </div>
                              
                         </div>
-                        <div class="col-sm-6 col-lg-4 swiper-slide">
+                        <div class="col-6  swiper-slide">
                             <div>
                                <div >
                                   <figure class="special-img">
@@ -141,7 +141,7 @@
                             </div>
                          
                     </div>
-                    <div class="col-sm-6 col-lg-4 swiper-slide">
+                    <div class="col-6  swiper-slide">
                         <div>
                            <div >
                               <figure class="special-img">
