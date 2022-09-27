@@ -27,7 +27,8 @@
     <link rel="stylesheet" href="assets/cardslider/css/swiper-bundle.min.css">
     <!-- CSS -->
     <link rel="stylesheet" href="assets/cardslider/css/styles.css"> 
-
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.3/dist/lazyload.min.js"></script>
+    
     <title>@yield('title')</title>
     
  </head>

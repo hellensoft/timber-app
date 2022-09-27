@@ -45,7 +45,7 @@
                         <div class="tab-pane fade show active" id="overview" role="tabpanel"
                             aria-labelledby="overview-tab">
                             <div class="overview-content">
-
+                                <h3>Day Trip – Tarangire National Park:</h3>
                                 <p>Tarangire National Park is the sixth largest national park in Tanzania after
                                     Ruaha, Serengeti, Mikumi, Katavi, and Mkomazi. The national park is located in
                                     Manyara Region.

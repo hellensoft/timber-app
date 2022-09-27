@@ -18,7 +18,7 @@
                             <a href="{{ URL::to('index') }}">Home</a>
                         </li>
                         <li class="menu">
-                            <a href="about.html">About</a>
+                            <a href="{{ URL::to('about') }}">About</a>
                         </li>
                         <li class="menu-item-has-children">
                             <a href="">Tour</a>
@@ -61,30 +61,41 @@
                             </ul>
                         </li>
                         <li class="menu-item-has-children">
-                            <a href="#">Adventures</a>
+                            <a >Adventures</a>
                             <ul>
 
                                 <li>
-                                    <a href="service.html">Trekking</a>
+                                    <a href="#">Trekking</a>
+                                    <ul>
+                                        <li>
+                                            <a href="{{ URL::to('momela') }}">Momela Trekk</a>
+                                        </li>
+                                        <li>
+                                            <a href="{{ URL::to('miriakamba') }}">Miriakamba Trekk</a>
+                                        </li>
+                                        <li>
+                                            <a href="{{ URL::to('rongai') }}">Rongai Trekk</a>
+                                        </li>
+                                        <li>
+                                            <a href="{{ URL::to('northern') }}">Northern Circuit</a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li>
-                                    <a href="career.html">Camping</a>
-                                </li>
-                                <li>
-                                    <a href="career-detail.html">Cultural Activities</a>
+                                    <a href="{{ URL::to('culture') }}">Cultural Activities</a>
                                 </li>
                             </ul>
                         </li>
 
                         <li>
-                            <a href="contact.html">Contact</a>
+                            <a href="{{ URL::to('contact') }}">Contact</a>
                         </li>
 
                     </ul>
                 </nav>
             </div>
             <div class="header-btn">
-                <a href="#" class="button-primary">ENQUIRE NOW</a>
+                <a href="{{ URL::to('contact') }}" class="button-primary">ENQUIRE NOW</a>
             </div>
         </div>
     </div>

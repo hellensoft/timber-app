@@ -27,6 +27,12 @@ Route::controller(PageController::class)->group(function(){
     Route::get('manyara', 'manyara');
     Route::get('arusha', 'arusha');
     Route::get('ngorongoro', 'ngorongoro');
+    Route::get('culture', 'culture');
+    Route::get('momela', 'momela');
+    Route::get('miriakamba', 'miriakamba');
+    Route::get('rongai', 'rongai');
+    Route::get('northern', 'northern');
+    Route::get('contact', 'contact');
 });
 
 // Route::get('/',['as' => 'index', function (){ return view('index');}]);

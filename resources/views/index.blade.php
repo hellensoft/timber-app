@@ -3,6 +3,7 @@
 @section('contents')
 
     <body class="home">
+        lazyLoadInstance.update();
         <div id="page" class="full-page">
 
             <main id="content" class="site-main">
@@ -10,8 +11,8 @@
                 <section class="home-slider-section">
                     <div class="home-slider">
 
-                        <div class="home-banner-items">
-                            <div class="banner-inner-wrap" style="background-image: url(assets/images/zebr.jpeg);"></div>
+                        <div class="home-banner-items ">
+                            <div class="banner-inner-wrap lazy" style="background-image: url(assets/images/zebr.jpeg);"></div>
                             <div class="banner-content-wrap">
                                 <div class="container">
                                     <div class="banner-content text-center">
@@ -25,7 +26,7 @@
                             <div class="overlay"></div>
                         </div>
 
-                        <div class="home-banner-items">
+                        <div class="home-banner-items ">
                             <div class="banner-inner-wrap" style="background-image: url(assets/images/camping.jpeg);"></div>
                             <div class="banner-content-wrap">
                                 <div class="container">
@@ -204,9 +205,9 @@
                             <div class="row">
                                 <div class="col-lg-4 col-md-6">
                                     <div class="package-wrap">
-                                        <figure class="feature-image">
+                                        <figure class="feature-image ">
                                             <a href="{{ URL::to('tetema') }}">
-                                                <img src="assets/images/IMG/AdobeStock_408988775.jpeg" alt="">
+                                                <img src="assets/images/IMG/AdobeStock_408988775.jpeg" class="lazy" alt="">
                                             </a>
                                         </figure>
                                         <div class="package-price">
@@ -243,9 +244,9 @@
                                 </div>
                                 <div class="col-lg-4 col-md-6">
                                     <div class="package-wrap">
-                                        <figure class="feature-image">
+                                        <figure class="feature-image ">
                                             <a href="{{ URL::to('pamoja') }}">
-                                                <img src="assets/images/IMG/AdobeStock_378623266.jpeg" alt="">
+                                                <img src="assets/images/IMG/AdobeStock_378623266.jpeg" class="lazy" alt="">
                                             </a>
                                         </figure>
                                         <div class="package-price">
@@ -282,9 +283,9 @@
                                 </div>
                                 <div class="col-lg-4 col-md-6">
                                     <div class="package-wrap">
-                                        <figure class="feature-image">
+                                        <figure class="feature-image ">
                                             <a href="{{ URL::to('rose') }}">
-                                                <img src="assets/images/IMG/AdobeStock_199768813.jpeg" alt="">
+                                                <img src="assets/images/IMG/AdobeStock_199768813.jpeg" class="lazy" alt="">
                                             </a>
                                         </figure>
                                         <div class="package-price">
@@ -323,9 +324,9 @@
                             <div class="row">
                                 <div class="col-lg-4 col-md-6">
                                     <div class="package-wrap">
-                                        <figure class="feature-image">
+                                        <figure class="feature-image ">
                                             <a href="{{ URL::to('ansi') }}">
-                                                <img src="assets/images/IMG/AdobeStock_464915831.jpeg" alt="">
+                                                <img src="assets/images/IMG/AdobeStock_464915831.jpeg" class="lazy" alt="">
                                             </a>
                                         </figure>
                                         <div class="package-price">
@@ -362,9 +363,9 @@
                                 </div>
                                 <div class="col-lg-4 col-md-6">
                                     <div class="package-wrap">
-                                        <figure class="feature-image">
+                                        <figure class="feature-image ">
                                             <a href="{{ URL::to('lina') }}">
-                                                <img src="assets/images/IMG/africa-g89468b3c2_1920.jpg" alt="">
+                                                <img src="assets/images/IMG/africa-g89468b3c2_1920.jpg" class="lazy" alt="">
                                             </a>
                                         </figure>
                                         <div class="package-price">
@@ -401,9 +402,9 @@
                                 </div>
                                 <div class="col-lg-4 col-md-6">
                                     <div class="package-wrap">
-                                        <figure class="feature-image">
+                                        <figure class="feature-image ">
                                             <a href="{{ URL::to('sharma') }}">
-                                                <img src="assets/images/IMG/AdobeStock_308185098.jpeg" alt="">
+                                                <img src="assets/images/IMG/AdobeStock_308185098.jpeg" class="lazy" alt="">
                                             </a>
                                         </figure>
                                         <div class="package-price">
@@ -463,21 +464,21 @@
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="package-wrap package-wrap-list">
-                                        <figure class="feature-image">
-                                            <a href="#">
-                                                <img src="assets/images/IMG/AdobeStock_472172349.jpeg" alt="">
+                                        <figure class="feature-image ">
+                                            <a href="{{ URL::to('tarangire') }}">
+                                                <img src="assets/images/IMG/AdobeStock_472172349.jpeg" class="lazy" alt="">
                                             </a>
 
                                         </figure>
                                         <div class="package-content">
                                             <h3>
-                                                <a href="#">Tarangire National Park</a>
+                                                <a href="{{ URL::to('tarangire') }}">Tarangire National Park</a>
                                             </h3>
                                             <br>
                                             <p>It is the sixth largest national park in Tanzania, located in Manyara Region.
                                                 Covering an area of approximately 2,850 sq. km (1,100 sq. miles).</p>
                                             <div class="btn-wrap">
-                                                <a href="#" class="button-text width-6">Read More<i
+                                                <a href="{{ URL::to('tarangire') }}" class="button-text width-6">Read More<i
                                                         class="fas fa-arrow-right"></i></a>
                                                 {{-- <a href="#" class="button-text width-6">Wish List<i class="far fa-heart"></i></a> --}}
                                             </div>
@@ -487,21 +488,21 @@
                                 <div class="col-lg-6">
                                     <div class="package-wrap package-wrap-list">
                                         <figure class="feature-image">
-                                            <a href="#">
-                                                <img src="assets/images/IMG/AdobeStock_169944206.jpeg" alt="">
+                                            <a href="{{ URL::to('manyara') }}">
+                                                <img src="assets/images/IMG/AdobeStock_169944206.jpeg" class="lazy" alt="">
                                             </a>
 
                                         </figure>
                                         <div class="package-content">
                                             <h3>
-                                                <a href="#">Manyara National Park</a>
+                                                <a href="{{ URL::to('manyara') }}">Manyara National Park</a>
                                             </h3>
                                             <br>
                                             <p>Located in both Arusha Region and Manyara Region, Tanzania. The park consists
                                                 of 330 sq. km (127 sq. miles) of arid land, forest, and a soda-lake land.
                                             </p>
                                             <div class="btn-wrap">
-                                                <a href="#" class="button-text width-6">Read More<i
+                                                <a href="{{ URL::to('manyara') }}" class="button-text width-6">Read More<i
                                                         class="fas fa-arrow-right"></i></a>
                                                 {{-- <a href="#" class="button-text width-6">Wish List<i class="far fa-heart"></i></a> --}}
                                             </div>
@@ -511,21 +512,21 @@
                                 <div class="col-lg-6">
                                     <div class="package-wrap package-wrap-list">
                                         <figure class="feature-image">
-                                            <a href="#">
-                                                <img src="assets/images/IMG/AdobeStock_383011165.jpeg" alt="">
+                                            <a href="{{ URL::to('arusha') }}">
+                                                <img src="assets/images/IMG/AdobeStock_383011165.jpeg" class="lazy" alt="">
                                             </a>
 
                                         </figure>
                                         <div class="package-content">
                                             <h3>
-                                                <a href="#">Arusha National Park</a>
+                                                <a href="{{ URL::to('arusha') }}">Arusha National Park</a>
                                             </h3>
                                             <br>
                                             <p>The only place on the northern safari circuit where the acrobatic
                                                 black-and-white colobus monkeys are easily seen, Arusha national park is a
                                                 multi faceted jewel.</p>
                                             <div class="btn-wrap">
-                                                <a href="#" class="button-text width-6">Read More<i
+                                                <a href="{{ URL::to('arusha') }}" class="button-text width-6">Read More<i
                                                         class="fas fa-arrow-right"></i></a>
                                                 {{-- <a href="#" class="button-text width-6">Wish List<i class="far fa-heart"></i></a> --}}
                                             </div>
@@ -535,22 +536,22 @@
                                 <div class="col-lg-6">
                                     <div class="package-wrap package-wrap-list">
                                         <figure class="feature-image">
-                                            <a href="#">
-                                                <img src="assets/images/IMG/AdobeStock_413497289.jpeg" alt=""
+                                            <a href="{{ URL::to('ngorongoro') }}">
+                                                <img src="assets/images/IMG/AdobeStock_413497289.jpeg" class="lazy" alt=""
                                                     style='height:416px;'>
                                             </a>
 
                                         </figure>
                                         <div class="package-content">
                                             <h3>
-                                                <a href="#">Ngorongoro National Park</a>
+                                                <a href="{{ URL::to('ngorongoro') }}">Ngorongoro National Park</a>
                                             </h3>
                                             <br>
                                             <p>The area is named after Ngorongoro Crater, a large volcanic caldera within
                                                 the area. It is located 180 km (110 mi) west of Arusha in the Crater
                                                 Highlands area of Tanzania.</p>
                                             <div class="btn-wrap">
-                                                <a href="#" class="button-text width-6">Read More<i
+                                                <a href="{{ URL::to('ngorongoro') }}" class="button-text width-6">Read More<i
                                                         class="fas fa-arrow-right"></i></a>
                                                 {{-- <a href="#" class="button-text width-6">Wish List<i class="far fa-heart"></i></a> --}}
                                             </div>
@@ -666,17 +667,17 @@
                                             <a class="button-primary" style='color: #E95B34'>LEARN MORE</a>
                                         </div>
                                         <div class="about-img">
-                                            <img src="assets/images/IMG/AdobeStock_335475536.jpeg" alt=""
+                                            <img src="assets/images/IMG/AdobeStock_335475536.jpeg" class="lazy" alt=""
                                                 style='height:343px; width:274px;'>
                                         </div>
                                     </div>
                                     <div class="about-img-right">
                                         <div class="about-img">
-                                            <img src="assets/images/IMG/AdobeStock_212527850.jpeg" alt=""
+                                            <img src="assets/images/IMG/AdobeStock_212527850.jpeg" class="lazy" alt=""
                                                 style='height:260px; width:358px;'>
                                         </div>
                                         <div class="about-img">
-                                            <img src="assets/images/IMG/AdobeStock_181402245_new.gif"
+                                            <img src="assets/images/IMG/AdobeStock_181402245_new.gif" class="lazy"
                                                 style='height:300px; width:358px;' alt="">
                                         </div>
                                     </div>
@@ -693,7 +694,7 @@
                                 <div class="about-service-container">
                                     <div class="about-service">
                                         <div class="about-service-icon">
-                                            <img src="assets/images/icon15.png" alt="">
+                                            <img src="assets/images/icon15.png" class="lazy" alt="">
                                         </div>
                                         <div class="about-service-content">
                                             <h4>EXPERTS ON TOURS</h4>
@@ -703,7 +704,7 @@
                                     </div>
                                     <div class="about-service">
                                         <div class="about-service-icon">
-                                            <img src="assets/images/icon16.png" alt="">
+                                            <img src="assets/images/icon16.png" class="lazy" alt="">
                                         </div>
                                         <div class="about-service-content">
                                             <h4>QUALITY ACCOMODATIONS</h4>
@@ -713,7 +714,7 @@
                                     </div>
                                     <div class="about-service">
                                         <div class="about-service-icon">
-                                            <img src="assets/images/icon17.png" alt="">
+                                            <img src="assets/images/icon17.png" class="lazy" alt="">
                                         </div>
                                         <div class="about-service-content">
                                             <h4>COMFORTABLE TRANSPORT</h4>
@@ -730,7 +731,7 @@
                 <!-- callback html end -->
                 <!-- Home activity section html start -->
                 <section class="activity-section activity-bg-image"
-                    style="background-image: url(assets/images/img23.jpg);padding-bottom: 150px;">
+                    style="background-image: url(assets/images/img23.jpg);padding-bottom: 150px;"  class="lazy">
                     <div class="container">
                         <div class="section-heading section-heading-white text-center">
                             <div class="row">
@@ -749,7 +750,7 @@
                                 <div class="activity-item">
                                     <div class="activity-icon">
                                         <a href="#">
-                                            <img src="assets/images/img44.png" alt="">
+                                            <img src="assets/images/img44.png"  class="lazy" alt="">
                                         </a>
                                     </div>
                                     <div class="activity-content">
@@ -764,7 +765,7 @@
                                 <div class="activity-item">
                                     <div class="activity-icon">
                                         <a href="#">
-                                            <img src="assets/images/img45.png" alt="">
+                                            <img src="assets/images/img45.png" class="lazy" alt="">
                                         </a>
                                     </div>
                                     <div class="activity-content">
@@ -779,7 +780,7 @@
                                 <div class="activity-item">
                                     <div class="activity-icon">
                                         <a href="#">
-                                            <img src="assets/images/img46.png" alt="">
+                                            <img src="assets/images/img46.png" class="lazy" alt="">
                                         </a>
                                     </div>
                                     <div class="activity-content">
@@ -794,7 +795,7 @@
                                 <div class="activity-item">
                                     <div class="activity-icon">
                                         <a href="#">
-                                            <img src="assets/images/img47.png" alt="">
+                                            <img src="assets/images/img47.png" class="lazy" alt="">
                                         </a>
                                     </div>
                                     <div class="activity-content">
@@ -809,7 +810,7 @@
                                 <div class="activity-item">
                                     <div class="activity-icon">
                                         <a href="#">
-                                            <img src="assets/images/img48.png" alt="">
+                                            <img src="assets/images/img48.png" class="lazy" alt="">
                                         </a>
                                     </div>
                                     <div class="activity-content">
@@ -824,7 +825,7 @@
                                 <div class="activity-item">
                                     <div class="activity-icon">
                                         <a href="#">
-                                            <img src="assets/images/img49.png" alt="">
+                                            <img src="assets/images/img49.png" class="lazy" alt="">
                                         </a>
                                     </div>
                                     <div class="activity-content">
@@ -984,17 +985,17 @@
                         <div class="client-wrap client-slider">
                             <div class="client-item">
                                 <figure>
-                                    <img src="assets/images/safari_booking_logo.png" alt="">
+                                    <img src="assets/images/safari_booking_logo.png" class="lazy" alt="">
                                 </figure>
                             </div>
                             <div class="client-item">
                                 <figure>
-                                    <img src="assets/images/safarigo_logo.png" alt="">
+                                    <img src="assets/images/safarigo_logo.png" class="lazy" alt="">
                                 </figure>
                             </div>
                             <div class="client-item">
                                 <figure>
-                                    <img src="assets/images/Tripadvisor-Logo.jpeg" alt="">
+                                    <img src="assets/images/Tripadvisor-Logo.jpeg" class="lazy" alt="">
                                 </figure>
                             </div>
                             {{-- <div class="client-item">
@@ -1149,17 +1150,17 @@
                                         <div class="col-sm-5">
                                             <div class="contact-details">
                                                 <div class="contact-icon">
-                                                    <img src="assets/images/icon12.png" alt="">
+                                                    <img src="assets/images/icon12.png" class="lazy" alt="">
                                                 </div>
                                                 <ul>
                                                     <li>
-                                                        <a href="#">info@timberwolfadventure.co.tz</a>
+                                                        <a href="{{ URL::to('contact') }}">info@timberwolfadventure.co.tz</a>
                                                     </li>
                                                     <li>
-                                                        <a href="#">info@timberwolfadventure.com</a>
+                                                        <a href="{{ URL::to('contact') }}">info@timberwolfadventure.com</a>
                                                     </li>
                                                     <li>
-                                                        <a href="#" style="color: #1D293F">/</a>
+                                                        <a href="{{ URL::to('contact') }}" style="color: #1D293F">/</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -1167,17 +1168,17 @@
                                         <div class="col-sm-3">
                                             <div class="contact-details">
                                                 <div class="contact-icon">
-                                                    <img src="assets/images/icon13.png" alt="">
+                                                    <img src="assets/images/icon13.png" class="lazy" alt="">
                                                 </div>
                                                 <ul>
                                                     <li>
-                                                        <a href="#">+255 787 104 848</a>
+                                                        <a href="{{ URL::to('contact') }}">+255 787 104 848</a>
                                                     </li>
                                                     <li>
-                                                        <a href="#">+255 713 697 189</a>
+                                                        <a href="{{ URL::to('contact') }}">+255 713 697 189</a>
                                                     </li>
                                                     <li>
-                                                        <a href="#">+255 764 493 234</a>
+                                                        <a href="{{ URL::to('contact') }}">+255 764 493 234</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -1185,7 +1186,7 @@
                                         <div class="col-sm-4">
                                             <div class="contact-details">
                                                 <div class="contact-icon">
-                                                    <img src="assets/images/icon14.png" alt="">
+                                                    <img src="assets/images/icon14.png" class="lazy" alt="">
                                                 </div>
                                                 <ul>
                                                     <li>
