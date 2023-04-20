@@ -3,7 +3,7 @@
 @section('contents')
 
     <body class="home">
-        lazyLoadInstance.update();
+        
         <div id="page" class="full-page">
 
             <main id="content" class="site-main">
@@ -12,14 +12,13 @@
                     <div class="home-slider">
 
                         <div class="home-banner-items ">
-                            <div class="banner-inner-wrap lazy" style="background-image: url(assets/images/zebr.jpeg);"></div>
+                            <div class="banner-inner-wrap lazy" style="background-image: url(assets/images/slider/mc.jpeg);"></div>
                             <div class="banner-content-wrap">
                                 <div class="container">
                                     <div class="banner-content text-center">
                                         <h2 class="banner-title">Timberwolf Adventure Tours</h2>
-                                        <p>Meet experienced travel consultants in Tanzania with assured best travelling
-                                            options at affordable prices.</p>
-                                        <a href="#" class="button-primary">GET STARTED</a>
+                                        <p>Meet experienced travel consultants in Tanzania with assured best travelling options at affordable prices.</p>
+                                        <a href="#" class="button-primary">GET STARTED <i class="fa fa-angle-right" aria-hidden="true"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -27,20 +26,33 @@
                         </div>
 
                         <div class="home-banner-items ">
-                            <div class="banner-inner-wrap" style="background-image: url(assets/images/camping.jpeg);"></div>
+                            <div class="banner-inner-wrap" style="background-image: url(assets/images/slider/potching.jpeg);"></div>
                             <div class="banner-content-wrap">
                                 <div class="container">
                                     <div class="banner-content text-center">
-                                        <h2 class="banner-title">EXPERIENCE THE NATURE'S BEAUTY</h2>
-                                        <p>Taciti quasi, sagittis excepteur hymenaeos, id temporibus hic proident ullam,
-                                            eaque donec delectus tempor consectetur nunc, purus congue? Rem volutpat
-                                            sodales! Mollit. Minus exercitationem wisi.</p>
-                                        <a href="#" class="button-primary">CONTINUE READING</a>
+                                        <h2 class="banner-title">Experience the Nature's of Beauty</h2>
+                                        <p>Our company offers a wide range of nature-focused experiences that allow you to experience the beauty of the great outdoors like never before. </p>
+                                        <a href="{{URL::to('about')}}" class="button-primary">LEARN MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="overlay"></div>
                         </div>
+
+                        <div class="home-banner-items ">
+                            <div class="banner-inner-wrap" style="background-image: url(assets/images/slider/tourguid.jpg);"></div>
+                            <div class="banner-content-wrap">
+                                <div class="container">
+                                    <div class="banner-content text-center">
+                                        <h2 class="banner-title">Experienced Tour Guiders</h2>
+                                        <p>Our company offers a wide range of nature-focused experiences that allow you to experience the beauty of the great outdoors like never before. </p>
+                                        <a href="{{URL::to('about')}}" class="button-primary">LEARN MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+
                     </div>
                 </section>
                 <!-- slider html start -->
@@ -48,30 +60,7 @@
                 <div class="trip-search-section shape-search-section">
                     <div class="slider-shape"></div>
                     <div class="container">
-                        {{-- <div class="trip-search-inner white-bg d-flex">
-                     <div class="input-group">
-                        <label> Search Destination* </label>
-                        <input type="text" name="s" placeholder="Enter Destination">
-                     </div>
-                     <div class="input-group">
-                        <label> Pax Number* </label>
-                        <input type="text" name="s" placeholder="No.of People">
-                     </div>
-                     <div class="input-group width-col-3">
-                        <label> Checkin Date* </label>
-                        <i class="far fa-calendar"></i>
-                        <input class="input-date-picker" type="text" name="s" placeholder="MM / DD / YY" autocomplete="off" readonly="readonly">
-                     </div>
-                     <div class="input-group width-col-3">
-                        <label> Checkout Date* </label>
-                        <i class="far fa-calendar"></i>
-                        <input class="input-date-picker" type="text" name="s" placeholder="MM / DD / YY" autocomplete="off" readonly="readonly">
-                     </div>
-                     <div class="input-group width-col-3">
-                        <label class="screen-reader-text"> Search </label>
-                        <input type="submit" name="travel-search" value="INQUIRE NOW">
-                     </div>
-                  </div> --}}
+                       
                     </div>
                 </div>
                 <!-- search search field html end -->
@@ -95,93 +84,7 @@
                                 </div>
                             </div>
                         </div>
-                        {{-- <div class="destination-inner destination-three-column">
-                     <div class="row">
-                        <div class="col-lg-7">
-                           <div class="row">
-                              <div class="col-sm-6">
-                                 <div class="desti-item overlay-desti-item">
-                                    <figure class="desti-image">
-                                       <img src="assets/images/img1.jpg" alt="">
-                                    </figure>
-                                    <div class="meta-cat bg-meta-cat">
-                                       <a href="#">THAILAND</a>
-                                    </div>
-                                    <div class="desti-content">
-                                       <h3>
-                                          <a href="#">Disney Land</a>
-                                       </h3>
-                                       <div class="rating-start" title="Rated 5 out of 4">
-                                          <span style="width: 53%"></span>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="col-sm-6">
-                                 <div class="desti-item overlay-desti-item">
-                                    <figure class="desti-image">
-                                       <img src="assets/images/img2.jpg" alt="">
-                                    </figure>
-                                    <div class="meta-cat bg-meta-cat">
-                                       <a href="#">NORWAY</a>
-                                    </div>
-                                    <div class="desti-content">
-                                       <h3>
-                                          <a href="#">Besseggen Ridge</a>
-                                       </h3>
-                                       <div class="rating-start" title="Rated 5 out of 5">
-                                          <span style="width: 100%"></span>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="col-lg-5">
-                           <div class="row">
-                              <div class="col-md-6 col-xl-12">
-                                 <div class="desti-item overlay-desti-item">
-                                    <figure class="desti-image">
-                                       <img src="assets/images/img3.jpg" alt="">
-                                    </figure>
-                                    <div class="meta-cat bg-meta-cat">
-                                       <a href="#">NEW ZEALAND</a>
-                                    </div>
-                                    <div class="desti-content">
-                                       <h3>
-                                          <a href="#">Oxolotan City</a>
-                                       </h3>
-                                       <div class="rating-start" title="Rated 5 out of 5">
-                                          <span style="width: 100%"></span>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="col-md-6 col-xl-12">
-                                 <div class="desti-item overlay-desti-item">
-                                    <figure class="desti-image">
-                                       <img src="assets/images/img4.jpg" alt="">
-                                    </figure>
-                                    <div class="meta-cat bg-meta-cat">
-                                       <a href="#">SINGAPORE</a>
-                                    </div>
-                                    <div class="desti-content">
-                                       <h3>
-                                          <a href="#">Marina Bay Sand City</a>
-                                       </h3>
-                                       <div class="rating-start" title="Rated 5 out of 4">
-                                          <span style="width: 60%"></span>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="btn-wrap text-center">
-                        <a href="#" class="button-primary">MORE DESTINATION</a>
-                     </div>
-                  </div> --}}
+                      
                     </div>
                 </section>
                 <!-- tour packages section html start -->
@@ -246,7 +149,7 @@
                                     <div class="package-wrap">
                                         <figure class="feature-image ">
                                             <a href="{{ URL::to('pamoja') }}">
-                                                <img src="assets/images/IMG/AdobeStock_378623266.jpeg" class="lazy" alt="">
+                                                <img src="assets/images/popular_tour/chuichui.jpg" class="lazy" alt="">
                                             </a>
                                         </figure>
                                         <div class="package-price">
@@ -285,7 +188,7 @@
                                     <div class="package-wrap">
                                         <figure class="feature-image ">
                                             <a href="{{ URL::to('rose') }}">
-                                                <img src="assets/images/IMG/AdobeStock_199768813.jpeg" class="lazy" alt="">
+                                                <img src="assets/images/popular_tour/Nyati.jpg" class="lazy" alt="">
                                             </a>
                                         </figure>
                                         <div class="package-price">
@@ -365,7 +268,7 @@
                                     <div class="package-wrap">
                                         <figure class="feature-image ">
                                             <a href="{{ URL::to('lina') }}">
-                                                <img src="assets/images/IMG/africa-g89468b3c2_1920.jpg" class="lazy" alt="">
+                                                <img src="assets/images/popular_tour/boko.jpg" class="lazy" alt="">
                                             </a>
                                         </figure>
                                         <div class="package-price">
@@ -564,99 +467,10 @@
                 </section>
                 <!-- trips packages html end -->
 
-                <!-- Home callback section html start -->
-                {{-- <section class="callback-section">
-               <div class="container">
-                  <div class="row no-gutters align-items-center">
-                     <div class="col-lg-5">
-                        <div class="callback-img" style="background-image: url(assets/images/img8.jpg);">
-                           <div class="video-button">
-                              <a id="video-container" data-video-id="IUN664s7N-c">
-                                 <i class="fas fa-play"></i>
-                              </a>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-lg-7">
-                        <div class="callback-inner">
-                           <div class="section-heading section-heading-white">
-                              <h5 class="dash-style">CALLBACK FOR MORE</h5>
-                              <h2>GO TRAVEL. DISCOVER. REMEMBER US!!</h2>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Eaque adipiscing, luctus eleifend.</p>
-                           </div>
-                           <div class="callback-counter-wrap">
-                              <div class="counter-item">
-                                 <div class="counter-icon">
-                                   <img src="assets/images/icon1.png" alt="">
-                                 </div>
-                                 <div class="counter-content">
-                                    <span class="counter-no">
-                                       <span class="counter">500</span>K+
-                                    </span>
-                                    <span class="counter-text">
-                                       Satisfied Clients
-                                    </span>
-                                 </div>
-                              </div>
-                              <div class="counter-item">
-                                 <div class="counter-icon">
-                                   <img src="assets/images/icon2.png" alt="">
-                                 </div>
-                                 <div class="counter-content">
-                                    <span class="counter-no">
-                                       <span class="counter">250</span>K+
-                                    </span>
-                                    <span class="counter-text">
-                                       Satisfied Clients
-                                    </span>
-                                 </div>
-                              </div>
-                              <div class="counter-item">
-                                 <div class="counter-icon">
-                                   <img src="assets/images/icon3.png" alt="">
-                                 </div>
-                                 <div class="counter-content">
-                                    <span class="counter-no">
-                                       <span class="counter">15</span>K+
-                                    </span>
-                                    <span class="counter-text">
-                                       Satisfied Clients
-                                    </span>
-                                 </div>
-                              </div>
-                              <div class="counter-item">
-                                 <div class="counter-icon">
-                                   <img src="assets/images/icon4.png" alt="">
-                                 </div>
-                                 <div class="counter-content">
-                                    <span class="counter-no">
-                                       <span class="counter">10</span>K+
-                                    </span>
-                                    <span class="counter-text">
-                                       Satisfied Clients
-                                    </span>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="support-area">
-                              <div class="support-icon">
-                                 <img src="assets/images/icon5.png" alt="">
-                              </div>
-                              <div class="support-content">
-                                 <h4>Our 24/7 Emergency Phone Services</h4>
-                                 <h3>
-                                    <a href="#">Call: 123-456-7890</a>
-                                 </h3>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </section> --}}
+              
 
                 <!-- about us section html start -->
-                <section class="home-about-section" style='padding-bottom: 150px;'>
+                <section class="home-about-section" style='padding-bottom: 150px; padding-top: 50px;'>
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-7">
@@ -664,7 +478,7 @@
                                     <div class="about-img-left">
                                         <div class="about-content secondary-bg d-flex flex-wrap">
                                             <h3>Timber Wolf Adventures</h3>
-                                            <a class="button-primary" style='color: #E95B34'>LEARN MORE</a>
+                                            <a class="button-primary" style='color: #fffff'>LEARN MORE</a>
                                         </div>
                                         <div class="about-img">
                                             <img src="assets/images/IMG/AdobeStock_335475536.jpeg" class="lazy" alt=""
@@ -673,7 +487,7 @@
                                     </div>
                                     <div class="about-img-right">
                                         <div class="about-img">
-                                            <img src="assets/images/IMG/AdobeStock_212527850.jpeg" class="lazy" alt=""
+                                            <img src="assets/images/get.jpeg" class="lazy" alt=""
                                                 style='height:260px; width:358px;'>
                                         </div>
                                         <div class="about-img">
@@ -685,11 +499,10 @@
                             </div>
                             <div class="col-lg-5">
                                 <div class="banner-content section-heading">
-                                    <h5>INTRODUCTION ABOUT US</h5>
+                                    <h5>Adventures Calling You</h5>
                                     <h2 class="banner-title">MAKE THE BEST OF YOUR HOLIDAY</h2>
                                     <div class="title-icon-divider"><i class="fas fa-suitcase-rolling"></i></div>
-                                    <p>Timber Wolf Adventure is a Tanzanian based Tour Operator located in Arusha.
-                                        Specializing in both Treks and Safari to all Tanzania destinations.</p>
+                                    <p>Timber Wolf Adventure is a Tanzanian based Tour Operator located in Arusha. Specializing in both Treks and Safari to all Tanzania destinations.</p>
                                 </div>
                                 <div class="about-service-container">
                                     <div class="about-service">
@@ -731,16 +544,14 @@
                 <!-- callback html end -->
                 <!-- Home activity section html start -->
                 <section class="activity-section activity-bg-image"
-                    style="background-image: url(assets/images/img23.jpg);padding-bottom: 150px;"  class="lazy">
+                    style="background-image: url(assets/images/imgs/Tembo.jpg);padding-bottom: 150px;"  class="lazy">
                     <div class="container">
                         <div class="section-heading section-heading-white text-center">
                             <div class="row">
                                 <div class="col-lg-8 offset-lg-2">
                                     <h5 class="dash-style">YOUR ADVENTURES AWAITS</h5>
                                     <h2>ADVENTURES & ACTIVITIES</h2>
-                                    <p>Mollit voluptatem perspiciatis convallis elementum corporis quo veritatis aliquid
-                                        blandit, blandit torquent, odit placeat. Adipiscing repudiandae eius cursus? Nostrum
-                                        magnis maxime curae placeat.</p>
+                                    <p>No matter what type of adventure or activity you choose, the most important thing is to have fun and stay safe!</p>
                                     <div class="title-icon-divider"><i class="fas fa-suitcase-rolling"></i></div>
                                 </div>
                             </div>
@@ -755,7 +566,7 @@
                                     </div>
                                     <div class="activity-content">
                                         <h4>
-                                            <a href="#">Adventures</a>
+                                            <a href="#">Mountain Trekking</a>
                                         </h4>
                                         {{-- <p style="color: #ffffff">15 Destination</p> --}}
                                     </div>
@@ -770,7 +581,7 @@
                                     </div>
                                     <div class="activity-content">
                                         <h4>
-                                            <a href="#">Trekking</a>
+                                            <a href="#">Adventures</a>
                                         </h4>
                                         {{-- <p style="color: #ffffff">12 Destination</p> --}}
                                     </div>
@@ -800,7 +611,7 @@
                                     </div>
                                     <div class="activity-content">
                                         <h4>
-                                            <a href="#">Off Road</a>
+                                            <a href="#">Team Sports</a>
                                         </h4>
                                         {{-- <p style="color: #ffffff">15 Destination</p> --}}
                                     </div>
@@ -815,7 +626,7 @@
                                     </div>
                                     <div class="activity-content">
                                         <h4>
-                                            <a href="#">Camping</a>
+                                            <a href="#">Culture Activities</a>
                                         </h4>
                                         {{-- <p style="color: #ffffff">13 Destination</p> --}}
                                     </div>
@@ -830,7 +641,7 @@
                                     </div>
                                     <div class="activity-content">
                                         <h4>
-                                            <a href="#">Exploring</a>
+                                            <a href="#">Creative Pursuit</a>
                                         </h4>
                                         {{-- <p style="color: #ffffff">25 Destination</p> --}}
                                     </div>
@@ -840,144 +651,6 @@
                     </div>
                 </section>
 
-                <!-- activity html end -->
-                <!-- Home special section html start -->
-                {{-- <section class="special-section" style="background-image: url(assets/images/img23.jpg);">
-               <div class="container">
-                  <div class="section-heading text-center">
-                     <div class="row">
-                        <div class="col-lg-8 offset-lg-2">
-                           <h5 class="dash-style">TRAVEL OFFER & DISCOUNT</h5>
-                           <h2>SPECIAL TRAVEL OFFER</h2>
-                           <p>Mollit voluptatem perspiciatis convallis elementum corporis quo veritatis aliquid blandit, blandit torquent, odit placeat. Adipiscing repudiandae eius cursus? Nostrum magnis maxime curae placeat.</p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="special-inner">
-                     <div class="row">
-                        <div class="col-md-6 col-lg-4">
-                           <div class="special-item">
-                              <figure class="special-img">
-                                 <img src="assets/images/img9.jpg" alt="">
-                              </figure>
-                              <div class="badge-dis">
-                                 <span>
-                                    <strong>20%</strong>
-                                    off
-                                 </span>
-                              </div>
-                              <div class="special-content">
-                                 <div class="meta-cat">
-                                    <a href="#">CANADA</a>
-                                 </div>
-                                 <h3>
-                                    <a href="#">Experience the natural beauty of glacier</a>
-                                 </h3>
-                                 <div class="package-price">
-                                    Price:
-                                    <del>$1500</del>
-                                    <ins>$1200</ins>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                           <div class="special-item">
-                              <figure class="special-img">
-                                 <img src="assets/images/img10.jpg" alt="">
-                              </figure>
-                              <div class="badge-dis">
-                                 <span>
-                                    <strong>15%</strong>
-                                    off
-                                 </span>
-                              </div>
-                              <div class="special-content">
-                                 <div class="meta-cat">
-                                    <a href="#">NEW ZEALAND</a>
-                                 </div>
-                                 <h3>
-                                    <a href="#">Trekking to the mountain camp site</a>
-                                 </h3>
-                                 <div class="package-price">
-                                    Price:
-                                    <del>$1300</del>
-                                    <ins>$1105</ins>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                           <div class="special-item">
-                              <figure class="special-img">
-                                 <img src="assets/images/img11.jpg" alt="">
-                              </figure>
-                              <div class="badge-dis">
-                                 <span>
-                                    <strong>15%</strong>
-                                    off
-                                 </span>
-                              </div>
-                              <div class="special-content">
-                                 <div class="meta-cat">
-                                    <a href="#">MALAYSIA</a>
-                                 </div>
-                                 <h3>
-                                    <a href="#">Sunset view of beautiful lakeside city</a>
-                                 </h3>
-                                 <div class="package-price">
-                                    Price:
-                                    <del>$1800</del>
-                                    <ins>$1476</ins>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </section> --}}
-
-                <!-- special html end -->
-                <!-- Home special section html start -->
-                {{-- <section class="best-section" style="background-image: url(assets/images/img23.jpg);">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-lg-5">
-                        <div class="section-heading">
-                           <h5 class="dash-style">OUR TOUR GALLERY</h5>
-                           <h2>BEST TRAVELER'S SHARED PHOTOS</h2>
-                           <p>Aperiam sociosqu urna praesent, tristique, corrupti condimentum asperiores platea ipsum ad arcu. Nostrud. Esse? Aut nostrum, ornare quas provident laoreet nesciunt odio voluptates etiam, omnis.</p>
-                        </div>
-                        <figure class="gallery-img">
-                           <img src="assets/images/img12.jpg" alt="">
-                        </figure>
-                     </div>
-                     <div class="col-lg-7">
-                        <div class="row">
-                           <div class="col-sm-6">
-                              <figure class="gallery-img">
-                                 <img src="assets/images/img13.jpg" alt="">
-                              </figure>
-                           </div>
-                           <div class="col-sm-6">
-                              <figure class="gallery-img">
-                                 <img src="assets/images/img14.jpg" alt="">
-                              </figure>
-                           </div>
-                        </div>
-                        <div class="row">
-                           <div class="col-12">
-                              <figure class="gallery-img">
-                                 <img src="assets/images/img15.jpg" alt="">
-                              </figure>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </section> --}}
-                <!-- best html end -->
 
                 <!-- client html begin -->
                 <div class="client-section" style='padding-bottom: 200px; padding-top: 65px;'>
@@ -985,155 +658,26 @@
                         <div class="client-wrap client-slider">
                             <div class="client-item">
                                 <figure>
-                                    <img src="assets/images/safari_booking_logo.png" class="lazy" alt="">
+                                    <img src="assets/images/platform/safari_booking_logo.png" class="lazy client-img" alt="">
                                 </figure>
                             </div>
                             <div class="client-item">
                                 <figure>
-                                    <img src="assets/images/safarigo_logo.png" class="lazy" alt="">
+                                    <img src="assets/images/platform/safarigo_logo.png" class="lazy" alt="">
                                 </figure>
                             </div>
                             <div class="client-item">
                                 <figure>
-                                    <img src="assets/images/Tripadvisor-Logo.jpeg" class="lazy" alt="">
+                                    <img src="assets/images/platform/Tripadvisor-Logo.jpeg" class="lazy" alt="">
                                 </figure>
                             </div>
-                            {{-- <div class="client-item">
-                        <figure>
-                           <img src="assets/images/logo10.png" alt="">
-                        </figure>
-                     </div>
-                     <div class="client-item">
-                        <figure>
-                           <img src="assets/images/logo11.png" alt="">
-                        </figure>
-                     </div>
-                     <div class="client-item">
-                        <figure>
-                           <img src="assets/images/logo8.png" alt="">
-                        </figure>
-                     </div> --}}
+                           
                         </div>
                     </div>
                 </div>
                 <!-- client html end -->
 
 
-                <!-- Home subscribe section html start -->
-                {{-- <section class="subscribe-section" style="background-image: url(assets/images/img23.jpg);">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-lg-7">
-                        <div class="section-heading section-heading-white">
-                           <h5 class="dash-style">HOLIDAY PACKAGE OFFER</h5>
-                           <h2>HOLIDAY SPECIAL 25% OFF !</h2>
-                           <h4>Sign up now to recieve hot special offers and information about the best tour packages, updates and discounts !!</h4>
-                           <div class="newsletter-form">
-                              <form>
-                                 <input type="email" name="s" placeholder="Your Email Address">
-                                 <input type="submit" name="signup" value="SIGN UP NOW!">
-                              </form>
-                           </div>
-                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Eaque adipiscing, luctus eleifend temporibus occaecat luctus eleifend tempo ribus.</p>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </section> --}}
-                <!-- subscribe html end -->
-
-
-                <!-- Home blog section html start -->
-                {{-- <section class="blog-section">
-               <div class="container">
-                  <div class="section-heading text-center">
-                     <div class="row">
-                        <div class="col-lg-8 offset-lg-2">
-                           <h5 class="dash-style">FROM OUR BLOG</h5>
-                           <h2>OUR RECENT POSTS</h2>
-                           <p>Mollit voluptatem perspiciatis convallis elementum corporis quo veritatis aliquid blandit, blandit torquent, odit placeat. Adipiscing repudiandae eius cursus? Nostrum magnis maxime curae placeat.</p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row">
-                     <div class="col-md-6 col-lg-4">
-                        <article class="post">
-                           <figure class="feature-image">
-                              <a href="#">
-                                 <img src="assets/images/img17.jpg" alt="">
-                              </a>
-                           </figure>
-                           <div class="entry-content">
-                              <h3>
-                                 <a href="#">Life is a beautiful journey not a destination</a>
-                              </h3>
-                              <div class="entry-meta">
-                                 <span class="byline">
-                                    <a href="#">Demoteam</a>
-                                 </span>
-                                 <span class="posted-on">
-                                    <a href="#">August 17, 2021</a>
-                                 </span>
-                                 <span class="comments-link">
-                                    <a href="#">No Comments</a>
-                                 </span>
-                              </div>
-                           </div>
-                        </article>
-                     </div>
-                     <div class="col-md-6 col-lg-4">
-                        <article class="post">
-                           <figure class="feature-image">
-                              <a href="#">
-                                 <img src="assets/images/img18.jpg" alt="">
-                              </a>
-                           </figure>
-                           <div class="entry-content">
-                              <h3>
-                                 <a href="#">Take only memories, leave only footprints</a>
-                              </h3>
-                              <div class="entry-meta">
-                                 <span class="byline">
-                                    <a href="#">Demoteam</a>
-                                 </span>
-                                 <span class="posted-on">
-                                    <a href="#">August 17, 2021</a>
-                                 </span>
-                                 <span class="comments-link">
-                                    <a href="#">No Comments</a>
-                                 </span>
-                              </div>
-                           </div>
-                        </article>
-                     </div>
-                     <div class="col-md-6 col-lg-4">
-                        <article class="post">
-                           <figure class="feature-image">
-                              <a href="#">
-                                 <img src="assets/images/img19.jpg" alt="">
-                              </a>
-                           </figure>
-                           <div class="entry-content">
-                              <h3>
-                                 <a href="#">Journeys are best measured in new friends</a>
-                              </h3>
-                              <div class="entry-meta">
-                                 <span class="byline">
-                                    <a href="#">Demoteam</a>
-                                 </span>
-                                 <span class="posted-on">
-                                    <a href="#">August 17, 2021</a>
-                                 </span>
-                                 <span class="comments-link">
-                                    <a href="#">No Comments</a>
-                                 </span>
-                              </div>
-                           </div>
-                        </article>
-                     </div>
-                  </div>
-               </div>
-            </section> --}}
 
                 <!-- Home contact details section html start -->
                 <section class="contact-section">

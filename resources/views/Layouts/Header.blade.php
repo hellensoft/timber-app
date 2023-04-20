@@ -6,7 +6,7 @@
         <div class="container d-flex justify-content-between align-items-center">
             <div class="site-identity">
                 <h1 class="site-title">
-                    <a href="index.html">
+                    <a href="{{URL::to('index')}}">
                         <img src="{{ asset('assets/images/twalog.png') }}" alt="logo">
                     </a>
                 </h1>
@@ -21,7 +21,7 @@
                             <a href="{{ URL::to('about') }}">About</a>
                         </li>
                         <li class="menu-item-has-children">
-                            <a href="">Tour</a>
+                            <a href="#">Tour</a>
                             <ul>
                                 <li>
                                     <a href="{{ URL::to('tetema') }}">Tetema Tour</a>
@@ -61,7 +61,7 @@
                             </ul>
                         </li>
                         <li class="menu-item-has-children">
-                            <a >Adventures</a>
+                            <a>Adventures</a>
                             <ul>
 
                                 <li>

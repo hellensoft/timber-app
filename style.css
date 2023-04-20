@@ -1391,7 +1391,7 @@ input[type=submit]:focus {
   right: 0;
   position: absolute;
   width: 100%;
-  top: 0;
+  top: -10;
   z-index: 99;
 }
 
@@ -2206,7 +2206,7 @@ input[type=submit]:focus {
 .slick-slider .slick-prev:before,
 .slick-slider .slick-next:before {
   background-color: rgba(0, 0, 0, 0.8);
-  color: #ffffff;
+  /* color: #ffffff; */
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
   -ms-border-radius: 100%;
@@ -4710,7 +4710,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   padding: 10px;
 }
 .fullwidth-callback .callback-counter-wrap .counter-item-inner {
-  background-color: rgba(245, 105, 96, 0.8);
+  background-color: #E95B34;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
