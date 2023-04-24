@@ -8,7 +8,7 @@
 
             <main id="content" class="site-main">
                 <!-- Home slider html start -->
-                <section class="home-slider-section">
+                <section class="home-slider-section ">
                     <div class="home-slider">
 
                         <div class="home-banner-items ">
@@ -64,7 +64,7 @@
                     </div>
                 </div>
                 <!-- search search field html end -->
-                <section class="destination-section" style="padding-bottom: 51px">
+                <section class="destination-section section-anime" style="padding-bottom: 51px">
                     <div class="container">
                         <div class="section-heading">
                             <div class="row align-items-end">
@@ -88,7 +88,7 @@
                     </div>
                 </section>
                 <!-- tour packages section html start -->
-                <section class="package-section" style='padding-bottom: 50px;'>
+                <section class="package-section section-anime" style='padding-bottom: 50px;'>
                     <div class="container">
                         <div class="section-heading text-center">
                             <div class="row">
@@ -108,9 +108,9 @@
                             <div class="row">
                                 <div class="col-lg-4 col-md-6">
                                     <div class="package-wrap">
-                                        <figure class="feature-image ">
+                                        <figure class="feature-image animate ">
                                             <a href="{{ URL::to('tetema') }}">
-                                                <img src="assets/images/IMG/AdobeStock_408988775.jpeg" class="lazy" alt="">
+                                                <img src="assets/images/popular_tour/simba.jpg" class="lazy" alt="">
                                             </a>
                                         </figure>
                                         <div class="package-price">
@@ -147,7 +147,7 @@
                                 </div>
                                 <div class="col-lg-4 col-md-6">
                                     <div class="package-wrap">
-                                        <figure class="feature-image ">
+                                        <figure class="feature-image animate">
                                             <a href="{{ URL::to('pamoja') }}">
                                                 <img src="assets/images/popular_tour/chuichui.jpg" class="lazy" alt="">
                                             </a>
@@ -186,7 +186,7 @@
                                 </div>
                                 <div class="col-lg-4 col-md-6">
                                     <div class="package-wrap">
-                                        <figure class="feature-image ">
+                                        <figure class="feature-image animate">
                                             <a href="{{ URL::to('rose') }}">
                                                 <img src="assets/images/popular_tour/Nyati.jpg" class="lazy" alt="">
                                             </a>
@@ -227,9 +227,9 @@
                             <div class="row">
                                 <div class="col-lg-4 col-md-6">
                                     <div class="package-wrap">
-                                        <figure class="feature-image ">
+                                        <figure class="feature-image animate">
                                             <a href="{{ URL::to('ansi') }}">
-                                                <img src="assets/images/IMG/AdobeStock_464915831.jpeg" class="lazy" alt="">
+                                                <img src="assets/images/popular_tour/swala.jpg" class="lazy" alt="">
                                             </a>
                                         </figure>
                                         <div class="package-price">
@@ -266,9 +266,9 @@
                                 </div>
                                 <div class="col-lg-4 col-md-6">
                                     <div class="package-wrap">
-                                        <figure class="feature-image ">
+                                        <figure class="feature-image animate">
                                             <a href="{{ URL::to('lina') }}">
-                                                <img src="assets/images/popular_tour/boko.jpg" class="lazy" alt="">
+                                                <img src="assets/images/popular_tour/viboko.jpg" class="lazy" alt="">
                                             </a>
                                         </figure>
                                         <div class="package-price">
@@ -305,9 +305,9 @@
                                 </div>
                                 <div class="col-lg-4 col-md-6">
                                     <div class="package-wrap">
-                                        <figure class="feature-image ">
+                                        <figure class="feature-image animate">
                                             <a href="{{ URL::to('sharma') }}">
-                                                <img src="assets/images/IMG/AdobeStock_308185098.jpeg" class="lazy" alt="">
+                                                <img src="assets/images/popular_tour/tembo.jpg" class="lazy" alt="">
                                             </a>
                                         </figure>
                                         <div class="package-price">
@@ -352,7 +352,7 @@
                 <!-- tour packages html end -->
 
                 <!-- trips packages section html start -->
-                <section class="package-section bg-light-grey" style='padding-bottom: 150px;'>
+                <section class="package-section section-anime bg-light-grey" style='padding-bottom: 150px;'>
                     <div class="container">
                         <div class="section-heading text-center">
                             <div class="row">
@@ -367,7 +367,7 @@
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="package-wrap package-wrap-list">
-                                        <figure class="feature-image ">
+                                        <figure class="feature-image animate">
                                             <a href="{{ URL::to('tarangire') }}">
                                                 <img src="assets/images/IMG/AdobeStock_472172349.jpeg" class="lazy" alt="">
                                             </a>
@@ -390,9 +390,9 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="package-wrap package-wrap-list">
-                                        <figure class="feature-image">
+                                        <figure class="feature-image animate">
                                             <a href="{{ URL::to('manyara') }}">
-                                                <img src="assets/images/IMG/AdobeStock_169944206.jpeg" class="lazy" alt="">
+                                                <img src="assets/images/popular_tour/Chui.jpg" class="lazy" alt="">
                                             </a>
 
                                         </figure>
@@ -414,7 +414,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="package-wrap package-wrap-list">
-                                        <figure class="feature-image">
+                                        <figure class="feature-image animate">
                                             <a href="{{ URL::to('arusha') }}">
                                                 <img src="assets/images/IMG/AdobeStock_383011165.jpeg" class="lazy" alt="">
                                             </a>
@@ -438,7 +438,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="package-wrap package-wrap-list">
-                                        <figure class="feature-image">
+                                        <figure class="feature-image animate">
                                             <a href="{{ URL::to('ngorongoro') }}">
                                                 <img src="assets/images/IMG/AdobeStock_413497289.jpeg" class="lazy" alt=""
                                                     style='height:416px;'>
@@ -480,13 +480,13 @@
                                             <h3>Timber Wolf Adventures</h3>
                                             <a class="button-primary" style='color: #fffff'>LEARN MORE</a>
                                         </div>
-                                        <div class="about-img">
-                                            <img src="assets/images/IMG/AdobeStock_335475536.jpeg" class="lazy" alt=""
+                                        <div class="about-img animate">
+                                            <img src="assets/images/IMG/AdobeStock_335475536.jpeg" class="lazy " alt=""
                                                 style='height:343px; width:274px;'>
                                         </div>
                                     </div>
                                     <div class="about-img-right">
-                                        <div class="about-img">
+                                        <div class="about-img animate">
                                             <img src="assets/images/get.jpeg" class="lazy" alt=""
                                                 style='height:260px; width:358px;'>
                                         </div>

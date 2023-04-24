@@ -7,7 +7,7 @@
             <div class="site-identity">
                 <h1 class="site-title">
                     <a href="{{URL::to('index')}}">
-                        <img src="{{ asset('assets/images/twalog.png') }}" alt="logo">
+                        <img src="{{ asset('assets/images/ologo.png') }}" alt="logo">
                     </a>
                 </h1>
             </div>
