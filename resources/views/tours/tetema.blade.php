@@ -6,7 +6,7 @@
     <main id="content" class="site-main">
         <!-- Inner Banner html start-->
         <section class="inner-banner-wrap">
-            <div class="inner-baner-container" style="background-image: url(assets/images/inner-banner.jpg);">
+            <div class="inner-baner-container" style="background-image: url(assets/images/imgs/Tembo.jpg);">
                 <div class="container">
                     <div class="inner-banner-content">
                         <h1 class="inner-title">Tetema Tour</h1>
@@ -22,8 +22,8 @@
                     <div class="col-lg-8">
                         <div class="single-tour-inner">
                             <h2>Experience Adventure</h2>
-                            <figure class="feature-image">
-                                <img src="assets/images/IMG/AdobeStock_408988775.jpeg" alt="">
+                            <figure class="feature-image animate">
+                                <img src="assets/images/popular_tour/simba.jpg" alt="">
                                 <div class="package-meta text-center">
                                     <ul>
                                         <li>
@@ -61,7 +61,7 @@
                                 <div class="tab-content" id="myTabContent">
                                     <div class="tab-pane fade show active" id="overview" role="tabpanel"
                                         aria-labelledby="overview-tab">
-                                        <div class="overview-content">
+                                        <div class="">
 
                                             <p>The tour has been designed to include:</p>
                                             <ul style='color:#1D293F'>
@@ -313,24 +313,20 @@
                                 <div class="single-tour-slider">
                                     <div class="single-tour-item">
                                         <figure class="feature-image">
-                                            <img src="assets/images/img28.jpg" alt="">
+                                            <img src="assets/images/culture/lion.jpeg" alt="">
                                         </figure>
                                     </div>
                                     <div class="single-tour-item">
                                         <figure class="feature-image">
-                                            <img src="assets/images/img29.jpg" alt="">
+                                            <img src="assets/images/culture/masai.jpg" alt="">
                                         </figure>
                                     </div>
                                     <div class="single-tour-item">
                                         <figure class="feature-image">
-                                            <img src="assets/images/img32.jpg" alt="">
+                                            <img src="assets/images/culture/ngoro.jpeg" alt="">
                                         </figure>
                                     </div>
-                                    <div class="single-tour-item">
-                                        <figure class="feature-image">
-                                            <img src="assets/images/img33.jpg" alt="">
-                                        </figure>
-                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -409,15 +405,17 @@
                 </div>
             </div>
         </div>
-        <section class="subscribe-section" style="background-image: url(assets/images/img16.jpg);">
+        <section class="subscribe-section" style="background-image: url(assets/images/imgs/Tembo.jpg);">
             <div class="slide-container swiper">
+                <h3 style="color: white;">TOUR & DESTINATION</h3>
                 <div class="slide-content">
                     <div class="card-wrapper swiper-wrapper">
                         <div class="card swiper-slide">
+
                             <div class="package-wrap">
-                                <figure class="feature-image">
+                                <figure class="feature-image animate">
                                     <a href="{{ URL::to('pamoja') }}">
-                                        <img src="assets/images/IMG/AdobeStock_378623266.jpeg" alt=""
+                                        <img src="assets/images/popular_tour/chuichui.jpg" alt=""
                                             style='border-radius: 25px 25px 0 0;'>
                                     </a>
                                 </figure>
@@ -457,7 +455,7 @@
                             <div class="package-wrap">
                                 <figure class="feature-image">
                                     <a href="{{ URL::to('rose') }}">
-                                        <img src="assets/images/IMG/AdobeStock_199768813.jpeg" alt=""
+                                        <img src="assets/images/popular_tour/Nyati.jpg" alt=""
                                             style='border-radius: 25px 25px 0 0;'>
                                     </a>
                                 </figure>
@@ -498,7 +496,7 @@
                             <div class="package-wrap">
                                 <figure class="feature-image">
                                     <a href="{{ URL::to('ansi') }}">
-                                        <img src="assets/images/IMG/AdobeStock_464915831.jpeg" alt=""
+                                        <img src="assets/images/popular_tour/sswala.jpg" alt=""
                                             style='border-radius: 25px 25px 0 0;'>
                                     </a>
                                 </figure>
@@ -539,7 +537,7 @@
                             <div class="package-wrap">
                                 <figure class="feature-image">
                                     <a href="{{ URL::to('lina') }}">
-                                        <img src="assets/images/IMG/africa-g89468b3c2_1920.jpg" alt=""
+                                        <img src="assets/images/popular_tour/viboko.jpg" alt=""
                                             style='border-radius: 25px 25px 0 0;'>
                                     </a>
                                 </figure>
@@ -579,7 +577,7 @@
                             <div class="package-wrap">
                                 <figure class="feature-image">
                                     <a href="{{ URL::to('sharma') }}">
-                                        <img src="assets/images/IMG/AdobeStock_308185098.jpeg" alt=""
+                                        <img src="assets/images/popular_tour/tembo.jpg" alt=""
                                             style='border-radius: 25px 25px 0 0;'>
                                     </a>
                                 </figure>

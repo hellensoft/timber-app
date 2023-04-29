@@ -23,7 +23,7 @@
                <div class="single-gallery grid-item">
                   <figure class="gallery-img">
                      <img src="assets/images/culture/image2.jpeg" class="lazy"  alt="">
-                  
+
                      <div class="gallery-title">
                         <h3>
                            <a href="assets/images/culture/image2.jpeg" class="lazy"  data-lightbox="lightbox-set">
@@ -31,7 +31,7 @@
                            </a>
                         </h3>
                      </div>
-                  
+
                   </figure>
                </div>
                <div class="single-gallery grid-item">
@@ -118,7 +118,7 @@
                      </div>
                   </figure>
                </div>
-               
+
                <div class="single-gallery grid-item">
                   <figure class="gallery-img">
                      <img src="assets/images/culture/image1.jpeg" alt="">
@@ -194,8 +194,8 @@
             </a>
           </li>
           <li class="active"><a href="#">1</a></li>
-          <li><a href="#">..</a></li>
-          <li><a href="#">5</a></li>
+          <li><a href="#">2</a></li>
+          <li id="endIndex"><a href="#">3</a></li>
           <li>
             <a href="#">
               <i class="fas fa-arrow-right"></i>
@@ -205,7 +205,8 @@
       </nav>
    </div>
    <!-- pagination html start-->
-   
+
 </main>
+
 
 @endsection

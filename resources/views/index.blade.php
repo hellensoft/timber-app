@@ -3,7 +3,7 @@
 @section('contents')
 
     <body class="home">
-        
+
         <div id="page" class="full-page">
 
             <main id="content" class="site-main">
@@ -60,7 +60,7 @@
                 <div class="trip-search-section shape-search-section">
                     <div class="slider-shape"></div>
                     <div class="container">
-                       
+
                     </div>
                 </div>
                 <!-- search search field html end -->
@@ -84,7 +84,7 @@
                                 </div>
                             </div>
                         </div>
-                      
+
                     </div>
                 </section>
                 <!-- tour packages section html start -->
@@ -369,7 +369,7 @@
                                     <div class="package-wrap package-wrap-list">
                                         <figure class="feature-image animate">
                                             <a href="{{ URL::to('tarangire') }}">
-                                                <img src="assets/images/IMG/AdobeStock_472172349.jpeg" class="lazy" alt="">
+                                                <img src="assets/images/popular_tour/tarangire4.jpg" class="lazy" alt="">
                                             </a>
 
                                         </figure>
@@ -416,7 +416,7 @@
                                     <div class="package-wrap package-wrap-list">
                                         <figure class="feature-image animate">
                                             <a href="{{ URL::to('arusha') }}">
-                                                <img src="assets/images/IMG/AdobeStock_383011165.jpeg" class="lazy" alt="">
+                                                <img src="assets/images/popular_tour/monkey.jpg" class="lazy" alt="">
                                             </a>
 
                                         </figure>
@@ -440,7 +440,7 @@
                                     <div class="package-wrap package-wrap-list">
                                         <figure class="feature-image animate">
                                             <a href="{{ URL::to('ngorongoro') }}">
-                                                <img src="assets/images/IMG/AdobeStock_413497289.jpeg" class="lazy" alt=""
+                                                <img src="assets/images/popular_tour/zeb.jpg" class="lazy" alt=""
                                                     style='height:416px;'>
                                             </a>
 
@@ -467,7 +467,7 @@
                 </section>
                 <!-- trips packages html end -->
 
-              
+
 
                 <!-- about us section html start -->
                 <section class="home-about-section" style='padding-bottom: 150px; padding-top: 50px;'>
@@ -481,7 +481,7 @@
                                             <a class="button-primary" style='color: #fffff'>LEARN MORE</a>
                                         </div>
                                         <div class="about-img animate">
-                                            <img src="assets/images/IMG/AdobeStock_335475536.jpeg" class="lazy " alt=""
+                                            <img src="assets/images/popular_tour/mountain.jpg" class="lazy " alt=""
                                                 style='height:343px; width:274px;'>
                                         </div>
                                     </div>
@@ -490,8 +490,8 @@
                                             <img src="assets/images/get.jpeg" class="lazy" alt=""
                                                 style='height:260px; width:358px;'>
                                         </div>
-                                        <div class="about-img">
-                                            <img src="assets/images/IMG/AdobeStock_181402245_new.gif" class="lazy"
+                                        <div class="about-img animate">
+                                            <img src="assets/images/popular_tour/tours.jpg" class="lazy"
                                                 style='height:300px; width:358px;' alt="">
                                         </div>
                                     </div>
@@ -671,7 +671,7 @@
                                     <img src="assets/images/platform/Tripadvisor-Logo.jpeg" class="lazy" alt="">
                                 </figure>
                             </div>
-                           
+
                         </div>
                     </div>
                 </div>

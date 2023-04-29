@@ -26,7 +26,7 @@
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="assets/cardslider/css/swiper-bundle.min.css">
     <!-- CSS -->
-    <link rel="stylesheet" href="assets/cardslider/css/styles.css"> 
+    <link rel="stylesheet" href="assets/cardslider/css/styles.css">
     <style>
         .client-img {
    width: 500px;
@@ -55,7 +55,7 @@
   }
 }
   .fade {
-  animation-name: fade-out;
+  animation-name: fade;
   animation-duration: 1s;
   animation-fill-mode: forwards;
 
@@ -78,10 +78,31 @@
         $(this).toggleClass('slide fade');
       });
     });</script>
- 
+
+<script>
+    var itemsPerPage = 3;
+    var currentPage = 1;
+
+    showPage(currentPage);
+
+    $('.pagination').on('click', 'li', function(event) {
+      event.preventDefault();
+      currentPage = parseInt($(this).text());
+      showPage(currentPage);
+    });
+
+    function showPage(page) {
+      var startIndex = (page - 1) * itemsPerPage;
+      var endIndex = startIndex + itemsPerPage;
+
+      $('.single-gallery').hide()
+        .slice(startIndex, endIndex)
+        .fadeIn(500);
+    }</script>
+
     <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.3/dist/lazyload.min.js"></script>
 
-    
+
     <title>@yield('title')</title>
-    
+
  </head>

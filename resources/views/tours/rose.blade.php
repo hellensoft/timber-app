@@ -6,7 +6,7 @@
     <main id="content" class="site-main">
         <!-- Inner Banner html start-->
         <section class="inner-banner-wrap">
-            <div class="inner-baner-container" style="background-image: url(assets/images/inner-banner.jpg);">
+            <div class="inner-baner-container" style="background-image: url(assets/images/imgs/Tembo.jpg);">
                 <div class="container">
                     <div class="inner-banner-content">
                         <h1 class="inner-title">Rose Tour</h1>
@@ -378,7 +378,7 @@
                                   <label class="checkbox-list" style='color:#1D293F'>
                                      <input type="checkbox" name="s">
                                      <span class="custom-checkbox"></span>
-                                     Insurance 
+                                     Insurance
                                   </label>
                                </div>
                             </div>

@@ -6,7 +6,7 @@
     <main id="content" class="site-main">
         <!-- Inner Banner html start-->
         <section class="inner-banner-wrap">
-            <div class="inner-baner-container" style="background-image: url(assets/images/inner-banner.jpg);">
+            <div class="inner-baner-container" style="background-image: url(assets/images/imgs/Tembo.jpg);">
                 <div class="container">
                     <div class="inner-banner-content">
                         <h1 class="inner-title">Pamoja Tour</h1>
@@ -22,8 +22,8 @@
                     <div class="col-lg-8">
                         <div class="single-tour-inner">
                             <h2>Experience Adventure</h2>
-                            <figure class="feature-image">
-                                <img src="assets/images/IMG/AdobeStock_378623266.jpeg" alt="">
+                            <figure class="feature-image animate">
+                                <img src="assets/images/popular_tour/chuichui.jpg" alt="">
                                 <div class="package-meta text-center">
                                     <ul>
                                         <li>
@@ -316,24 +316,20 @@
                                 <div class="single-tour-slider">
                                     <div class="single-tour-item">
                                         <figure class="feature-image">
-                                            <img src="assets/images/img28.jpg" alt="">
+                                            <img src="assets/images/culture/lion.jpeg" alt="">
                                         </figure>
                                     </div>
                                     <div class="single-tour-item">
                                         <figure class="feature-image">
-                                            <img src="assets/images/img29.jpg" alt="">
+                                            <img src="assets/images/culture/masai.jpg" alt="">
                                         </figure>
                                     </div>
                                     <div class="single-tour-item">
                                         <figure class="feature-image">
-                                            <img src="assets/images/img32.jpg" alt="">
+                                            <img src="assets/images/culture/ngoro.jpeg" alt="">
                                         </figure>
                                     </div>
-                                    <div class="single-tour-item">
-                                        <figure class="feature-image">
-                                            <img src="assets/images/img33.jpg" alt="">
-                                        </figure>
-                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -370,7 +366,7 @@
                                                     autocomplete="off" readonly="readonly" placeholder="Date">
                                             </div>
                                         </div>
-                                        
+
                                         <div class="col-sm-12">
                                             <div class="form-group submit-btn">
                                                 <input type="submit" name="submit" value="Book Now">
@@ -415,8 +411,9 @@
                 </div>
             </div>
         </div>
-        <section class="subscribe-section" style="background-image: url(assets/images/img16.jpg);">
+        <section class="subscribe-section" style="background-image: url(assets/images/imgs/Tembo.jpg);">
             <div class="slide-container swiper">
+                <h3 style="color: white;">TOUR & DESTINATION</h3>
                 <div class="slide-content">
                     <div class="card-wrapper swiper-wrapper">
                         <div class="card swiper-slide">

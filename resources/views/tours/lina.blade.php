@@ -6,7 +6,7 @@
     <main id="content" class="site-main">
         <!-- Inner Banner html start-->
         <section class="inner-banner-wrap">
-            <div class="inner-baner-container" style="background-image: url(assets/images/inner-banner.jpg);">
+            <div class="inner-baner-container" style="background-image: url(assets/images/imgs/Tembo.jpg);">
                 <div class="container">
                     <div class="inner-banner-content">
                         <h1 class="inner-title">Lina Tour</h1>
@@ -126,11 +126,11 @@
                                                         <h4>Arusha – Lake Manyara National Park</h4>
                                                         <h5 style="font-size:16px; font-weight:555;">Non-game-viewing travel
                                                             time: 2 ½ hours; Distance (130km).</h5>
-                                                        <p>You will meet our professional driver tour guide at your hotel, 
-                                                            who will deliver a short safari info briefing. After your breakfast, 
-                                                            and then we drive to Lake Manyara National Park. For viewing of a wide variety of animals, 
-                                                            including one of Africa’s largest concentrations of Elephants; Manyara is famous for Tree-climbing lions, 
-                                                            as well as large flocks of flamingos attracted by the algae in the lake. 
+                                                        <p>You will meet our professional driver tour guide at your hotel,
+                                                            who will deliver a short safari info briefing. After your breakfast,
+                                                            and then we drive to Lake Manyara National Park. For viewing of a wide variety of animals,
+                                                            including one of Africa’s largest concentrations of Elephants; Manyara is famous for Tree-climbing lions,
+                                                            as well as large flocks of flamingos attracted by the algae in the lake.
                                                             Dinner and overnight at the Lodge/Luxury/Hotel/Tented Camp/Basic Campsite.
                                                         </p>
                                                     </div>
@@ -141,12 +141,12 @@
                                                         <h4>Lake Manyara – Serengeti National Park</h4>
                                                         <h5 style="font-size:16px; font-weight:555;">Non-game-viewing travel
                                                             time: 6 hours; Distance (205km).</h5>
-                                                        <p>After the breakfast, we depart from the Camp and driver to Serengeti via Ngorongoro Conservation Area 
-                                                            and later arrive on the great Serengeti plains for a different but just as spectacular wildlife viewing experience. 
-                                                            You will pass one of the world’s greatest prehistoric archeologically sites, called Olduvai Gorge, 
-                                                            and then continue your way over the scrub lands. 
-                                                            The wooded knolls around Naabi Hill Gate mark the Serengeti’s official entrance, 
-                                                            which then drops into the Park’s signature wide-open plains.  
+                                                        <p>After the breakfast, we depart from the Camp and driver to Serengeti via Ngorongoro Conservation Area
+                                                            and later arrive on the great Serengeti plains for a different but just as spectacular wildlife viewing experience.
+                                                            You will pass one of the world’s greatest prehistoric archeologically sites, called Olduvai Gorge,
+                                                            and then continue your way over the scrub lands.
+                                                            The wooded knolls around Naabi Hill Gate mark the Serengeti’s official entrance,
+                                                            which then drops into the Park’s signature wide-open plains.
                                                             Dinner and overnight at Dinner and overnight at the Lodge/Luxury/Tented Camp/Basic Campsite.
                                                         </p>
                                                     </div>
@@ -157,12 +157,12 @@
                                                         <h4>Lake Eyasi – Ngorongoro</h4>
                                                         <h5 style="font-size:16px; font-weight:555;">Non-game-viewing travel
                                                             time: 4 hours; Distance (145km).</h5>
-                                                        <p>Our day starts with a morning game drive central of the Serengeti. 
-                                                            For animals, that’s an active time of the day – not hot yet, 
-                                                            so there is a lot to see out there until by 11:30 am then we return back to the Camp/Lodge for Brunch. 
-                                                            On our way back we will stop at Olduvai Gorge. 
-                                                            It’s a fascinating archaeological site we will visit if you are interested in history and the Masai tribes. 
-                                                            Dinner and overnight at Ngorongoro Lodge/Luxury/Tented Camp/Basic Campsite set on the Crater rim, 
+                                                        <p>Our day starts with a morning game drive central of the Serengeti.
+                                                            For animals, that’s an active time of the day – not hot yet,
+                                                            so there is a lot to see out there until by 11:30 am then we return back to the Camp/Lodge for Brunch.
+                                                            On our way back we will stop at Olduvai Gorge.
+                                                            It’s a fascinating archaeological site we will visit if you are interested in history and the Masai tribes.
+                                                            Dinner and overnight at Ngorongoro Lodge/Luxury/Tented Camp/Basic Campsite set on the Crater rim,
                                                             the Campsite/Lodge offers stunning views of Ngorongoro and the surrounding highlands.
                                                         </p>
                                                     </div>
@@ -173,14 +173,14 @@
                                                         <h4>Ngorongoro Crater – Arusha</h4>
                                                         <h5 style="font-size:16px; font-weight:555;">Non-game-viewing travel
                                                             time: 4 hours; Distance (190km).</h5>
-                                                        <p>Our last day we start very early in the morning equipped with a picnic lunch we descend 2000 ft. 
-                                                            down to the Crater floor by our 4×4 wheel drive vehicle for game viewing. 
-                                                            Let’s explore this Garden of Eden. Ngorongoro is a huge and deep volcanic Crater. 
-                                                            There’s rich pasture, swamps, forest and permanent water on the Crater floor that’s why wildlife here is so diverse and numerous. 
-                                                            There are up to 25.000 larger animals living here. 
-                                                            It’d the best opportunity to see black Rhino and many other rare species like the black-maned lion. 
-                                                            We will have a fantastic day and you will see wildlife at its best. 
-                                                            Late afternoon we drive back to Arusha and you will be dropped at your Lodge/Hotel at your own cost. 
+                                                        <p>Our last day we start very early in the morning equipped with a picnic lunch we descend 2000 ft.
+                                                            down to the Crater floor by our 4×4 wheel drive vehicle for game viewing.
+                                                            Let’s explore this Garden of Eden. Ngorongoro is a huge and deep volcanic Crater.
+                                                            There’s rich pasture, swamps, forest and permanent water on the Crater floor that’s why wildlife here is so diverse and numerous.
+                                                            There are up to 25.000 larger animals living here.
+                                                            It’d the best opportunity to see black Rhino and many other rare species like the black-maned lion.
+                                                            We will have a fantastic day and you will see wildlife at its best.
+                                                            Late afternoon we drive back to Arusha and you will be dropped at your Lodge/Hotel at your own cost.
                                                             End of tour.
                                                         </p>
                                                     </div>
