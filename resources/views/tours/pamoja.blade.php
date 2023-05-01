@@ -420,7 +420,7 @@
                             <div class="package-wrap">
                                 <figure class="feature-image">
                                     <a href="{{ URL::to('tetema') }}">
-                                        <img src="assets/images/IMG/AdobeStock_408988775.jpeg" alt=""
+                                        <img src="assets/images/popular_tour/lion-g.jpg" alt=""
                                             style='border-radius: 25px 25px 0 0;'>
                                     </a>
                                 </figure>

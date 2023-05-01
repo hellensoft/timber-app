@@ -22,12 +22,12 @@
             <div class="gallery-inner-wrap gallery-container grid">
                <div class="single-gallery grid-item">
                   <figure class="gallery-img">
-                     <img src="assets/images/culture/image2.jpeg" class="lazy"  alt="">
+                     <img src="assets/images/culture/busket.jpg" class="lazy"  alt="">
 
                      <div class="gallery-title">
                         <h3>
-                           <a href="assets/images/culture/image2.jpeg" class="lazy"  data-lightbox="lightbox-set">
-                              Masai Island
+                           <a href="assets/images/culture/busket.jpg" class="lazy"  data-lightbox="lightbox-set">
+                             Local Basket Sellers
                            </a>
                         </h3>
                      </div>
@@ -36,11 +36,11 @@
                </div>
                <div class="single-gallery grid-item">
                   <figure class="gallery-img">
-                     <img src="assets/images/culture/culture_masai.jpeg" class="lazy"  alt="">
+                     <img src="assets/images/culture/culture.jpg" class="lazy"  alt="">
                      <div class="gallery-title">
                         <h3>
-                           <a href="assets/images/culture/culture_masai.jpeg"  class="lazy" data-lightbox="lightbox-set">
-                              Manyara
+                           <a href="assets/images/culture/culture.jpg"  class="lazy" data-lightbox="lightbox-set">
+                              Culture  Making
                            </a>
                         </h3>
                      </div>
@@ -48,11 +48,11 @@
                </div>
                <div class="single-gallery grid-item">
                   <figure class="gallery-img">
-                     <img src="assets/images/culture/image9.jpeg" alt="">
+                     <img src="assets/images/culture/indignous.jpg" alt="">
                      <div class="gallery-title">
                         <h3>
-                           <a href="assets/images/culture/image9.jpeg" data-lightbox="lightbox-set">
-                              Tibet Mountain
+                           <a href="assets/images/culture/indignous.jpg" data-lightbox="lightbox-set">
+                              Indigenous People
                            </a>
                         </h3>
                      </div>
@@ -60,11 +60,11 @@
                </div>
                <div class="single-gallery grid-item">
                   <figure class="gallery-img">
-                     <img src="assets/images/culture/image6.jpeg" alt="">
+                     <img src="assets/images/culture/mtkili.jpg" alt="">
                      <div class="gallery-title">
                         <h3>
-                           <a href="assets/images/culture/image6.jpeg" data-lightbox="lightbox-set">
-                              Tibet Mountain
+                           <a href="assets/images/culture/mtkili.jpg" data-lightbox="lightbox-set">
+                              Mountain Kilimanjaro Camping
                            </a>
                         </h3>
                      </div>
@@ -72,11 +72,11 @@
                </div>
                <div class="single-gallery grid-item">
                   <figure class="gallery-img">
-                     <img src="assets/images/culture/image5.jpeg" alt="">
+                     <img src="assets/images/culture/ngoro.jpeg" alt="">
                      <div class="gallery-title">
                         <h3>
-                           <a href="assets/images/culture/image5.jpeg" data-lightbox="lightbox-set">
-                              Tibet Mountain
+                           <a href="assets/images/culture/ngoro.jpeg" data-lightbox="lightbox-set">
+                              Ngorongoro Crater
                            </a>
                         </h3>
                      </div>
@@ -84,11 +84,11 @@
                </div>
                <div class="single-gallery grid-item">
                   <figure class="gallery-img">
-                     <img src="assets/images/culture/culture.jpeg" alt="">
+                     <img src="assets/images/culture/torus.jpg" alt="">
                      <div class="gallery-title">
                         <h3>
-                           <a href="assets/images/culture/culture.jpeg" data-lightbox="lightbox-set">
-                              Tibet Mountain
+                           <a href="assets/images/culture/torus.jpg" data-lightbox="lightbox-set">
+                             Road trips
                            </a>
                         </h3>
                      </div>
@@ -96,36 +96,25 @@
                </div>
                <div class="single-gallery grid-item">
                   <figure class="gallery-img">
-                     <img src="assets/images/culture/image10.jpeg" alt="">
+                     <img src="assets/images/culture/tarangire3.jpg" alt="">
                      <div class="gallery-title">
                         <h3>
-                           <a href="assets/images/culture/image10.jpeg" data-lightbox="lightbox-set">
-                              Tibet Mountain
-                           </a>
-                        </h3>
-                     </div>
-                  </figure>
-               </div>
-               <div class="single-gallery grid-item">
-                  <figure class="gallery-img">
-                     <img src="assets/images/culture/image3.jpeg" alt="">
-                     <div class="gallery-title">
-                        <h3>
-                           <a href="assets/images/culture/image3.jpeg" data-lightbox="lightbox-set">
-                              Tibet Mountain
+                           <a href="assets/images/culture/tarangire3.jpg" data-lightbox="lightbox-set">
+Touring
                            </a>
                         </h3>
                      </div>
                   </figure>
                </div>
 
+
                <div class="single-gallery grid-item">
                   <figure class="gallery-img">
-                     <img src="assets/images/culture/image1.jpeg" alt="">
+                     <img src="assets/images/culture/mountain.jpeg" alt="">
                      <div class="gallery-title">
                         <h3>
-                           <a href="assets/images/culture/image1.jpeg" data-lightbox="lightbox-set">
-                              Tibet Mountain
+                           <a href="assets/images/culture/mountain.jpeg" data-lightbox="lightbox-set">
+                              Moutain Trekking
                            </a>
                         </h3>
                      </div>
@@ -133,52 +122,19 @@
                </div>
                <div class="single-gallery grid-item">
                   <figure class="gallery-img">
-                     <img src="assets/images/IMG/AdobeStock_101655125.jpeg" alt="">
+                     <img src="assets/images/culture/mountainn.jpeg" alt="">
                      <div class="gallery-title">
                         <h3>
-                           <a href="assets/images/IMG/AdobeStock_101655125.jpeg" data-lightbox="lightbox-set">
-                              Tibet Mountain
+                           <a href="assets/images/culture/mountainn.jpeg" data-lightbox="lightbox-set">
+                              Top Mountain View
                            </a>
                         </h3>
                      </div>
                   </figure>
                </div>
-               <div class="single-gallery grid-item">
-                  <figure class="gallery-img">
-                     <img src="assets/images/culture/AdobeStock_295046359.jpeg" alt="">
-                     <div class="gallery-title">
-                        <h3>
-                           <a href="assets/images/culture/AdobeStock_295046359.jpeg" class="lazy" data-lightbox="lightbox-set">
-                              Tibet Mountain
-                           </a>
-                        </h3>
-                     </div>
-                  </figure>
-               </div>
-               <div class="single-gallery grid-item">
-                  <figure class="gallery-img">
-                     <img src="assets/images/culture/image9.jpeg" alt="">
-                     <div class="gallery-title">
-                        <h3>
-                           <a href="assets/images/culture/image9.jpeg" class="lazy"  data-lightbox="lightbox-set">
-                              Tibet Mountain
-                           </a>
-                        </h3>
-                     </div>
-                  </figure>
-               </div>
-               {{-- <div class="single-gallery grid-item">
-                  <figure class="gallery-img">
-                     <img src="assets/images/culture/image9.jpeg" alt="">
-                     <div class="gallery-title">
-                        <h3>
-                           <a href="assets/images/culture/image9.jpeg" data-lightbox="lightbox-set">
-                              Tibet Mountain
-                           </a>
-                        </h3>
-                     </div>
-                  </figure>
-               </div> --}}
+
+
+
             </div>
          </div>
       </div>
