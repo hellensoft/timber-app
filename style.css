@@ -25,16 +25,16 @@
 	* Home slider section
 	* Home travel search section
 	* Home destination section
-	* Home package section 
-	* Home callback section 
-	* Home activity section  
+	* Home package section
+	* Home callback section
+	* Home activity section
 	* Home Travel choice section
-	* Home gallery section 
-	* Home clinet section  
-	* Home subscribe form section    
+	* Home gallery section
+	* Home clinet section
+	* Home subscribe form section
 	* Home blog section
-	* Home testimonial section  
-	* Home contact section  
+	* Home testimonial section
+	* Home contact section
 10. main Footer
 11. pages
 	* About Pages
@@ -54,7 +54,7 @@
 	* Shop Pages
 		*Product Right
 		*Product Detail
-		*Product Cart 
+		*Product Cart
 		*Product Checkout
 	* Tour Cart Page
 	* Booking Page
@@ -890,7 +890,7 @@ form label {
   transition: background-color 0.4s;
 }
 .search-form button:hover {
-  background-color: #2C75BA;
+  background-color: #E95B34;
 }
 
 .form-group {
@@ -1087,7 +1087,7 @@ input[type=submit]:focus {
 .button-secondary:hover,
 .button-secondary:focus,
 .button-secondary:active {
-  background-color: #2C75BA;
+  background-color: #E95B34;
   color: #ffffff;
 }
 
@@ -1107,8 +1107,8 @@ input[type=submit]:focus {
 .outline-round:hover,
 .outline-round:focus,
 .outline-round:active {
-  background-color: #2C75BA;
-  border-color: #2C75BA;
+  background-color: #E95B34;
+  border-color: #E95B34;
   color: #ffffff;
 }
 
@@ -1136,7 +1136,7 @@ input[type=submit]:focus {
 }
 
 /*--------------------------------------------------------------
->>> Default 
+>>> Default
 ----------------------------------------------------------------*/
 .white-bg {
   background-color: #ffffff;
@@ -1204,7 +1204,7 @@ input[type=submit]:focus {
   transition: color 0.4s;
 }
 .social-links a:hover, .social-links a:focus, .social-links a:active {
-  color: #2C75BA;
+  color: #E95B34;
 }
 
 .social-icon-wrap {
@@ -1380,7 +1380,7 @@ input[type=submit]:focus {
 }
 
 /*--------------------------------------------------------------
->>> Main Header 
+>>> Main Header
 ----------------------------------------------------------------*/
 .site-header {
   position: relative;
@@ -1391,7 +1391,7 @@ input[type=submit]:focus {
   right: 0;
   position: absolute;
   width: 100%;
-  top: 0;
+  top: -10;
   z-index: 99;
 }
 
@@ -1434,7 +1434,7 @@ input[type=submit]:focus {
   transition: color 0.4s linear;
 }
 .header-contact-info ul li a:hover, .header-contact-info ul li a:focus, .header-contact-info ul li a:active {
-  color: #2C75BA;
+  color: #E95B34;
 }
 
 .header-social {
@@ -1460,7 +1460,7 @@ input[type=submit]:focus {
   color: #fafafa;
 }
 .header-social a:hover, .header-social a:focus {
-  color: #2C75BA;
+  color: #E95B34;
 }
 @media screen and (max-width: 991px) {
   .header-social {
@@ -1498,7 +1498,7 @@ input[type=submit]:focus {
 }
 .header-search-icon .search-icon:hover, .header-search-icon .search-icon:focus {
   outline: none;
-  color: #2C75BA;
+  color: #E95B34;
 }
 
 /*--- top header css end ---*/
@@ -1687,7 +1687,7 @@ input[type=submit]:focus {
   transition: transform 0.4s;
 }
 .main-navigation ul li.menu-item-has-children li:hover > a, .main-navigation ul li.menu-item-has-children li:focus > a {
-  background-color: #2C75BA;
+  background-color: #E95B34;
   color: #ffffff;
 }
 .main-navigation ul li.current-menu-item > a, .main-navigation ul li.current-menu-parent > a {
@@ -1867,7 +1867,7 @@ input[type=submit]:focus {
   transition: background-color 0.4s;
 }
 .header-search-form .search-close:hover, .header-search-form .search-close:focus, .header-search-form .search-close:active {
-  color: #2C75BA;
+  color: #E95B34;
 }
 .header-search-form.search-in {
   opacity: 1;
@@ -1917,7 +1917,7 @@ input[type=submit]:focus {
   color: #101F46;
 }
 .fixed-header .header-icons .icon-item a:hover {
-  color: #2C75BA;
+  color: #E95B34;
 }
 
 /*---  mobile slick Nav css ---*/
@@ -2052,7 +2052,7 @@ input[type=submit]:focus {
 }
 .slicknav_menu .slicknav_nav li a:hover, .slicknav_menu .slicknav_nav li a:focus, .slicknav_menu .slicknav_nav li a:active {
   background-color: transparent;
-  color: #2C75BA;
+  color: #E95B34;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   -ms-border-radius: 0px;
@@ -2177,10 +2177,10 @@ input[type=submit]:focus {
 }
 
 /*--------------------------------------------------------------
->>> Home Main section  
+>>> Home Main section
 ----------------------------------------------------------------*/
 /*--------------------------------------------------------------
->>> Home slider section  
+>>> Home slider section
 ----------------------------------------------------------------*/
 .slick-slider {
   position: relative;
@@ -2206,7 +2206,7 @@ input[type=submit]:focus {
 .slick-slider .slick-prev:before,
 .slick-slider .slick-next:before {
   background-color: rgba(0, 0, 0, 0.8);
-  color: #ffffff;
+  /* color: #ffffff; */
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
   -ms-border-radius: 100%;
@@ -2228,7 +2228,7 @@ input[type=submit]:focus {
 .slick-slider .slick-next:hover:before,
 .slick-slider .slick-next:focus:before,
 .slick-slider .slick-next:active:before {
-  background-color: #2C75BA;
+  background-color: #E95B34;
   color: #ffffff;
 }
 
@@ -2424,7 +2424,7 @@ input[type=submit]:focus {
 }
 
 /*--------------------------------------------------------------
->>> Home travel search section  
+>>> Home travel search section
 ----------------------------------------------------------------*/
 .shape-search-section {
   padding-bottom: 100px;
@@ -2567,7 +2567,7 @@ input[type=submit]:focus {
 }
 
 /*--------------------------------------------------------------
->>> Home travel destination section  
+>>> Home travel destination section
 ----------------------------------------------------------------*/
 .destination-section {
   padding-bottom: 100px;
@@ -2655,7 +2655,7 @@ input[type=submit]:focus {
   transition: background-color 0.3s;
 }
 .desti-item .meta-cat a:hover, .desti-item .meta-cat a:focus {
-  color: #2C75BA;
+  color: #E95B34;
 }
 .desti-item .bg-meta-cat {
   position: absolute;
@@ -2700,7 +2700,7 @@ input[type=submit]:focus {
 }
 
 /*--------------------------------------------------------------
->>> Home travel packages section  
+>>> Home travel packages section
 ----------------------------------------------------------------*/
 .rating-start {
   display: block;
@@ -2972,7 +2972,7 @@ input[type=submit]:focus {
 }
 
 /*--------------------------------------------------------------
->>> Home travel callback section  
+>>> Home travel callback section
 ----------------------------------------------------------------*/
 .callback-section {
   position: relative;
@@ -3354,7 +3354,7 @@ input[type=submit]:focus {
   }
 }
 /*--------------------------------------------------------------
->>> Home travel activity section  
+>>> Home travel activity section
 ----------------------------------------------------------------*/
 .activity-section {
   padding-bottom: 100px;
@@ -3490,7 +3490,7 @@ input[type=submit]:focus {
 }
 
 /*--------------------------------------------------------------
->>> Home travel special section  
+>>> Home travel special section
 ----------------------------------------------------------------*/
 .special-section {
   padding-bottom: 100px;
@@ -3640,7 +3640,7 @@ input[type=submit]:focus {
 }
 
 /*--------------------------------------------------------------
->>> Home travel best travel section  
+>>> Home travel best travel section
 ----------------------------------------------------------------*/
 .best-section {
   padding-bottom: 70px;
@@ -3663,7 +3663,7 @@ input[type=submit]:focus {
 }
 
 /*--------------------------------------------------------------
->>> Home travel client section  
+>>> Home travel client section
 ----------------------------------------------------------------*/
 .client-section {
   position: relative;
@@ -3685,7 +3685,7 @@ input[type=submit]:focus {
 }
 
 /*--------------------------------------------------------------
->>> Home travel subscribe section  
+>>> Home travel subscribe section
 ----------------------------------------------------------------*/
 .subscribe-section {
   background-position: center center;
@@ -3696,7 +3696,7 @@ input[type=submit]:focus {
   position: relative;
 }
 .home .subscribe-section {
-  padding: 195px 0 75px;
+  padding: 79px 0 75px;
   margin-top: -100px;
 }
 .subscribe-section:before {
@@ -3873,8 +3873,8 @@ input[type=submit]:focus {
   text-transform: uppercase;
 }
 
-/* This for loop creates the 	necessary css animation names 
-Due to the split circle of progress-left and progress right, we must use the animations on each side. 
+/* This for loop creates the 	necessary css animation names
+Due to the split circle of progress-left and progress right, we must use the animations on each side.
 */
 .progress-circle[data-percentage="10"] .circle-right .circle-bar {
   animation: loading-1 2s linear forwards;
@@ -4039,7 +4039,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 }
 
 /*--------------------------------------------------------------
->>> Home travel blog section  
+>>> Home travel blog section
 ----------------------------------------------------------------*/
 .blog-section {
   padding: 100px 0;
@@ -4076,7 +4076,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   line-height: 1.1;
 }
 .blog-section .entry-meta a:hover, .blog-section .entry-meta a:focus {
-  color: #2C75BA;
+  color: #E95B34;
 }
 @media screen and (max-width: 991px) {
   .blog-section {
@@ -4096,7 +4096,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 }
 
 /*--------------------------------------------------------------
->>> Home travel testimonial section  
+>>> Home travel testimonial section
 ----------------------------------------------------------------*/
 .testimonial-section {
   padding-bottom: 94px;
@@ -4162,7 +4162,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 
 /*--------------------------------------------------------------
 
->>> Home travel contact section  
+>>> Home travel contact section
 ----------------------------------------------------------------*/
 .contact-section {
   background-color: #1D293F;
@@ -4275,7 +4275,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 }
 
 /*--------------------------------------------------------------
->>> Home travel team section  
+>>> Home travel team section
 ----------------------------------------------------------------*/
 .team-item {
   border: 1px solid rgba(7, 145, 190, 0.13);
@@ -4318,11 +4318,11 @@ Due to the split circle of progress-left and progress right, we must use the ani
   transition: background-color 0.4s;
 }
 .team-item .social-links a:hover {
-  background-color: #2C75BA;
+  background-color: #E95B34;
 }
 
 /*--------------------------------------------------------------
->>> Home travel choice section  
+>>> Home travel choice section
 ----------------------------------------------------------------*/
 .choice-section {
   padding-bottom: 100px;
@@ -4383,7 +4383,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 }
 
 /*--------------------------------------------------------------
->>> Main Footer  
+>>> Main Footer
 ----------------------------------------------------------------*/
 .site-footer {
   background-color: #ffffff;
@@ -4515,7 +4515,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 }
 
 /*--------------------------------------------------------------
->>> Inner Banner  
+>>> Inner Banner
 ----------------------------------------------------------------*/
 .inner-banner-wrap {
   padding-bottom: 50px;
@@ -4599,7 +4599,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   color: #ffffff;
 }
 .inner-baner-container .breadcrumb li a:hover {
-  color: #2C75BA;
+  color: #E95B34;
 }
 .inner-baner-container .breadcrumb li.active {
   color: #b3b3b3;
@@ -4710,7 +4710,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   padding: 10px;
 }
 .fullwidth-callback .callback-counter-wrap .counter-item-inner {
-  background-color: rgba(245, 105, 96, 0.8);
+  background-color: #E95B34;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -4922,7 +4922,7 @@ procduct details css
     padding: 15px 20px;
   }
   .tab-container .nav.nav-tabs a:hover, .tab-container .nav.nav-tabs a:focus, .tab-container .nav.nav-tabs a.active {
-    background-color: #2C75BA;
+    background-color: #E95B34;
     color: #ffffff;
   }
 }
@@ -5283,7 +5283,7 @@ procduct details css
   line-height: 1.1;
 }
 .grid-item .entry-meta a:hover, .grid-item .entry-meta a:focus {
-  color: #2C75BA;
+  color: #E95B34;
 }
 
 /*--------------------------------------------------------------
@@ -5340,7 +5340,7 @@ procduct details css
   transition: all 0.3s;
 }
 .inner-banner-wrap .entry-meta a:hover, .inner-banner-wrap .entry-meta a:focus {
-  color: #2C75BA;
+  color: #E95B34;
 }
 
 .single-post-section {
@@ -5371,7 +5371,7 @@ procduct details css
   margin: 0 3px;
 }
 .single-post-section .meta-wrap .tag-links a:hover {
-  color: #2C75BA;
+  color: #E95B34;
 }
 .single-post-section .author-wrap {
   background-color: #f9f9f9;
@@ -5419,7 +5419,7 @@ procduct details css
   color: #E95B34;
 }
 .single-post-section .author-wrap .author-content .button-text:hover {
-  color: #2C75BA;
+  color: #E95B34;
 }
 @media screen and (max-width: 575px) {
   .single-post-section .author-wrap {
@@ -5491,13 +5491,13 @@ procduct details css
 .post-navigation .nav-next a:hover,
 .post-navigation .nav-next a:focus,
 .post-navigation .nav-next a:active {
-  color: #2C75BA;
+  color: #E95B34;
 }
 .post-navigation .nav-prev a:hover .nav-label, .post-navigation .nav-prev a:focus .nav-label, .post-navigation .nav-prev a:active .nav-label,
 .post-navigation .nav-next a:hover .nav-label,
 .post-navigation .nav-next a:focus .nav-label,
 .post-navigation .nav-next a:active .nav-label {
-  color: #2C75BA;
+  color: #E95B34;
 }
 .post-navigation .nav-prev {
   float: left;
@@ -5610,7 +5610,7 @@ procduct details css
   font-size: 12px;
 }
 .comment-area .comment-content .reply:hover {
-  background-color: #2C75BA;
+  background-color: #E95B34;
 }
 @media screen and (max-width: 575px) {
   .comment-area .comment-thumb {
@@ -6048,8 +6048,8 @@ procduct details css
   line-height: 34px;
 }
 .comming-soon-section .social-icons a:hover {
-  border-color: #2C75BA;
-  color: #2C75BA;
+  border-color: #E95B34;
+  color: #E95B34;
 }
 .comming-soon-section .com-contact-info {
   color: #ffffff;
@@ -6084,7 +6084,7 @@ procduct details css
   transition: color 0.4s linear;
 }
 .comming-soon-section .com-contact-info ul li a:hover, .comming-soon-section .com-contact-info ul li a:focus, .comming-soon-section .com-contact-info ul li a:active {
-  color: #2C75BA;
+  color: #E95B34;
 }
 @media screen and (min-width: 1200px) {
   .comming-soon-section {
@@ -6222,7 +6222,7 @@ procduct details css
   text-transform: uppercase;
 }
 .search-section .button-container .button-text:hover {
-  color: #2C75BA;
+  color: #E95B34;
 }
 
 /*--------------------------------------------------------------
@@ -6623,7 +6623,7 @@ procduct details css
     font-size: 15px;
   }
   .career-detail-section .nav.nav-tabs a:hover, .career-detail-section .nav.nav-tabs a:focus, .career-detail-section .nav.nav-tabs a.active {
-    background-color: #2C75BA;
+    background-color: #E95B34;
     color: #ffffff;
   }
 }
@@ -6854,7 +6854,7 @@ procduct details css
   display: inline-block;
 }
 .product-item .product-content .product-cat a:hover {
-  color: #2C75BA;
+  color: #E95B34;
 }
 .product-item .product-content .product-price {
   font-size: 23px;
@@ -6980,7 +6980,7 @@ procduct details css
   transition: background-color 0.3s, color 0.3s;
 }
 .single-product-item .image-search-icon a:hover {
-  background-color: #2C75BA;
+  background-color: #E95B34;
   color: #ffffff;
 }
 
@@ -7052,7 +7052,7 @@ procduct details css
   color: #ffffff;
 }
 .product-summary .product-meta a:hover {
-  color: #2C75BA;
+  color: #E95B34;
 }
 @media screen and (min-width: 992px) {
   .product-summary {
@@ -7674,7 +7674,7 @@ product checkout css
 }
 
 /*--------------------------------------------------------------
->>> Compatibility  
+>>> Compatibility
 ----------------------------------------------------------------*/
 .overlay-hover .thumb-img img {
   -webkit-transform: scale(1.1);
@@ -7762,7 +7762,7 @@ product checkout css
 }
 .ui-datepicker .ui-datepicker-prev.ui-state-hover,
 .ui-datepicker .ui-datepicker-next.ui-state-hover {
-  background-color: #2C75BA;
+  background-color: #E95B34;
   color: #ffffff;
 }
 .ui-datepicker .ui-datepicker-prev span:before {
@@ -7804,7 +7804,7 @@ product checkout css
   transition: background-color 0.4s, color 0.4s;
 }
 .ui-datepicker .ui-datepicker-calendar tr td a:hover, .ui-datepicker .ui-datepicker-calendar tr td a:focus, .ui-datepicker .ui-datepicker-calendar tr td a:active {
-  background-color: #2C75BA;
+  background-color: #E95B34;
   color: #ffffff;
 }
 .ui-datepicker .ui-datepicker-calendar tr td a.ui-state-highlight {
@@ -7812,7 +7812,7 @@ product checkout css
   color: #ffffff;
 }
 .ui-datepicker .ui-datepicker-calendar tr td a.ui-state-active {
-  background-color: #2C75BA;
+  background-color: #E95B34;
   color: #ffffff;
 }
 
@@ -7903,7 +7903,7 @@ product checkout css
   outline: 0;
 }
 .modal-video-close-btn:hover:after, .modal-video-close-btn:focus:after, .modal-video-close-btn:active:after {
-  color: #2C75BA;
+  color: #E95B34;
 }
 
 .breadcrumb-content {
@@ -7926,7 +7926,7 @@ product checkout css
   font-weight: 600;
 }
 .breadcrumb-content .breadcrumb li a:hover {
-  color: #2C75BA;
+  color: #E95B34;
 }
 
 .widget {
@@ -7949,7 +7949,7 @@ product checkout css
   color: #ffffff;
 }
 .widget ul li a:hover {
-  color: #2C75BA;
+  color: #E95B34;
 }
 .widget.author_widget {
   text-align: center;
@@ -8007,7 +8007,7 @@ product checkout css
   border: 1px solid #A7A7A7;
 }
 .widget.author_widget .socialgroup ul li a:hover, .widget.author_widget .socialgroup ul li a:focus, .widget.author_widget .socialgroup ul li a:active {
-  color: #2C75BA;
+  color: #E95B34;
 }
 .widget.author_widget .profile .avatar {
   width: 150px;
@@ -8091,7 +8091,7 @@ product checkout css
   line-height: 1.1;
 }
 .widget.widget-post-thumb .post-content .entry-meta a:hover, .widget.widget-post-thumb .post-content .entry-meta a:focus {
-  color: #2C75BA;
+  color: #E95B34;
 }
 .widget.widget_tag_cloud .tagcloud {
   display: -webkit-box;
@@ -8126,7 +8126,7 @@ product checkout css
   transition: background-color 0.4s;
 }
 .widget.widget_tag_cloud .tagcloud a:hover {
-  background-color: #2C75BA;
+  background-color: #E95B34;
   color: #ffffff;
 }
 .widget.widget_recent_post li {
@@ -8174,7 +8174,7 @@ product checkout css
   line-height: 1.1;
 }
 .widget.widget_recent_post li .entry-meta a:hover, .widget.widget_recent_post li .entry-meta a:focus {
-  color: #2C75BA;
+  color: #E95B34;
 }
 .widget .gallery,
 .widget .insta-gallery {
@@ -8269,7 +8269,7 @@ product checkout css
   transition: background-color 0.4s;
 }
 .widget.search_widget button:hover {
-  background-color: #2C75BA;
+  background-color: #E95B34;
 }
 .widget.widget_social ul {
   margin: -2px;
@@ -8292,8 +8292,8 @@ product checkout css
   transition: all 0.3s;
 }
 .widget.widget_social ul li a:hover {
-  background-color: #2C75BA;
-  border-color: #2C75BA;
+  background-color: #E95B34;
+  border-color: #E95B34;
   color: #ffffff;
 }
 .widget.price_handel_widget .price-amout {
@@ -8431,7 +8431,7 @@ product checkout css
   line-height: 1.1;
 }
 .widget.widget-product-thumb .product-content .entry-meta a:hover, .widget.widget-product-thumb .product-content .entry-meta a:focus {
-  color: #2C75BA;
+  color: #E95B34;
 }
 .widget.widget_category_product_thumb ul {
   display: -webkit-box;

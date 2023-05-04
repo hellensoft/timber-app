@@ -1,5 +1,10 @@
     <!-- JavaScript -->
-    
+    <!-- Card Slider JS -->
+    <script src="assets/cardslider/js/swiper-bundle.min.js"></script>
+    <script src="assets/cardslider/js/script.js"></script>
+    <script>var lazyLoadInstance = new LazyLoad({
+        // Your custom settings go here
+      });</script>
     <script src="assets/js/jquery.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
     <script src="assets/vendors/bootstrap/js/bootstrap.min.js"></script>
@@ -12,5 +17,7 @@
     <script src="assets/vendors/slick/slick.min.js"></script>
     <script src="assets/js/jquery.slicknav.js"></script>
     <script src="assets/js/custom.min.js"></script>
+    
+    
 
     <!-- Javascript End -->
